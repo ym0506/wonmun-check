@@ -342,6 +342,10 @@ async function init() {
     b.addEventListener("click", () => loadExample(e.id, b));
     wrap.append(b);
   }
+  // 주소 끝에 #L07 처럼 예시 번호를 붙이면 그 예시를 바로 연다
+  const want = decodeURIComponent(location.hash.slice(1));
+  const hit = ex.findIndex((e) => e.id === want);
+  if (hit >= 0) loadExample(ex[hit].id, wrap.children[hit]);
 
   document.querySelectorAll(".tab").forEach((t) => t.addEventListener("click", () => {
     document.querySelectorAll(".tab").forEach((x) => { x.classList.toggle("active", x === t); x.setAttribute("aria-selected", x === t); });
