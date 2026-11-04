@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>원문 확인</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <h1>원문 확인</h1>
+    <p class="sub">공고 요약이 주최 측 원문과 다른 곳을 7항목으로 찾아 드립니다.</p>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="notice" id="ai-notice" role="note">
+    이 서비스는 생성형 AI(<b id="model-name">Claude Haiku 5.5</b>)로 원문 근거 문장을 찾고, 같은지 다른지는 규칙 코드로 판정합니다.
+    <span class="notice-sub">AI가 찾은 근거는 코드가 원문에 글자 그대로 있는지 확인한 것만 보여 줍니다. 결과는 참고용이니 내기 전에 원문을 한 번 더 보세요.</span>
+  </section>
+
+  <nav class="tabs" role="tablist">
+    <button class="tab active" data-tab="examples" role="tab" aria-selected="true">예시 보기</button>
+    <button class="tab" data-tab="live" role="tab" aria-selected="false">직접 확인</button>
+  </nav>
+
+  <section id="tab-examples" class="panel">
+    <p class="hint">2026-11-04에 받은 공고로 미리 돌려 저장한 결과입니다. 누르면 바로 보입니다(AI를 다시 부르지 않음).</p>
+    <div class="example-buttons" id="example-buttons"></div>
+  </section>
+
+  <section id="tab-live" class="panel hidden">
+    <form id="live-form">
+      <fieldset>
+        <legend>1. 요약 <span class="req">필수</span></legend>
+        <label>포털 공고 주소 <small>(링커리어 공고, 온통청년 정책 상세)</small>
+          <input type="url" name="summary_url" placeholder="https://linkareer.com/activity/..." autocomplete="off">
+        </label>
+        <div class="or">또는</div>
+        <label>요약 글 붙여 넣기
+          <textarea name="summary_text" rows="5" placeholder="포털 화면의 접수기간, 참여대상, 시상 등을 복사해 넣으세요."></textarea>
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>2. 원문 <span class="opt">선택</span></legend>
+        <label>주최 측 공고 주소 <small>(HTML 또는 PDF)</small>
+          <input type="url" name="original_url" placeholder="https://..." autocomplete="off">
+        </label>
+        <div class="or">또는</div>
+        <label>공고 파일 <small>(PDF, HWPX, TXT · 구형 HWP는 안 됨)</small>
+          <input type="file" name="original_file" accept=".pdf,.hwpx,.txt">
+        </label>
+        <p class="hint">원문을 비워 두면 포털 페이지 안에서 위쪽 칸과 본문만 서로 대조합니다.</p>
+      </fieldset>
+      <div class="actions">
+        <button type="submit" id="run-btn">원문 확인</button>
+        <span id="live-status" class="status" aria-live="polite"></span>
+      </div>
+      <p class="hint" id="limit-hint"></p>
+    </form>
+  </section>
+
+  <section id="result" class="hidden" aria-live="polite"></section>
+</main>
+
+<footer class="wrap foot">
+  <p>판정 이름: <span class="v red">불일치</span> <span class="v red">시각 누락</span> <span class="v red">요약에 없음</span>
+    <span class="v red">칸엔 없음·본문엔 있음</span> <span class="v ok">다른 점을 찾지 못함</span>
+    <span class="v check">확인 필요</span></p>
+  <p>'다른 점을 찾지 못함'은 같다는 보증이 아닙니다. 이미지·첨부파일 속 글자는 읽지 못합니다.</p>
+  <p>생성형 AI 사용 범위: 7항목 근거 문장 찾기와 짧은 요약(“AI 요약” 표시). 날짜·금액 읽기와 판정은 코드가 합니다.</p>
+</footer>
+
+<script src="/static/app.js"></script>
+</body>
+</html>

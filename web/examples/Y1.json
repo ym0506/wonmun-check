@@ -1,0 +1,1285 @@
+{
+ "version": 1,
+ "checked_at": "2026-11-04T05:46:51+00:00",
+ "today": "2026-11-04",
+ "model": "claude-haiku-5-5",
+ "case": "Y1",
+ "meta": {
+  "portal": null,
+  "summary_note": "온통청년 요약 칸은 서버 HTML에 비어 있어(자바스크립트로 채움) 붙여 넣기로 대신함",
+  "fetched": "2026-11-04 받은 페이지 기준"
+ },
+ "sources": {
+  "top": {
+   "role": "top",
+   "label": "붙여 넣은 요약",
+   "origin": "붙여 넣은 요약",
+   "kind": "paste",
+   "segments": [
+    {
+     "sid": "칸-1",
+     "text": "정책명: 2026 우수인재 연계 기업인턴십",
+     "page": null
+    },
+    {
+     "sid": "칸-2",
+     "text": "지원내용: 콘텐츠 기업 대상 인턴 채용시 1인당 월 108만원 인건비 지급",
+     "page": null
+    },
+    {
+     "sid": "칸-3",
+     "text": "사업 운영 기간: 2026년 5월 1일 ~ 2027년 2월 28일",
+     "page": null
+    },
+    {
+     "sid": "칸-4",
+     "text": "사업 신청기간: 2026년 8월 12일 ~ 2026년 11월 6일",
+     "page": null
+    },
+    {
+     "sid": "칸-5",
+     "text": "신청자격",
+     "page": null
+    },
+    {
+     "sid": "칸-6",
+     "text": "연령: 제한없음",
+     "page": null
+    },
+    {
+     "sid": "칸-7",
+     "text": "거주지역: 전국",
+     "page": null
+    },
+    {
+     "sid": "칸-8",
+     "text": "소득: 무관",
+     "page": null
+    },
+    {
+     "sid": "칸-9",
+     "text": "학력: 제한없음",
+     "page": null
+    },
+    {
+     "sid": "칸-10",
+     "text": "전공: 제한없음",
+     "page": null
+    },
+    {
+     "sid": "칸-11",
+     "text": "취업상태: 미취업자",
+     "page": null
+    },
+    {
+     "sid": "칸-12",
+     "text": "특화분야: 제한없음",
+     "page": null
+    },
+    {
+     "sid": "칸-13",
+     "text": "신청절차: 공고문 참조",
+     "page": null
+    },
+    {
+     "sid": "칸-14",
+     "text": "제출 서류: 공고문 참조",
+     "page": null
+    }
+   ],
+   "notes": [],
+   "truncated": false
+  },
+  "original": {
+   "role": "original",
+   "label": "원문",
+   "origin": "https://www.kocca.kr/kocca/bbs/view/B0000137/2012372.do?menuNo=204802",
+   "kind": "html",
+   "segments": [
+    {
+     "sid": "원문-1",
+     "text": "본문 바로가기",
+     "page": null
+    },
+    {
+     "sid": "원문-2",
+     "text": "알림마당",
+     "page": null
+    },
+    {
+     "sid": "원문-3",
+     "text": "공지사항",
+     "page": null
+    },
+    {
+     "sid": "원문-4",
+     "text": "전체",
+     "page": null
+    },
+    {
+     "sid": "원문-5",
+     "text": "공지사항",
+     "page": null
+    },
+    {
+     "sid": "원문-6",
+     "text": "선정결과",
+     "page": null
+    },
+    {
+     "sid": "원문-7",
+     "text": "2026 우수인재 연계 기업인턴십 참여기업 수시모집",
+     "page": null
+    },
+    {
+     "sid": "원문-8",
+     "text": "분류공고",
+     "page": null
+    },
+    {
+     "sid": "원문-9",
+     "text": "장르일반",
+     "page": null
+    },
+    {
+     "sid": "원문-10",
+     "text": "분야일반",
+     "page": null
+    },
+    {
+     "sid": "원문-11",
+     "text": "등록일2026-08-12 14:37",
+     "page": null
+    },
+    {
+     "sid": "원문-12",
+     "text": "조회29734",
+     "page": null
+    },
+    {
+     "sid": "원문-13",
+     "text": "첨부파일",
+     "page": null
+    },
+    {
+     "sid": "원문-14",
+     "text": "붙임. 공고문 및 신청서 양식.zip",
+     "page": null
+    },
+    {
+     "sid": "원문-15",
+     "text": "[공고 제2026-0885호]",
+     "page": null
+    },
+    {
+     "sid": "원문-16",
+     "text": "2026 우수인재 연계 기업인턴십 참여기업 수시모집",
+     "page": null
+    },
+    {
+     "sid": "원문-17",
+     "text": "콘텐츠 분야 우수인재들 대상으로 인턴십 기회를 제공함으로써 실무역량을 갖춘",
+     "page": null
+    },
+    {
+     "sid": "원문-18",
+     "text": "콘텐츠 전문인력을 양성하고 산업현장 중심의 인재 선순환 체계를 구축을 위해",
+     "page": null
+    },
+    {
+     "sid": "원문-19",
+     "text": "인턴십 참여기업을 수시모집합니다.",
+     "page": null
+    },
+    {
+     "sid": "원문-20",
+     "text": "□ 공모개요",
+     "page": null
+    },
+    {
+     "sid": "원문-21",
+     "text": "ㅇ 공 모 명 : 2026 우수인재 연계 기업인턴십 참여기업 모집 공고",
+     "page": null
+    },
+    {
+     "sid": "원문-22",
+     "text": "ㅇ 사업목적 : 콘텐츠 분야 우수인재들 대상으로 인턴십 기회를 제공함으로써 실무역량을 갖춘 콘텐츠 전문인력을 양성하고 산업현장 중심의 인재 선순환 체계를 구축",
+     "page": null
+    },
+    {
+     "sid": "원문-23",
+     "text": "ㅇ 인턴 참여기간 : ~2027.02.28.(최대 6개월이내)",
+     "page": null
+    },
+    {
+     "sid": "원문-24",
+     "text": "ㅇ 인턴채용방식: 기업 자율채용",
+     "page": null
+    },
+    {
+     "sid": "원문-25",
+     "text": "ㅇ 참여기업 대상자",
+     "page": null
+    },
+    {
+     "sid": "원문-26",
+     "text": "- 콘텐츠 기업으로 한국콘텐츠진흥원 인재양성사업 프로그램 이수자를 대상으로 인턴십을 희망하는 대기업, 중견기업, 중소기업, 스타트업 등 기업(법인사업자)",
+     "page": null
+    },
+    {
+     "sid": "원문-27",
+     "text": "※ 콘텐츠 기업이란?",
+     "page": null
+    },
+    {
+     "sid": "원문-28",
+     "text": "ㅇ 콘텐츠 분야(지식정보/콘텐츠솔루션/광고/출판/만화/음악/방송/영화/게임/애니메이션/캐릭터) 관련 기업",
+     "page": null
+    },
+    {
+     "sid": "원문-29",
+     "text": "ㅇ 콘텐츠 창작 과정(기획·개발·제작·생산·유통·소비 등)에 혁신적 요소(기술 결합·활용 등)를 더하여 새로운 사업적 접근을 시도하는 기업",
+     "page": null
+    },
+    {
+     "sid": "원문-30",
+     "text": "ㅇ 콘텐츠 세부장르 (VR/AR, AI/IoT, 빅데이터/공유/서비스, 게임, 음악/방송영상(기술), 플랫폼(SNS,교육), 콘텐츠 툴 개발, IP비즈니스) 포함",
+     "page": null
+    },
+    {
+     "sid": "원문-31",
+     "text": "※ 한국콘텐츠진흥원 인재양성 프로그램",
+     "page": null
+    },
+    {
+     "sid": "원문-32",
+     "text": "- ①창의인재동반사업: 콘텐츠 창작분야 전문가의 현업 멘토링 교육 지원을 통한 청년인재의 창작능력 개발 및 콘텐츠산업 핵심인력 양성 프로그램",
+     "page": null
+    },
+    {
+     "sid": "원문-33",
+     "text": "- ②뉴콘텐츠아카데미: 급변하는 AI 시장을 선도하는 AI×콘텐츠 창·제작 인력 양성 프로그램",
+     "page": null
+    },
+    {
+     "sid": "원문-34",
+     "text": "- ③웹툰산업전문인력양성사업: 웹툰 분야 전문인력 양성을 통한 웹툰 창‧제작 역량 강화 및 산업 활성화 지원",
+     "page": null
+    },
+    {
+     "sid": "원문-35",
+     "text": "- ④OTT 방송영상콘텐츠 전문인력양성: 글로벌 OTT 선도기업과의 교육과정 운영을 통한 영상콘텐츠 제작 인력의 역량강화",
+     "page": null
+    },
+    {
+     "sid": "원문-36",
+     "text": "- ⑤OTT 콘텐츠 특성화 대학원 지원사업: 신산업 현장(OTT 콘텐츠)에 필요한 융합형 전문인재 양성·지원",
+     "page": null
+    },
+    {
+     "sid": "원문-37",
+     "text": "- ⑥콘텐츠 수출 전문인력양성: 사업행정 실무능력과 시장 전문성 및 산업 이해력 등을 모두 갖춰 K-콘텐츠의 해외진출을 지원할 수 있는 미래 전문인력 양성",
+     "page": null
+    },
+    {
+     "sid": "원문-38",
+     "text": "- ⑦게임인재원: 게임기획, 게임아트, 게임프로그래밍 특화 전문인력양성 프로그램",
+     "page": null
+    },
+    {
+     "sid": "원문-39",
+     "text": "- ⑧기타 콘진원 제공 교육 프로그램(에듀코카 등)",
+     "page": null
+    },
+    {
+     "sid": "원문-40",
+     "text": "ㅇ 참여제외 대상 기업",
+     "page": null
+    },
+    {
+     "sid": "원문-41",
+     "text": "- 해당 기업의 현재 근로자이거나, 그러한 사실이 있는 자를 선발하려는 기업",
+     "page": null
+    },
+    {
+     "sid": "원문-42",
+     "text": "※ 공고일로부터 과거 6개월 이내의 당해 사업장 상시근로자는 참여자로 참여 불가",
+     "page": null
+    },
+    {
+     "sid": "원문-43",
+     "text": "※ 참여자 선정 이후 고용보험 가입 상세 내역 확인 후 해당 사실이 확인될 경우 사업장 선정이 취소될 수 있음",
+     "page": null
+    },
+    {
+     "sid": "원문-44",
+     "text": "- 신청하는 사업에 대해 국가나 지방자치단체에서 동일하거나 유사한 재정지원을 받고 있는 기업",
+     "page": null
+    },
+    {
+     "sid": "원문-45",
+     "text": "※ 동일하거나 유사한 재정지원이란, 동일한 사업(인턴십)으로 인건비·인력 지원을 받는 경우를 말함",
+     "page": null
+    },
+    {
+     "sid": "원문-46",
+     "text": "- 사업 취지에 적합하지 않다고 판단되는 단순 노무 직종의 기업",
+     "page": null
+    },
+    {
+     "sid": "원문-47",
+     "text": "- 기타 본 사업에 적합하기 않다고 판단되는 기업",
+     "page": null
+    },
+    {
+     "sid": "원문-48",
+     "text": "□ 인턴십 운영 방식",
+     "page": null
+    },
+    {
+     "sid": "원문-49",
+     "text": "- 근무기간: ~2027.2.28(최대 6개월)",
+     "page": null
+    },
+    {
+     "sid": "원문-50",
+     "text": "- 근무시간: 일 8시간, 주 5일 근무",
+     "page": null
+    },
+    {
+     "sid": "원문-51",
+     "text": "- 근무지: 참여기업 사업장",
+     "page": null
+    },
+    {
+     "sid": "원문-52",
+     "text": "- 인턴채용: 기업 자율 채용",
+     "page": null
+    },
+    {
+     "sid": "원문-53",
+     "text": "- 인턴십 임금: 월 216만원 이상(최저임금 준수)",
+     "page": null
+    },
+    {
+     "sid": "원문-54",
+     "text": "※ 콘진원에서 인당 월108만원 정액, 기업에서 나머지 임금 및 4대보험금 지급",
+     "page": null
+    },
+    {
+     "sid": "원문-55",
+     "text": "• 예시1) 인턴 급여 216만원시(콘진원 108만원, 기업 108만원+4대보험금)",
+     "page": null
+    },
+    {
+     "sid": "원문-56",
+     "text": "• 예시2) 인턴 급여 300만원시(콘진원 108만원, 기업 192만원+4대보험금)",
+     "page": null
+    },
+    {
+     "sid": "원문-57",
+     "text": "ㅇ 지원방식",
+     "page": null
+    },
+    {
+     "sid": "원문-58",
+     "text": "- 참여기업은 콘진원과 협약체결(참여기업-인턴간 근로계약 별도체결)",
+     "page": null
+    },
+    {
+     "sid": "원문-59",
+     "text": "- 참여기업은 이나라도움 등록 후, 1차 지원금으로 70% 지급 후 중간점검 이후 30% 지급",
+     "page": null
+    },
+    {
+     "sid": "원문-60",
+     "text": "□ 신청서 접수기간",
+     "page": null
+    },
+    {
+     "sid": "원문-61",
+     "text": "ㅇ 공고기간 : ~ 2026. 11. 06.(금) (인원 초과시 모집 조기종료)",
+     "page": null
+    },
+    {
+     "sid": "원문-62",
+     "text": "ㅇ 접수기간 : ~ 2026. 11. 06.(금) 11:00",
+     "page": null
+    },
+    {
+     "sid": "원문-63",
+     "text": "ㅇ 접수처 : *******@*****.** 메일 접수",
+     "page": null
+    },
+    {
+     "sid": "원문-64",
+     "text": "※ 위 메일이외에 타 경로를 통한 접수는 불가하며, 접수마감일 전에 여유있게 접수하시기 바랍니다.",
+     "page": null
+    },
+    {
+     "sid": "원문-65",
+     "text": "세부내용은 첨부 파일 공고문 등을 꼭 참조 바랍니다.",
+     "page": null
+    },
+    {
+     "sid": "원문-66",
+     "text": "이전글",
+     "page": null
+    },
+    {
+     "sid": "원문-67",
+     "text": "2026 K-콘텐츠 원작 미국진출 쇼케이스 참가기업 선정평가 결과 안내",
+     "page": null
+    },
+    {
+     "sid": "원문-68",
+     "text": "다음글",
+     "page": null
+    },
+    {
+     "sid": "원문-69",
+     "text": "2026년 글로벌 엑셀러레이팅 프로그램(론치패드) 참가기업 추가모집(싱가포르, UAE) 최종 선정결과 안내",
+     "page": null
+    },
+    {
+     "sid": "원문-70",
+     "text": "목록",
+     "page": null
+    },
+    {
+     "sid": "원문-71",
+     "text": "콘텐츠 만족도 조사",
+     "page": null
+    },
+    {
+     "sid": "원문-72",
+     "text": "이 페이지에서 제공하는 정보에 대하여 만족하시나요?",
+     "page": null
+    },
+    {
+     "sid": "원문-73",
+     "text": "매우만족",
+     "page": null
+    },
+    {
+     "sid": "원문-74",
+     "text": "만족",
+     "page": null
+    },
+    {
+     "sid": "원문-75",
+     "text": "보통",
+     "page": null
+    },
+    {
+     "sid": "원문-76",
+     "text": "불만족",
+     "page": null
+    },
+    {
+     "sid": "원문-77",
+     "text": "매우불만족",
+     "page": null
+    }
+   ],
+   "notes": [],
+   "truncated": false
+  }
+ },
+ "items": [
+  {
+   "key": "deadline",
+   "name": "마감 일시",
+   "verdict": "시각 누락",
+   "severity": "red",
+   "reason": "같은 날이지만 원문은 11:00 마감인데 요약 칸에 시각이 없습니다. 밤까지 열린 것처럼 읽힐 수 있습니다.",
+   "stage1": null,
+   "stage2": {
+    "verdict": "시각 누락",
+    "reason": "같은 날이지만 원문은 11:00 마감인데 요약 칸에 시각이 없습니다. 밤까지 열린 것처럼 읽힐 수 있습니다.",
+    "kind": "missing_time"
+   },
+   "values": {
+    "top": {
+     "role": "top",
+     "status": "found",
+     "value": "2026-11-06(금) 시각 없음",
+     "value_by": "코드",
+     "norm": {
+      "date": "2026-11-06",
+      "time": null,
+      "raw": "2026년 11월 6일",
+      "role_text": "사업 신청기간 종료일"
+     },
+     "quotes": [
+      {
+       "text": "사업 신청기간: 2026년 8월 12일 ~ 2026년 11월 6일",
+       "sid": "칸-4",
+       "sids": [
+        "칸-4"
+       ],
+       "start": 0,
+       "end": 36
+      }
+     ],
+     "rejected_quotes": [],
+     "ai": {
+      "item": "deadline",
+      "source": "top",
+      "found": true,
+      "quotes": [
+       "사업 신청기간: 2026년 8월 12일 ~ 2026년 11월 6일"
+      ],
+      "value": "신청기간 종료 2026-11-06",
+      "deadline_date": "2026-11-06",
+      "deadline_time": "",
+      "date_role": "사업 신청기간 종료일",
+      "open_to_all": false,
+      "applicant": "알 수 없음",
+      "age_min": -1,
+      "age_max": -1,
+      "groups": [],
+      "region": "",
+      "nationality": "언급 없음",
+      "other": [],
+      "total_won": 0,
+      "kind": "알 수 없음"
+     },
+     "note": ""
+    },
+    "body": {
+     "role": "body",
+     "status": "not_given",
+     "value": "",
+     "value_by": "",
+     "norm": {},
+     "quotes": [],
+     "rejected_quotes": [],
+     "ai": {},
+     "note": ""
+    },
+    "original": {
+     "role": "original",
+     "status": "found",
+     "value": "2026-11-06(금) 11:00",
+     "value_by": "코드",
+     "norm": {
+      "date": "2026-11-06",
+      "time": "11:00",
+      "raw": "2026. 11. 06.(금) 11:00",
+      "role_text": "접수기간 마감일"
+     },
+     "quotes": [
+      {
+       "text": "ㅇ 접수기간 : ~ 2026. 11. 06.(금) 11:00",
+       "sid": "원문-62",
+       "sids": [
+        "원문-62"
+       ],
+       "start": 0,
+       "end": 33
+      }
+     ],
+     "rejected_quotes": [],
+     "ai": {
+      "item": "deadline",
+      "source": "original",
+      "found": true,
+      "quotes": [
+       "ㅇ 접수기간 : ~ 2026. 11. 06.(금) 11:00"
+      ],
+      "value": "접수기간 마감 2026-11-06 11:00",
+      "deadline_date": "2026-11-06",
+      "deadline_time": "11:00",
+      "date_role": "접수기간 마감일",
+      "open_to_all": false,
+      "applicant": "알 수 없음",
+      "age_min": -1,
+      "age_max": -1,
+      "groups": [],
+      "region": "",
+      "nationality": "언급 없음",
+      "other": [],
+      "total_won": 0,
+      "kind": "알 수 없음"
+     },
+     "note": ""
+    }
+   }
+  },
+  {
+   "key": "eligibility",
+   "name": "참가 자격",
+   "verdict": "불일치",
+   "severity": "red",
+   "reason": "신청 주체가 다릅니다. 요약 칸 개인, 원문 기업·기관.",
+   "stage1": null,
+   "stage2": {
+    "verdict": "불일치",
+    "reason": "신청 주체가 다릅니다. 요약 칸 개인, 원문 기업·기관.",
+    "kind": "contradiction"
+   },
+   "values": {
+    "top": {
+     "role": "top",
+     "status": "found",
+     "value": "미취업자 · 기타: 학력·전공·특화분야 제한없음",
+     "value_by": "코드",
+     "norm": {
+      "open": false,
+      "applicant": "개인",
+      "age_min": -1,
+      "age_max": -1,
+      "groups": [
+       "미취업자"
+      ],
+      "region": "",
+      "nationality": "언급 없음",
+      "other": [
+       "학력·전공·특화분야 제한없음"
+      ]
+     },
+     "quotes": [
+      {
+       "text": "연령: 제한없음",
+       "sid": "칸-6",
+       "sids": [
+        "칸-6"
+       ],
+       "start": 0,
+       "end": 8
+      },
+      {
+       "text": "거주지역: 전국",
+       "sid": "칸-7",
+       "sids": [
+        "칸-7"
+       ],
+       "start": 0,
+       "end": 8
+      },
+      {
+       "text": "취업상태: 미취업자",
+       "sid": "칸-11",
+       "sids": [
+        "칸-11"
+       ],
+       "start": 0,
+       "end": 10
+      }
+     ],
+     "rejected_quotes": [],
+     "ai": {
+      "item": "eligibility",
+      "source": "top",
+      "found": true,
+      "quotes": [
+       "연령: 제한없음",
+       "거주지역: 전국",
+       "취업상태: 미취업자"
+      ],
+      "value": "연령 무제한, 전국, 미취업자 대상",
+      "deadline_date": "",
+      "deadline_time": "",
+      "date_role": "알 수 없음",
+      "open_to_all": false,
+      "applicant": "개인",
+      "age_min": -1,
+      "age_max": -1,
+      "groups": [
+       "미취업자"
+      ],
+      "region": "전국",
+      "nationality": "언급 없음",
+      "other": [
+       "학력·전공·특화분야 제한없음"
+      ],
+      "total_won": 0,
+      "kind": "알 수 없음"
+     },
+     "note": ""
+    },
+    "body": {
+     "role": "body",
+     "status": "not_given",
+     "value": "",
+     "value_by": "",
+     "norm": {},
+     "quotes": [],
+     "rejected_quotes": [],
+     "ai": {},
+     "note": ""
+    },
+    "original": {
+     "role": "original",
+     "status": "found",
+     "value": "신청 주체: 기업·기관 · 기업·법인, 창업자·스타트업 · 기타: 한국콘텐츠진흥원 인재양성 프로그램 이수자 대상; 국가·지자체 동일 재정지원 받는 기업 제외",
+     "value_by": "코드",
+     "norm": {
+      "open": false,
+      "applicant": "기업·기관",
+      "age_min": -1,
+      "age_max": -1,
+      "groups": [
+       "기업·법인",
+       "창업자·스타트업"
+      ],
+      "region": "",
+      "nationality": "언급 없음",
+      "other": [
+       "한국콘텐츠진흥원 인재양성 프로그램 이수자 대상",
+       "국가·지자체 동일 재정지원 받는 기업 제외"
+      ]
+     },
+     "quotes": [
+      {
+       "text": "콘텐츠 기업으로 한국콘텐츠진흥원 인재양성사업 프로그램 이수자를 대상으로 인턴십을 희망하는 대기업, 중견기업, 중소기업, 스타트업 등 기업(법인사업자)",
+       "sid": "원문-26",
+       "sids": [
+        "원문-26"
+       ],
+       "start": 2,
+       "end": 85
+      }
+     ],
+     "rejected_quotes": [],
+     "ai": {
+      "item": "eligibility",
+      "source": "original",
+      "found": true,
+      "quotes": [
+       "콘텐츠 기업으로 한국콘텐츠진흥원 인재양성사업 프로그램 이수자를 대상으로 인턴십을 희망하는 대기업, 중견기업, 중소기업, 스타트업 등 기업(법인사업자)"
+      ],
+      "value": "콘텐츠 기업(법인), 인재양성 프로그램 이수자 대상 인턴십 희망 기업",
+      "deadline_date": "",
+      "deadline_time": "",
+      "date_role": "알 수 없음",
+      "open_to_all": false,
+      "applicant": "기업·기관",
+      "age_min": -1,
+      "age_max": -1,
+      "groups": [
+       "기업·법인",
+       "창업자·스타트업"
+      ],
+      "region": "",
+      "nationality": "언급 없음",
+      "other": [
+       "한국콘텐츠진흥원 인재양성 프로그램 이수자 대상",
+       "국가·지자체 동일 재정지원 받는 기업 제외"
+      ],
+      "total_won": 0,
+      "kind": "알 수 없음"
+     },
+     "note": ""
+    }
+   }
+  },
+  {
+   "key": "team",
+   "name": "참가 형태·인원",
+   "verdict": "원문에도 없음",
+   "severity": "ok",
+   "reason": "요약·원문 모두 해당 내용이 없습니다.",
+   "stage1": null,
+   "stage2": {
+    "verdict": "원문에도 없음",
+    "reason": "요약·원문 모두 해당 내용이 없습니다.",
+    "kind": "neither"
+   },
+   "values": {
+    "top": {
+     "role": "top",
+     "status": "absent",
+     "value": "",
+     "value_by": "",
+     "norm": {},
+     "quotes": [],
+     "rejected_quotes": [],
+     "ai": {
+      "item": "team",
+      "source": "top",
+      "found": false,
+      "quotes": [],
+      "value": "",
+      "deadline_date": "",
+      "deadline_time": "",
+      "date_role": "알 수 없음",
+      "open_to_all": false,
+      "applicant": "알 수 없음",
+      "age_min": -1,
+      "age_max": -1,
+      "groups": [],
+      "region": "",
+      "nationality": "언급 없음",
+      "other": [],
+      "total_won": 0,
+      "kind": "알 수 없음"
+     },
+     "note": ""
+    },
+    "body": {
+     "role": "body",
+     "status": "not_given",
+     "value": "",
+     "value_by": "",
+     "norm": {},
+     "quotes": [],
+     "rejected_quotes": [],
+     "ai": {},
+     "note": ""
+    },
+    "original": {
+     "role": "original",
+     "status": "absent",
+     "value": "",
+     "value_by": "",
+     "norm": {},
+     "quotes": [],
+     "rejected_quotes": [],
+     "ai": {
+      "item": "team",
+      "source": "original",
+      "found": false,
+      "quotes": [],
+      "value": "",
+      "deadline_date": "",
+      "deadline_time": "",
+      "date_role": "알 수 없음",
+      "open_to_all": false,
+      "applicant": "알 수 없음",
+      "age_min": -1,
+      "age_max": -1,
+      "groups": [],
+      "region": "",
+      "nationality": "언급 없음",
+      "other": [],
+      "total_won": 0,
+      "kind": "알 수 없음"
+     },
+     "note": ""
+    }
+   }
+  },
+  {
+   "key": "prize",
+   "name": "시상",
+   "verdict": "원문에도 없음",
+   "severity": "ok",
+   "reason": "요약 칸·원문 모두 시상 내용이 없습니다.",
+   "stage1": null,
+   "stage2": {
+    "verdict": "원문에도 없음",
+    "reason": "요약 칸·원문 모두 시상 내용이 없습니다.",
+    "kind": "neither"
+   },
+   "values": {
+    "top": {
+     "role": "top",
+     "status": "absent",
+     "value": "",
+     "value_by": "",
+     "norm": {},
+     "quotes": [],
+     "rejected_quotes": [],
+     "ai": {
+      "item": "prize",
+      "source": "top",
+      "found": false,
+      "quotes": [],
+      "value": "",
+      "deadline_date": "",
+      "deadline_time": "",
+      "date_role": "알 수 없음",
+      "open_to_all": false,
+      "applicant": "알 수 없음",
+      "age_min": -1,
+      "age_max": -1,
+      "groups": [],
+      "region": "",
+      "nationality": "언급 없음",
+      "other": [],
+      "total_won": 0,
+      "kind": "알 수 없음"
+     },
+     "note": ""
+    },
+    "body": {
+     "role": "body",
+     "status": "not_given",
+     "value": "",
+     "value_by": "",
+     "norm": {},
+     "quotes": [],
+     "rejected_quotes": [],
+     "ai": {},
+     "note": ""
+    },
+    "original": {
+     "role": "original",
+     "status": "absent",
+     "value": "",
+     "value_by": "",
+     "norm": {},
+     "quotes": [],
+     "rejected_quotes": [],
+     "ai": {
+      "item": "prize",
+      "source": "original",
+      "found": false,
+      "quotes": [],
+      "value": "",
+      "deadline_date": "",
+      "deadline_time": "",
+      "date_role": "알 수 없음",
+      "open_to_all": false,
+      "applicant": "알 수 없음",
+      "age_min": -1,
+      "age_max": -1,
+      "groups": [],
+      "region": "",
+      "nationality": "언급 없음",
+      "other": [],
+      "total_won": 0,
+      "kind": "알 수 없음"
+     },
+     "note": ""
+    }
+   }
+  },
+  {
+   "key": "submission",
+   "name": "제출물·분량",
+   "verdict": "다른 점을 찾지 못함",
+   "severity": "ok",
+   "reason": "양쪽 모두 해당 내용이 있습니다(내용 비교는 하지 않음).",
+   "stage1": null,
+   "stage2": {
+    "verdict": "다른 점을 찾지 못함",
+    "reason": "양쪽 모두 해당 내용이 있습니다(내용 비교는 하지 않음).",
+    "kind": "none"
+   },
+   "values": {
+    "top": {
+     "role": "top",
+     "status": "found",
+     "value": "제출 서류는 공고문 참조",
+     "value_by": "AI 요약",
+     "norm": {},
+     "quotes": [
+      {
+       "text": "제출 서류: 공고문 참조",
+       "sid": "칸-14",
+       "sids": [
+        "칸-14"
+       ],
+       "start": 0,
+       "end": 13
+      }
+     ],
+     "rejected_quotes": [],
+     "ai": {
+      "item": "submission",
+      "source": "top",
+      "found": true,
+      "quotes": [
+       "제출 서류: 공고문 참조"
+      ],
+      "value": "제출 서류는 공고문 참조",
+      "deadline_date": "",
+      "deadline_time": "",
+      "date_role": "알 수 없음",
+      "open_to_all": false,
+      "applicant": "알 수 없음",
+      "age_min": -1,
+      "age_max": -1,
+      "groups": [],
+      "region": "",
+      "nationality": "언급 없음",
+      "other": [],
+      "total_won": 0,
+      "kind": "알 수 없음"
+     },
+     "note": ""
+    },
+    "body": {
+     "role": "body",
+     "status": "not_given",
+     "value": "",
+     "value_by": "",
+     "norm": {},
+     "quotes": [],
+     "rejected_quotes": [],
+     "ai": {},
+     "note": ""
+    },
+    "original": {
+     "role": "original",
+     "status": "found",
+     "value": "이메일(*******@*****.**)로만 접수",
+     "value_by": "AI 요약",
+     "norm": {},
+     "quotes": [
+      {
+       "text": "ㅇ 접수처 : *******@*****.** 메일 접수",
+       "sid": "원문-63",
+       "sids": [
+        "원문-63"
+       ],
+       "start": 0,
+       "end": 30
+      }
+     ],
+     "rejected_quotes": [],
+     "ai": {
+      "item": "submission",
+      "source": "original",
+      "found": true,
+      "quotes": [
+       "ㅇ 접수처 : *******@*****.** 메일 접수"
+      ],
+      "value": "이메일(*******@*****.**)로만 접수",
+      "deadline_date": "",
+      "deadline_time": "",
+      "date_role": "알 수 없음",
+      "open_to_all": false,
+      "applicant": "알 수 없음",
+      "age_min": -1,
+      "age_max": -1,
+      "groups": [],
+      "region": "",
+      "nationality": "언급 없음",
+      "other": [],
+      "total_won": 0,
+      "kind": "알 수 없음"
+     },
+     "note": ""
+    }
+   }
+  },
+  {
+   "key": "penalty",
+   "name": "실격·감점",
+   "verdict": "요약에 없음",
+   "severity": "red",
+   "reason": "원문에는 있는데 요약에는 없습니다.",
+   "stage1": null,
+   "stage2": {
+    "verdict": "요약에 없음",
+    "reason": "원문에는 있는데 요약에는 없습니다.",
+    "kind": "absent"
+   },
+   "values": {
+    "top": {
+     "role": "top",
+     "status": "absent",
+     "value": "",
+     "value_by": "",
+     "norm": {},
+     "quotes": [],
+     "rejected_quotes": [],
+     "ai": {
+      "item": "penalty",
+      "source": "top",
+      "found": false,
+      "quotes": [],
+      "value": "",
+      "deadline_date": "",
+      "deadline_time": "",
+      "date_role": "알 수 없음",
+      "open_to_all": false,
+      "applicant": "알 수 없음",
+      "age_min": -1,
+      "age_max": -1,
+      "groups": [],
+      "region": "",
+      "nationality": "언급 없음",
+      "other": [],
+      "total_won": 0,
+      "kind": "알 수 없음"
+     },
+     "note": ""
+    },
+    "body": {
+     "role": "body",
+     "status": "not_given",
+     "value": "",
+     "value_by": "",
+     "norm": {},
+     "quotes": [],
+     "rejected_quotes": [],
+     "ai": {},
+     "note": ""
+    },
+    "original": {
+     "role": "original",
+     "status": "found",
+     "value": "고용보험 확인 시 사업장 선정 취소 가능",
+     "value_by": "AI 요약",
+     "norm": {},
+     "quotes": [
+      {
+       "text": "참여자 선정 이후 고용보험 가입 상세 내역 확인 후 해당 사실이 확인될 경우 사업장 선정이 취소될 수 있음",
+       "sid": "원문-43",
+       "sids": [
+        "원문-43"
+       ],
+       "start": 2,
+       "end": 61
+      }
+     ],
+     "rejected_quotes": [],
+     "ai": {
+      "item": "penalty",
+      "source": "original",
+      "found": true,
+      "quotes": [
+       "참여자 선정 이후 고용보험 가입 상세 내역 확인 후 해당 사실이 확인될 경우 사업장 선정이 취소될 수 있음"
+      ],
+      "value": "고용보험 확인 시 사업장 선정 취소 가능",
+      "deadline_date": "",
+      "deadline_time": "",
+      "date_role": "알 수 없음",
+      "open_to_all": false,
+      "applicant": "알 수 없음",
+      "age_min": -1,
+      "age_max": -1,
+      "groups": [],
+      "region": "",
+      "nationality": "언급 없음",
+      "other": [],
+      "total_won": 0,
+      "kind": "알 수 없음"
+     },
+     "note": ""
+    }
+   }
+  },
+  {
+   "key": "ai_copyright",
+   "name": "생성형 AI·저작권",
+   "verdict": "원문에도 없음",
+   "severity": "ok",
+   "reason": "요약·원문 모두 해당 내용이 없습니다.",
+   "stage1": null,
+   "stage2": {
+    "verdict": "원문에도 없음",
+    "reason": "요약·원문 모두 해당 내용이 없습니다.",
+    "kind": "neither"
+   },
+   "values": {
+    "top": {
+     "role": "top",
+     "status": "absent",
+     "value": "",
+     "value_by": "",
+     "norm": {},
+     "quotes": [],
+     "rejected_quotes": [],
+     "ai": {
+      "item": "ai_copyright",
+      "source": "top",
+      "found": false,
+      "quotes": [],
+      "value": "",
+      "deadline_date": "",
+      "deadline_time": "",
+      "date_role": "알 수 없음",
+      "open_to_all": false,
+      "applicant": "알 수 없음",
+      "age_min": -1,
+      "age_max": -1,
+      "groups": [],
+      "region": "",
+      "nationality": "언급 없음",
+      "other": [],
+      "total_won": 0,
+      "kind": "알 수 없음"
+     },
+     "note": ""
+    },
+    "body": {
+     "role": "body",
+     "status": "not_given",
+     "value": "",
+     "value_by": "",
+     "norm": {},
+     "quotes": [],
+     "rejected_quotes": [],
+     "ai": {},
+     "note": ""
+    },
+    "original": {
+     "role": "original",
+     "status": "absent",
+     "value": "",
+     "value_by": "",
+     "norm": {},
+     "quotes": [],
+     "rejected_quotes": [],
+     "ai": {
+      "item": "ai_copyright",
+      "source": "original",
+      "found": false,
+      "quotes": [],
+      "value": "",
+      "deadline_date": "",
+      "deadline_time": "",
+      "date_role": "알 수 없음",
+      "open_to_all": false,
+      "applicant": "알 수 없음",
+      "age_min": -1,
+      "age_max": -1,
+      "groups": [],
+      "region": "",
+      "nationality": "언급 없음",
+      "other": [],
+      "total_won": 0,
+      "kind": "알 수 없음"
+     },
+     "note": ""
+    }
+   }
+  }
+ ],
+ "summary": {
+  "red_items": [
+   "마감 일시",
+   "참가 자격",
+   "실격·감점"
+  ],
+  "needs_check": [],
+  "quotes_total": 9,
+  "quotes_verified": 9
+ },
+ "deadline_dday": {
+  "basis": "original",
+  "date": "2026-11-06",
+  "time": "11:00",
+  "days_left": 2
+ },
+ "elapsed_s": 20.7,
+ "usage": {
+  "purpose": "extract",
+  "case": "Y1",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 6412,
+  "output_tokens": 5123,
+  "cache_read_input_tokens": 0,
+  "cache_creation_input_tokens": 0,
+  "latency_s": 20.69,
+  "stop_reason": "end_turn",
+  "ok": true,
+  "ts": "2026-11-04T05:37:45+00:00",
+  "cost_usd": 0.003203
+ },
+ "pipeline_s": 20.7,
+ "example": {
+  "id": "Y1",
+  "title": "콘진원 2026 우수인재 연계 기업인턴십 (온통청년 요약 붙여 넣기 ↔ 콘진원 공고)",
+  "label": "2026-11-04 공고 기준 저장 결과",
+  "run": "r1c",
+  "summary_url": "https://www.youthcenter.go.kr/youthPolicy/ythPlcyTotalSearch/ythPlcyDetail/20261103005400114715",
+  "original_url": "https://www.kocca.kr/kocca/bbs/view/B0000137/2012372.do?menuNo=204802"
+ }
+}
