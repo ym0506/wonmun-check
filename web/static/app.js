@@ -177,6 +177,48 @@ function reportText(result) {
   return lines.join("\n");
 }
 
+function daysLeft(today, iso) {
+  return Math.round((new Date(iso + "T00:00:00") - new Date(today + "T00:00:00")) / 86400000);
+}
+
+function ddayText(n) {
+  return n > 0 ? `D-${n}` : n === 0 ? "D-day" : "마감 지남";
+}
+
+// 결과 맨 위 요약 카드: 가장 중요한 빨간 항목 하나를 포털 값과 원문 값으로 나란히 보여 준다
+function heroCard(result) {
+  const red = result.items.filter((it) => RED.has(it.verdict));
+  if (!red.length) return null;
+  const pick = (key) => red.find((x) => x.key === key && (x.verdict === "불일치" || x.verdict === "시각 누락"));
+  const it = pick("deadline") || pick("eligibility") || red[0];
+  const top = it.values.top;
+  const orig = it.values.original;
+  const ref = orig && orig.status === "found" ? orig : it.values.body;
+  const refLabel = ref && ref.role === "original" ? "주최 측 원문" : "같은 페이지 본문";
+  const card = el("div", { class: "hero" });
+
+  if (it.key === "deadline" && top && top.norm && ref && ref.norm) {
+    const side = (label, v, cls) => el("div", { class: `hero-side ${cls}` },
+      el("div", { class: "hero-label", text: label }),
+      el("div", { class: "hero-date", text: v.norm.date.slice(5).replace("-", ".") + (v.norm.time ? ` ${v.norm.time}` : "") }),
+      el("div", { class: "hero-dday", text: `${result.today} 기준 ${ddayText(daysLeft(result.today, v.norm.date))}` }));
+    const title = it.verdict === "시각 누락" ? "포털에는 마감 시각이 없습니다" : "포털의 마감 날짜가 원문과 다릅니다";
+    card.append(el("div", { class: "hero-title", text: title }),
+      el("div", { class: "hero-row" }, side("포털에 보이는 마감", top, "is-summary"), el("div", { class: "hero-arrow", text: "→" }), side(`${refLabel}의 마감`, ref, "is-original")));
+  } else {
+    const val = (v) => (v && v.status === "found" ? v.value : "표시 없음");
+    card.append(el("div", { class: "hero-title", text: `${it.name}: 포털과 ${refLabel}이 다릅니다` }),
+      el("div", { class: "hero-row" },
+        el("div", { class: "hero-side is-summary" }, el("div", { class: "hero-label", text: "포털" }), el("div", { class: "hero-text", text: val(top) })),
+        el("div", { class: "hero-arrow", text: "→" }),
+        el("div", { class: "hero-side is-original" }, el("div", { class: "hero-label", text: refLabel }), el("div", { class: "hero-text", text: val(ref) }))));
+  }
+  card.append(el("div", { class: "hero-reason", text: it.reason }));
+  const others = red.filter((x) => x !== it).map((x) => x.name);
+  if (others.length) card.append(el("div", { class: "hero-more", text: `다른 빨간 항목: ${others.join(", ")}` }));
+  return card;
+}
+
 function render(result, opts = {}) {
   current = result;
   const box = document.getElementById("result");
@@ -186,6 +228,8 @@ function render(result, opts = {}) {
   const head = el("div", { class: "res-head" }, el("h2", { text: title }));
   if (opts.saved) head.append(el("span", { class: "saved-badge", text: result.example.label || "저장 결과" }));
   box.append(head);
+  const hero = heroCard(result);
+  if (hero) box.append(hero);
 
   const links = el("div", { class: "res-links" });
   for (const role of ["top", "original"]) {
