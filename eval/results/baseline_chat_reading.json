@@ -1,0 +1,85 @@
+{
+ "note": "비교군 ①(같은 모델 1회 질문) 답을 에이전트(Claude)가 직접 읽고 마감·자격만 판정한 기록. 사람 검토 전. 규칙 파서(baseline_chat_auto.json)가 틀린 곳을 고쳤다.",
+ "targets": {
+  "L02 deadline": {
+   "found": true,
+   "why": "'⑤ 접수 마감 시각 누락 … 마감 시각 17:00이 빠져 있습니다'"
+  },
+  "L02 eligibility": {
+   "found": true,
+   "why": "'① 참여대상 범위 축소 … 대학생으로 한정한 요약은 대상 범위를 잘못 좁힙니다'"
+  },
+  "L07 deadline": {
+   "found": false,
+   "why": "원문 '2026-08-11 ~ 2026-11-25' = 요약 접수기간이라며 날짜가 일치한다고 답함. 11.25가 발표평가·시상일이고 제출 마감이 11.6이라는 점을 짚지 않음"
+  },
+  "L20 deadline": {
+   "found": true,
+   "why": "'1. 접수기간 (명확한 불일치) … 위쪽 칸의 접수기간은 원문과 완전히 다릅니다'. 규칙 파서는 제목 줄과 날짜 줄이 나뉘어 놓쳤음"
+  },
+  "Y1 deadline": {
+   "found": true,
+   "why": "'접수 마감은 11월 6일 11시이며 … 요약에는 이 두 가지가 빠져 있습니다'"
+  },
+  "Y1 eligibility": {
+   "found": true,
+   "why": "'원문의 자격은 기업 대상 자격과 제외 대상뿐 … 미취업자는 원문에 없고'"
+  },
+  "L13 eligibility": {
+   "found": true,
+   "why": "'참여대상 … 불일치(중대). 원문은 대학생으로 자격을 제한'"
+  }
+ },
+ "false_alarms_csv_match": {
+  "L07 eligibility": {
+   "claimed_diff": true,
+   "why": "상단 '대상 제한 없음'이 본문 '개인 또는 팀(팀장1+팀원3)'과 달라 부정확하다고 함(CSV는 일치)"
+  },
+  "L10 eligibility": {
+   "claimed_diff": true,
+   "why": "수상작 제외 조건이 있어 '제한 없음'과 다르다고 함(CSV는 일치)"
+  },
+  "L11 eligibility": {
+   "claimed_diff": true,
+   "why": "만 5세 이상·만 19세 미만 법정대리인 동의를 들어 '대상 제한 없음'과 다르다고 함(CSV는 일치, 메모에 법정대리인 동의)"
+  },
+  "L19 eligibility": {
+   "claimed_diff": true,
+   "why": "'여수에 관심이 있는' 조건이 있다며 '대상 제한 없음'과 다르다고 함(CSV는 일치)"
+  },
+  "L05 eligibility": {
+   "claimed_diff": false,
+   "why": "'표현은 다르지만 실질 내용 차이가 작은 경우'로 분류. 경고로 세지 않음"
+  },
+  "L13 deadline": {
+   "claimed_diff": false,
+   "why": "'일치하는 항목: … 접수기간(2026.10.30~11.18)'. 규칙 파서 오탐"
+  },
+  "L14 deadline": {
+   "claimed_diff": false,
+   "why": "'접수기간(11.3~11.22, 22일 자정 마감) … 원문과 일치'. 규칙 파서 오탐"
+  },
+  "L20 eligibility": {
+   "claimed_diff": false,
+   "why": "'일치하는 항목: 참여대상(연령·거주지 무제한 …)'. 규칙 파서 오탐"
+  },
+  "L05 deadline": {
+   "claimed_diff": false,
+   "why": "접수기간 일치라고 함"
+  },
+  "L10 deadline": {
+   "claimed_diff": false,
+   "why": "접수·공모기간 일치라고 함"
+  },
+  "L11 deadline": {
+   "claimed_diff": false,
+   "why": "마감 차이를 말하지 않음"
+  }
+ },
+ "summary": {
+  "found": 6,
+  "targets": 7,
+  "false_alarms": 4,
+  "checked_csv_match_cells": 11
+ }
+}

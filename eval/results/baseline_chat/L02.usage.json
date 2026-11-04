@@ -1,0 +1,1 @@
+{"purpose": "baseline_chat", "case": "L02", "model": "claude-haiku-5-5", "input_tokens": 8889, "output_tokens": 3986, "cache_read_input_tokens": 0, "cache_creation_input_tokens": 0, "latency_s": 17.04, "stop_reason": "end_turn", "ok": true, "ts": "2026-11-04T05:47:22+00:00"}

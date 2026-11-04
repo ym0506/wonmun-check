@@ -1,0 +1,200 @@
+{
+ "cases": {
+  "L02": {
+   "quotes": 31,
+   "quotes_ok": 20,
+   "bad_quotes": [
+    "대학 재학생·졸업예정자 포함 · 전공 무관",
+    "최종 PT 진출자 … 채용 서류전형 면제",
+    "접수처: 하나증권 채용사이트",
+    "시상일로부터 5년 이내, 1회 한정 · 해당 채용공고 지원자격 충족 · 채용 연계 개인정보 활용 동의 및 본인 직접 지원 필요",
+    "AI 활용 시 도구와 범위 표시 필수"
+   ],
+   "deadline": "찾음",
+   "eligibility": "찾음",
+   "latency_s": 17.04,
+   "tokens": [
+    8889,
+    3986
+   ]
+  },
+  "L04": {
+   "quotes": 17,
+   "quotes_ok": 10,
+   "bad_quotes": [
+    "입상작 후보 10개 이내 × 100만 원",
+    "최우수상 200만 원",
+    "우수상 100만 원 × 2인 이내",
+    "2026년 10월 26일 / 국회미래연구원장",
+    "만 19~39세"
+   ],
+   "deadline": "CSV 칸엔 없음·본문엔 있음(채점 제외)",
+   "eligibility": "CSV 칸엔 없음·본문엔 있음(채점 제외)",
+   "latency_s": 13.14,
+   "tokens": [
+    4255,
+    2727
+   ]
+  },
+  "L05": {
+   "quotes": 4,
+   "quotes_ok": 4,
+   "bad_quotes": [],
+   "deadline": "차이 주장 없음",
+   "eligibility": "차이 주장(잘못 경고 후보)",
+   "latency_s": 11.88,
+   "tokens": [
+    2020,
+    2539
+   ]
+  },
+  "L07": {
+   "quotes": 11,
+   "quotes_ok": 9,
+   "bad_quotes": [
+    "접수기간 2026.08.11 ~ 2026.11.25",
+    "주최: 정통부, 과기연구회, 국회도서관, 대전광역시, 해양경찰청, 한국수자원공사, 대전중구청 / 주관: KISTI"
+   ],
+   "deadline": "못 찾음",
+   "eligibility": "차이 주장(잘못 경고 후보)",
+   "latency_s": 12.78,
+   "tokens": [
+    1637,
+    2744
+   ]
+  },
+  "L10": {
+   "quotes": 6,
+   "quotes_ok": 5,
+   "bad_quotes": [
+    "작성자 / 산림빅데이터팀 / ○○○ / **********"
+   ],
+   "deadline": "차이 주장 없음",
+   "eligibility": "차이 주장(잘못 경고 후보)",
+   "latency_s": 10.43,
+   "tokens": [
+    1444,
+    1779
+   ]
+  },
+  "L11": {
+   "quotes": 25,
+   "quotes_ok": 18,
+   "bad_quotes": [
+    "670만원 총 86명 시상·기념품",
+    "참여홍보기념품 \\| 60명 \\| 2만원 상당 기념품",
+    "결합 가능한 요소",
+    "『전북 AI디지털배움터 AI뮤직숏폼 공모전 출품작』과 'AI를 활용해 만든 영상입니다'를 표시해야 합니다",
+    "1GB 이하 뮤직비디오 MP4 / 노래 가사 전문 / 사용한 노래·영상 AI 도구명·요금제와 AI 요청 문장 또는 제작 화면 1장"
+   ],
+   "deadline": "차이 주장 없음",
+   "eligibility": "차이 주장(잘못 경고 후보)",
+   "latency_s": 20.65,
+   "tokens": [
+    10958,
+    4352
+   ]
+  },
+  "L13": {
+   "quotes": 16,
+   "quotes_ok": 13,
+   "bad_quotes": [
+    "본선 진출 시 실무자 앞 직접 PT",
+    "선착순 50명 10,000원 음료 쿠폰",
+    "원작의 의도를 해치지 않는 범위에서 … 활용될 수 있습니다"
+   ],
+   "deadline": "차이 주장(잘못 경고 후보)",
+   "eligibility": "찾음",
+   "latency_s": 15.21,
+   "tokens": [
+    8002,
+    3534
+   ]
+  },
+  "L14": {
+   "quotes": 17,
+   "quotes_ok": 13,
+   "bad_quotes": [
+    "공고문에 있으니 확인",
+    "응모자격: 대한민국 국민 누구나",
+    "결과발표: 2026. 12월 중",
+    "1만원 상당 모바일 상품권"
+   ],
+   "deadline": "차이 주장(잘못 경고 후보)",
+   "eligibility": "CSV 모호(채점 제외)",
+   "latency_s": 18.02,
+   "tokens": [
+    6000,
+    3737
+   ]
+  },
+  "L19": {
+   "quotes": 14,
+   "quotes_ok": 12,
+   "bad_quotes": [
+    "여수에 관심이 있는 전국민 누구나(개인 또는 3인 이하의 팀)",
+    "2026. 1.∼11. 이내 작품"
+   ],
+   "deadline": "CSV 칸엔 없음·본문엔 있음(채점 제외)",
+   "eligibility": "차이 주장(잘못 경고 후보)",
+   "latency_s": 14.35,
+   "tokens": [
+    3541,
+    3192
+   ]
+  },
+  "L20": {
+   "quotes": 11,
+   "quotes_ok": 10,
+   "bad_quotes": [
+    "공모 분야: 영상/숏폼"
+   ],
+   "deadline": "못 찾음",
+   "eligibility": "차이 주장(잘못 경고 후보)",
+   "latency_s": 9.05,
+   "tokens": [
+    1667,
+    2085
+   ]
+  },
+  "Y1": {
+   "quotes": 19,
+   "quotes_ok": 16,
+   "bad_quotes": [
+    "한국콘텐츠진흥원 인재양성사업 프로그램 이수자를 대상으로 인턴십을 희망하는 … 기업(법인사업자)",
+    "연령: 제한없음 / 거주지역: 전국 / 소득: 무관 / 학력: 제한없음 / 전공: 제한없음 / 취업상태: 미취업자 / 특화분야: 제한없음",
+    "인턴 참여기간: ~2027.02.28.(최대 6개월이내)"
+   ],
+   "deadline": "찾음",
+   "eligibility": "찾음",
+   "latency_s": 13.74,
+   "tokens": [
+    2841,
+    2917
+   ]
+  }
+ },
+ "found": [
+  "L02 deadline",
+  "L02 eligibility",
+  "L13 eligibility",
+  "Y1 deadline",
+  "Y1 eligibility"
+ ],
+ "missed": [
+  "L07 deadline",
+  "L20 deadline"
+ ],
+ "false_alarms": [
+  "L05 eligibility",
+  "L07 eligibility",
+  "L10 eligibility",
+  "L11 eligibility",
+  "L13 deadline",
+  "L14 deadline",
+  "L19 eligibility",
+  "L20 eligibility"
+ ],
+ "quotes_total": 171,
+ "quotes_ok": 130
+}
