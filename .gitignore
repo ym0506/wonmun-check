@@ -1,0 +1,21 @@
+# 비밀값
+.env
+.env*
+*.env
+
+# 로컬 전용 원본 자료(공고 HTML·PDF 사본)
+data/dev_sources/
+data/api_ledger.jsonl
+data/tmp/
+
+# 파이썬
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# 기타
+.DS_Store
+data/runs/
+data/*.log
+data/redact_names.txt
