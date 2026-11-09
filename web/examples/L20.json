@@ -1,6 +1,6 @@
 {
  "version": 1,
- "checked_at": "2026-11-04T05:46:51+00:00",
+ "checked_at": "2026-11-09T13:42:41+00:00",
  "today": "2026-11-04",
  "model": "claude-haiku-5-5",
  "case": "L20",
@@ -1375,12 +1375,12 @@
   {
    "key": "penalty",
    "name": "실격·감점",
-   "verdict": "원문에도 없음",
-   "severity": "ok",
+   "verdict": "받은 글엔 없음",
+   "severity": "check",
    "reason": "요약·원문 모두 해당 내용이 없습니다.",
    "stage1": null,
    "stage2": {
-    "verdict": "원문에도 없음",
+    "verdict": "받은 글엔 없음",
     "reason": "요약·원문 모두 해당 내용이 없습니다.",
     "kind": "neither"
    },
@@ -1630,7 +1630,7 @@
   "id": "L20",
   "title": "밀양 매운맛 쇼츠 공모전 (링커리어 ↔ 밀양시 공지)",
   "label": "2026-11-04 공고 기준 저장 결과",
-  "run": "r1c",
+  "run": "r1fix2",
   "summary_url": "https://linkareer.com/activity/361497",
   "original_url": "https://www.miryang.go.kr/tur/bbs/selectBoardDetail.do?bbsId=BBSMSTR_000000000227&mnNo=60101000000&nttId=197957"
  }

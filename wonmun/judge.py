@@ -22,14 +22,15 @@ DIFF = "불일치"
 TIME_MISSING = "시각 누락"
 TOP_ONLY_MISSING = "칸엔 없음·본문엔 있음"
 NOT_IN_SUMMARY = "요약에 없음"
-NEITHER = "원문에도 없음"
+# 요약과 받은 원문 어디에서도 못 찾음. 원문의 다른 페이지(FAQ·첨부)에 있을 수 있어 회색으로 둔다.
+NEITHER = "받은 글엔 없음"
 NO_DIFF = "다른 점을 찾지 못함"
 NEEDS_CHECK = "확인 필요"
 NO_ORIGINAL = "원문 미입력"
 
 RED = {DIFF, TIME_MISSING, NOT_IN_SUMMARY, TOP_ONLY_MISSING}
 SEVERITY = {DIFF: "red", TIME_MISSING: "red", NOT_IN_SUMMARY: "red", TOP_ONLY_MISSING: "red",
-            NO_DIFF: "ok", NEITHER: "ok", NEEDS_CHECK: "check", NO_ORIGINAL: "check"}
+            NO_DIFF: "ok", NEITHER: "check", NEEDS_CHECK: "check", NO_ORIGINAL: "check"}
 
 _WEEKDAY = "월화수목금토일"
 

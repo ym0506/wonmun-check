@@ -1,6 +1,6 @@
 {
  "version": 1,
- "checked_at": "2026-11-04T05:46:51+00:00",
+ "checked_at": "2026-11-09T13:42:41+00:00",
  "today": "2026-11-04",
  "model": "claude-haiku-5-5",
  "case": "L07",
@@ -1042,12 +1042,12 @@
   {
    "key": "submission",
    "name": "제출물·분량",
-   "verdict": "원문에도 없음",
-   "severity": "ok",
+   "verdict": "받은 글엔 없음",
+   "severity": "check",
    "reason": "요약·원문 모두 해당 내용이 없습니다.",
    "stage1": null,
    "stage2": {
-    "verdict": "원문에도 없음",
+    "verdict": "받은 글엔 없음",
     "reason": "요약·원문 모두 해당 내용이 없습니다.",
     "kind": "neither"
    },
@@ -1147,12 +1147,12 @@
   {
    "key": "penalty",
    "name": "실격·감점",
-   "verdict": "원문에도 없음",
-   "severity": "ok",
+   "verdict": "받은 글엔 없음",
+   "severity": "check",
    "reason": "요약·원문 모두 해당 내용이 없습니다.",
    "stage1": null,
    "stage2": {
-    "verdict": "원문에도 없음",
+    "verdict": "받은 글엔 없음",
     "reason": "요약·원문 모두 해당 내용이 없습니다.",
     "kind": "neither"
    },
@@ -1252,12 +1252,12 @@
   {
    "key": "ai_copyright",
    "name": "생성형 AI·저작권",
-   "verdict": "원문에도 없음",
-   "severity": "ok",
+   "verdict": "받은 글엔 없음",
+   "severity": "check",
    "reason": "요약·원문 모두 해당 내용이 없습니다.",
    "stage1": null,
    "stage2": {
-    "verdict": "원문에도 없음",
+    "verdict": "받은 글엔 없음",
     "reason": "요약·원문 모두 해당 내용이 없습니다.",
     "kind": "neither"
    },
@@ -1393,7 +1393,7 @@
   "id": "L07",
   "title": "KISTI 2026 DATA·AI 분석 경진대회 (링커리어 ↔ KISTI 대회 페이지)",
   "label": "2026-11-04 공고 기준 저장 결과",
-  "run": "r1c",
+  "run": "r1fix2",
   "summary_url": "https://linkareer.com/activity/342034",
   "original_url": "https://aida.kisti.re.kr/competition/main/competition/COMP_000000000000050/detail.do"
  }

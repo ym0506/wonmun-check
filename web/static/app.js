@@ -28,11 +28,11 @@ function short(s, n = 70) {
 }
 
 function verdictBadge(v) {
-  const cls = RED.has(v) ? "red" : (v === "확인 필요" || v === "원문 미입력") ? "check" : "ok";
+  const cls = RED.has(v) ? "red" : (v === "확인 필요" || v === "원문 미입력" || v === "받은 글엔 없음") ? "check" : "ok";
   const box = el("div", {}, el("span", { class: `v ${cls}`, text: v }));
   if (v === "다른 점을 찾지 못함") box.append(el("span", { class: "v-sub", text: "원문 확인 권장" }));
   if (v === "원문 미입력") box.append(el("span", { class: "v-sub", text: "원문을 넣으면 대조합니다" }));
-  if (v === "원문에도 없음") box.append(el("span", { class: "v-sub", text: "요약·원문 모두 해당 내용 없음" }));
+  if (v === "받은 글엔 없음") box.append(el("span", { class: "v-sub", text: "요약과 받은 원문에서 못 찾음. FAQ·첨부 등 다른 원문에 있을 수 있음" }));
   return box;
 }
 
