@@ -301,3 +301,15 @@ def test_youth_label_without_age_in_summary_is_still_missing():
         orig=("대구 거주 청년", el(True, ["대구 거주 청년"], groups=["청년"], region="대구")),
     )
     assert r["verdict"] == DIFF
+
+
+def test_site_footer_copyright_mark_is_not_a_contest_rule():
+    # 예시 L20: 밀양시 누리집 바닥글 '공공저작물 자유이용 허락표시 적용 안함'을 공모 규정으로 읽어 '요약에 없음'으로 표시했음
+    foot = "공공저작물 자유이용 허락표시 적용 안함"
+    ai = {"found": True, "quotes": [foot], "value": "공공저작물 자유이용 허락 미적용"}
+    v = build_value("ai_copyright", "original", ai, idx("original", "접수 마감 11. 7.\n" + foot), 2026)
+    assert v.status == "absent" and not v.quotes
+    rule = "생성형 AI로 만든 작품은 응모할 수 없으며, 수상작의 저작권은 응모자에게 있습니다."
+    v2 = build_value("ai_copyright", "original", {"found": True, "quotes": [rule], "value": "AI 금지"},
+                     idx("original", rule + "\n" + foot), 2026)
+    assert v2.status == "found"

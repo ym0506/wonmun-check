@@ -1,6 +1,6 @@
 {
  "version": 1,
- "checked_at": "2026-11-09T20:48:19+00:00",
+ "checked_at": "2026-11-09T21:26:57+00:00",
  "today": "2026-11-04",
  "model": "claude-haiku-5-5",
  "case": "L20",
@@ -1480,14 +1480,14 @@
   {
    "key": "ai_copyright",
    "name": "생성형 AI·저작권",
-   "verdict": "요약에 없음",
-   "severity": "red",
-   "reason": "원문에는 있는데 요약에는 없습니다.",
+   "verdict": "받은 글엔 없음",
+   "severity": "check",
+   "reason": "요약과 받은 원문에서 해당 내용을 찾지 못했습니다.",
    "stage1": null,
    "stage2": {
-    "verdict": "요약에 없음",
-    "reason": "원문에는 있는데 요약에는 없습니다.",
-    "kind": "absent"
+    "verdict": "받은 글엔 없음",
+    "reason": "요약과 받은 원문에서 해당 내용을 찾지 못했습니다.",
+    "kind": "neither"
    },
    "values": {
     "top": {
@@ -1552,21 +1552,11 @@
     },
     "original": {
      "role": "original",
-     "status": "found",
-     "value": "공공누리 허락표시 미적용, 출처표시 조건 안내",
-     "value_by": "AI 요약",
+     "status": "absent",
+     "value": "",
+     "value_by": "",
      "norm": {},
-     "quotes": [
-      {
-       "text": "공공저작물 자유이용 허락표시 적용 안함",
-       "sid": "원문-58",
-       "sids": [
-        "원문-58"
-       ],
-       "start": 0,
-       "end": 21
-      }
-     ],
+     "quotes": [],
      "rejected_quotes": [],
      "ai": {
       "item": "ai_copyright",
@@ -1590,19 +1580,18 @@
       "total_won": 0,
       "kind": "알 수 없음"
      },
-     "note": ""
+     "note": "누리집 바닥글의 저작권 표시는 공고의 규정이 아니라서 근거에서 뺐습니다."
     }
    }
   }
  ],
  "summary": {
   "red_items": [
-   "마감 일시",
-   "생성형 AI·저작권"
+   "마감 일시"
   ],
   "needs_check": [],
-  "quotes_total": 17,
-  "quotes_verified": 17
+  "quotes_total": 16,
+  "quotes_verified": 16
  },
  "deadline_dday": {
   "basis": "original",
@@ -1630,7 +1619,7 @@
   "id": "L20",
   "title": "밀양 매운맛 쇼츠 공모전 (링커리어 ↔ 밀양시 공지)",
   "label": "2026-11-04 공고 기준 저장 결과",
-  "run": "r1fix3",
+  "run": "r1fix4",
   "summary_url": "https://linkareer.com/activity/361497",
   "original_url": "https://www.miryang.go.kr/tur/bbs/selectBoardDetail.do?bbsId=BBSMSTR_000000000227&mnNo=60101000000&nttId=197957"
  }

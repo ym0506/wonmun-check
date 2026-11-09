@@ -18,6 +18,10 @@ from .textsrc import ROLE_LABEL, SourceDoc, html_doc, lines_to_segments
 KST = timezone(timedelta(hours=9))
 
 
+NOTE_ACTIVITY = ("대외활동 공고의 위쪽 칸 중 활동지역·활동기간·모집인원 칸은 이 PoC가 읽지 않습니다. "
+                 "지역 조건은 활동지역 칸에 적혀 있을 수 있습니다.")
+
+
 class PortalError(Exception):
     pass
 
@@ -93,6 +97,8 @@ def parse_linkareer(html: str, url: str) -> tuple[SourceDoc, SourceDoc, dict]:
             "화면의 접수기간 칸에는 시각이 나오지 않습니다."
         )
 
+    if act.get("activityTypeID") == 1 or act.get("type") == 1:
+        top.notes.append(NOTE_ACTIVITY)
     if act.get("activityTypeID") == 5 or act.get("type") == 5:
         top.notes.append("채용·인턴 공고의 위쪽 칸 중 학력·모집직무·근무지역 칸은 이 PoC가 아직 읽지 않습니다. "
                          "참가 자격의 '칸엔 없음'은 그 때문일 수 있습니다.")

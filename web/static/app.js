@@ -252,7 +252,18 @@ function render(result, opts = {}) {
   if (!result.sources.original) links.append(el("div", { text: "원문 없음 — 포털 페이지 안 위쪽 칸과 본문만 대조" }));
   const home = result.meta && result.meta.homepage_url;
   if (!result.sources.original && home && /^https?:/.test(home)) {
-    links.append(el("div", {}, "포털에 적힌 홈페이지(원문 후보): ", el("a", { href: home, target: "_blank", rel: "noopener noreferrer", text: short(home, 70) })));
+    const again = el("button", { class: "btn ghost", type: "button", text: "이 주소를 원문으로 넣고 다시 확인" });
+    again.addEventListener("click", () => {
+      // 직접 확인 칸에 요약 주소와 원문 후보 주소를 채우고 다시 돌린다(AI 1회 호출)
+      const top = result.sources.top;
+      const f = document.getElementById("live-form");
+      document.querySelector('.tab[data-tab="live"]').click();
+      f.elements.summary_url.value = top && /^https?:/.test(top.origin) ? top.origin : "";
+      f.elements.original_url.value = home;
+      f.requestSubmit();
+      f.scrollIntoView({ block: "start" });
+    });
+    links.append(el("div", {}, "포털에 적힌 홈페이지(원문 후보): ", el("a", { href: home, target: "_blank", rel: "noopener noreferrer", text: short(home, 70) }), " ", again));
   }
   box.append(links);
 

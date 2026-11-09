@@ -1,6 +1,6 @@
 {
  "version": 1,
- "checked_at": "2026-11-09T20:48:19+00:00",
+ "checked_at": "2026-11-09T21:26:57+00:00",
  "today": "2026-11-04",
  "model": "claude-haiku-5-5",
  "case": "L07",
@@ -1393,7 +1393,7 @@
   "id": "L07",
   "title": "KISTI 2026 DATA·AI 분석 경진대회 (링커리어 ↔ KISTI 대회 페이지)",
   "label": "2026-11-04 공고 기준 저장 결과",
-  "run": "r1fix3",
+  "run": "r1fix4",
   "summary_url": "https://linkareer.com/activity/342034",
   "original_url": "https://aida.kisti.re.kr/competition/main/competition/COMP_000000000000050/detail.do"
  }

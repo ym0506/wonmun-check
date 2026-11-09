@@ -13,6 +13,7 @@ import json
 import re
 
 from eval.cases import ORIGINAL_URL, ROOT, load_truth
+from wonmun.portals import NOTE_ACTIVITY
 
 EXAMPLES = {
     "L07": "KISTI 2026 DATA·AI 분석 경진대회 (링커리어 ↔ KISTI 대회 페이지)",
@@ -56,6 +57,9 @@ def main() -> None:
     for ex_id, (act_id, title) in EXTRA.items():
         d = json.loads((ROOT / "data/runs/extra_types" / f"{act_id}.json").read_text(encoding="utf-8"))
         d.pop("ai_output", None)
+        notes = d["sources"]["top"].setdefault("notes", [])
+        if NOTE_ACTIVITY not in notes:  # 저장 결과를 만든 뒤에 넣은 안내 문구
+            notes.append(NOTE_ACTIVITY)
         d["example"] = {"id": ex_id, "title": title, "label": EXTRA_LABEL, "run": "extra_types",
                         "summary_url": f"https://linkareer.com/activity/{act_id}", "original_url": ""}
         text = mask(json.dumps(d, ensure_ascii=False, indent=1))

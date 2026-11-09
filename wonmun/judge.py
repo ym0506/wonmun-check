@@ -204,13 +204,25 @@ def _prize_norm(ai: dict, text: str, context: str = "") -> tuple[dict, str]:
             "kind": kind, "amounts": amounts}, how
 
 
+_SITE_COPYRIGHT_MARK = re.compile(
+    r"공공저작물\s*자유이용\s*허락|공공누리\s*(?:제?\s*\d\s*유형|마크)|copyright\s*(?:ⓒ|\(c\)|©)|all\s+rights\s+reserved|저작권\s*(?:보호\s*)?정책",
+    re.I)
+
+
 def build_value(item: str, role: str, ai: dict | None, index: QuoteIndex | None,
                 ref_year: int) -> SourceValue:
     if index is None or ai is None:
         return SourceValue(role=role, status="not_given")
     hits, rejected = check_quotes(ai.get("quotes") or [], index)
+    site_note = ""
+    if item == "ai_copyright":
+        # 누리집 바닥글의 저작권 표시("공공저작물 자유이용 허락표시 적용 안함" 등)는 공모 규정이 아니다
+        kept = [h for h in hits if not (len(h.text) <= 40 and _SITE_COPYRIGHT_MARK.search(h.text))]
+        if len(kept) != len(hits):
+            hits, site_note = kept, "누리집 바닥글의 저작권 표시는 공고의 규정이 아니라서 근거에서 뺐습니다."
     sv = SourceValue(role=role, status="absent", quotes=hits, rejected=rejected, ai=ai)
-    if not ai.get("found") and not hits:
+    sv.note = site_note
+    if not hits and (site_note or not ai.get("found")):
         return sv
     if not hits:
         sv.status = "unverified"
