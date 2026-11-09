@@ -1,0 +1,217 @@
+{
+ "cases": {
+  "T01": {
+   "quotes": 23,
+   "quotes_ok": 17,
+   "bad_quotes": [
+    "활동 사진, 조직도, 업무 톡방 캡처 등 증빙자료 준비, 민감 정보는 가리기",
+    "지원 동기 / 학생회 활동 중 겪은 문제 / AI 해결 방향",
+    "발표용 PDF 1개, 약 10분 발표",
+    "참여 확정 후 사전 리서치 가능, 필수 요소는 당일 공개",
+    "학생회 활동 종료 여부와 무관",
+    "서로 다른 대학 간 팀 가능"
+   ],
+   "latency_s": 18.6,
+   "tokens": [
+    5014,
+    4472
+   ],
+   "has_original": true
+  },
+  "T02": {
+   "quotes": 12,
+   "quotes_ok": 7,
+   "bad_quotes": [
+    "[요약 - 본문]",
+    "숏드라마 제작에 관심이 있는 **만 19세 이상 국내 거주 개인 누구나 (외국 국적자 포함)**",
+    "선정작은 추후 AI 영상으로 제작되어 Daum 신규 숏드라마 서비스(27년 1분기 오픈 예정)을 통해 공개될 예정입니다",
+    "선정작 확정 및 상금 지급은 … 별도 계약 체결을 전제로 합니다",
+    "관련 법령에 따라 원천징수 후 … 지급됨"
+   ],
+   "latency_s": 12.93,
+   "tokens": [
+    2848,
+    2820
+   ],
+   "has_original": false
+  },
+  "T03": {
+   "quotes": 14,
+   "quotes_ok": 13,
+   "bad_quotes": [
+    "제17회 현대 주얼리 디자인 공모전 / Modern Jewelry Design Contest"
+   ],
+   "latency_s": 11.29,
+   "tokens": [
+    843,
+    2495
+   ],
+   "has_original": false
+  },
+  "T04": {
+   "quotes": 10,
+   "quotes_ok": 8,
+   "bad_quotes": [
+    "표절, 모방, AI이용, 중복응모의 경우 당선작 발표 이후라도 당선을 취소하고 **상패와 상금을 회수**합니다.",
+    "●응모 마감 : 2027년 4월1일~5월 31일(**도착분**)"
+   ],
+   "latency_s": 12.62,
+   "tokens": [
+    4966,
+    2722
+   ],
+   "has_original": true
+  },
+  "T05": {
+   "quotes": 3,
+   "quotes_ok": 1,
+   "bad_quotes": [
+    "관심있는 **대한민국 국민** 누구나",
+    "한국석유관리원은 …개최하오니"
+   ],
+   "latency_s": 7.79,
+   "tokens": [
+    919,
+    1584
+   ],
+   "has_original": false
+  },
+  "T06": {
+   "quotes": 9,
+   "quotes_ok": 8,
+   "bad_quotes": [
+    "시상내용 상 훈 상 금 / 금상(1팀) LH 사장상 1,000,000원"
+   ],
+   "latency_s": 12.31,
+   "tokens": [
+    4445,
+    2736
+   ],
+   "has_original": true
+  },
+  "T08": {
+   "quotes": 1,
+   "quotes_ok": 1,
+   "bad_quotes": [],
+   "latency_s": 9.37,
+   "tokens": [
+    438,
+    1981
+   ],
+   "has_original": false
+  },
+  "T10": {
+   "quotes": 16,
+   "quotes_ok": 13,
+   "bad_quotes": [
+    "양평군 관내 소재한 건축물 중 … 사용승인 또는 … 임시사용승인을 받은 건축물",
+    "… 건축사가 설계한 작품",
+    "접수기간 : 2026.11.9.(월)~2026.11.13.(금)(5일간)"
+   ],
+   "latency_s": 12.88,
+   "tokens": [
+    1429,
+    2936
+   ],
+   "has_original": true
+  },
+  "R1": {
+   "quotes": 10,
+   "quotes_ok": 9,
+   "bad_quotes": [
+    "출품자격: 지역, 연령, 직업 등 제한없음"
+   ],
+   "latency_s": 8.94,
+   "tokens": [
+    857,
+    1969
+   ],
+   "has_original": false
+  },
+  "R2": {
+   "quotes": 1,
+   "quotes_ok": 1,
+   "bad_quotes": [],
+   "latency_s": 3.77,
+   "tokens": [
+    202,
+    664
+   ],
+   "has_original": false
+  },
+  "T11": {
+   "quotes": 16,
+   "quotes_ok": 15,
+   "bad_quotes": [
+    "영광군청 청년지원팀(☎***-***-****)"
+   ],
+   "latency_s": 9.47,
+   "tokens": [
+    1647,
+    2278
+   ],
+   "has_original": true
+  },
+  "T12": {
+   "quotes": 22,
+   "quotes_ok": 21,
+   "bad_quotes": [
+    "수료기준 충족 시 수료증 발급"
+   ],
+   "latency_s": 10.89,
+   "tokens": [
+    1324,
+    2800
+   ],
+   "has_original": true
+  },
+  "T13": {
+   "quotes": 9,
+   "quotes_ok": 9,
+   "bad_quotes": [],
+   "latency_s": 7.69,
+   "tokens": [
+    1665,
+    1821
+   ],
+   "has_original": true
+  },
+  "T14": {
+   "quotes": 11,
+   "quotes_ok": 4,
+   "bad_quotes": [
+    "운영대상: 부산시 거주 청년 누구나",
+    "신청기간: 2026-08-03~2026-08-24",
+    "운영기간: 2026-08-11~2026-08-25",
+    "모집정원 10명 / 대기정원 10명",
+    "사하구 청년공간 청신호에서 ... 모집",
+    "대기정원: 10명",
+    "사하구 거주, 만 18~39세, 미취업자"
+   ],
+   "latency_s": 10.37,
+   "tokens": [
+    1261,
+    2212
+   ],
+   "has_original": true
+  },
+  "T15": {
+   "quotes": 16,
+   "quotes_ok": 12,
+   "bad_quotes": [
+    "지원내용: ... 구인·구직 개척단 운영 ...",
+    "취업상담 창구 마련",
+    "고용행정통합포털(고용24)을 통한 구인, 구직 정보 제공",
+    "부산광역시 사하구는 ... 구인, 구직 정보를 제공하고 있습니다"
+   ],
+   "latency_s": 8.32,
+   "tokens": [
+    1239,
+    1852
+   ],
+   "has_original": true
+  }
+ },
+ "quotes_total": 173,
+ "quotes_ok": 139
+}

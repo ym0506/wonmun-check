@@ -1,0 +1,802 @@
+{
+ "tool": {
+  "T01": {
+   "deadline": {
+    "label": "같음",
+    "verdict": "다른 점을 찾지 못함",
+    "outcome": "경고 없음(맞음)"
+   },
+   "eligibility": {
+    "label": "다름",
+    "verdict": "불일치",
+    "outcome": "찾음"
+   }
+  },
+  "T02": {
+   "deadline": {
+    "label": "날짜 다름",
+    "verdict": "다른 점을 찾지 못함",
+    "outcome": "놓침"
+   },
+   "eligibility": {
+    "label": "다름",
+    "verdict": "칸엔 없음·본문엔 있음",
+    "outcome": "찾음"
+   }
+  },
+  "T03": {
+   "deadline": {
+    "label": "같음",
+    "verdict": "다른 점을 찾지 못함",
+    "outcome": "경고 없음(맞음)"
+   },
+   "eligibility": {
+    "label": "같음",
+    "verdict": "다른 점을 찾지 못함",
+    "outcome": "경고 없음(맞음)"
+   }
+  },
+  "T04": {
+   "deadline": {
+    "label": "같음",
+    "verdict": "다른 점을 찾지 못함",
+    "outcome": "경고 없음(맞음)"
+   },
+   "eligibility": {
+    "label": "같음",
+    "verdict": "다른 점을 찾지 못함",
+    "outcome": "경고 없음(맞음)"
+   }
+  },
+  "T05": {
+   "deadline": {
+    "label": "같음",
+    "verdict": "다른 점을 찾지 못함",
+    "outcome": "경고 없음(맞음)"
+   },
+   "eligibility": {
+    "label": "다름",
+    "verdict": "불일치",
+    "outcome": "찾음"
+   }
+  },
+  "T06": {
+   "deadline": {
+    "label": "시각 빠짐",
+    "verdict": "칸엔 없음·본문엔 있음",
+    "outcome": "찾음"
+   },
+   "eligibility": {
+    "label": "다름",
+    "verdict": "불일치",
+    "outcome": "찾음"
+   }
+  },
+  "T08": {
+   "deadline": {
+    "label": "시각 빠짐",
+    "verdict": "칸엔 없음·본문엔 있음",
+    "outcome": "찾음"
+   },
+   "eligibility": {
+    "label": "같음",
+    "verdict": "다른 점을 찾지 못함",
+    "outcome": "경고 없음(맞음)"
+   }
+  },
+  "T10": {
+   "deadline": {
+    "label": "시각 빠짐",
+    "verdict": "칸엔 없음·본문엔 있음",
+    "outcome": "찾음"
+   },
+   "eligibility": {
+    "label": "다름",
+    "verdict": "불일치",
+    "outcome": "찾음"
+   }
+  },
+  "R1": {
+   "deadline": {
+    "label": "시각 빠짐",
+    "verdict": "칸엔 없음·본문엔 있음",
+    "outcome": "찾음"
+   },
+   "eligibility": {
+    "label": "같음",
+    "verdict": "다른 점을 찾지 못함",
+    "outcome": "경고 없음(맞음)"
+   }
+  },
+  "R2": {
+   "deadline": {
+    "label": "시각 빠짐",
+    "verdict": "원문 미입력",
+    "outcome": "원문 미입력"
+   },
+   "eligibility": {
+    "label": "다름",
+    "verdict": "원문 미입력",
+    "outcome": "원문 미입력"
+   }
+  },
+  "T11": {
+   "deadline": {
+    "label": "같음",
+    "verdict": "다른 점을 찾지 못함",
+    "outcome": "경고 없음(맞음)"
+   },
+   "eligibility": {
+    "label": "같음",
+    "verdict": "다른 점을 찾지 못함",
+    "outcome": "경고 없음(맞음)"
+   }
+  },
+  "T12": {
+   "deadline": {
+    "label": "날짜 다름",
+    "verdict": "불일치",
+    "outcome": "찾음"
+   },
+   "eligibility": {
+    "label": "다름",
+    "verdict": "불일치",
+    "outcome": "찾음"
+   }
+  },
+  "T13": {
+   "deadline": {
+    "label": "원문에 마감 없음",
+    "verdict": "확인 필요",
+    "outcome": "확인 필요"
+   },
+   "eligibility": {
+    "label": "같음",
+    "verdict": "불일치",
+    "outcome": "잘못 경고"
+   }
+  },
+  "T14": {
+   "deadline": {
+    "label": "날짜 다름",
+    "verdict": "불일치",
+    "outcome": "찾음"
+   },
+   "eligibility": {
+    "label": "다름",
+    "verdict": "불일치",
+    "outcome": "찾음"
+   }
+  },
+  "T15": {
+   "deadline": {
+    "label": "원문에 마감 없음",
+    "verdict": "확인 필요",
+    "outcome": "확인 필요"
+   },
+   "eligibility": {
+    "label": "원문에 자격 없음",
+    "verdict": "확인 필요",
+    "outcome": "확인 필요"
+   }
+  }
+ },
+ "chat": {
+  "T01": {
+   "deadline": {
+    "label": "같음",
+    "verdict": "차이 없음·언급 없음",
+    "outcome": "경고 없음(맞음)"
+   },
+   "eligibility": {
+    "label": "다름",
+    "verdict": "차이 없음·언급 없음",
+    "outcome": "놓침"
+   }
+  },
+  "T02": {
+   "deadline": {
+    "label": "날짜 다름",
+    "verdict": "차이 없음·언급 없음",
+    "outcome": "놓침"
+   },
+   "eligibility": {
+    "label": "다름",
+    "verdict": "자격 차이 지적",
+    "outcome": "찾음"
+   }
+  },
+  "T03": {
+   "deadline": {
+    "label": "같음",
+    "verdict": "차이 없음·언급 없음",
+    "outcome": "경고 없음(맞음)"
+   },
+   "eligibility": {
+    "label": "같음",
+    "verdict": "차이 없음·언급 없음",
+    "outcome": "경고 없음(맞음)"
+   }
+  },
+  "T04": {
+   "deadline": {
+    "label": "같음",
+    "verdict": "마감 기타 차이 지적",
+    "outcome": "잘못 경고"
+   },
+   "eligibility": {
+    "label": "같음",
+    "verdict": "차이 없음·언급 없음",
+    "outcome": "경고 없음(맞음)"
+   }
+  },
+  "T05": {
+   "deadline": {
+    "label": "같음",
+    "verdict": "차이 없음·언급 없음",
+    "outcome": "경고 없음(맞음)"
+   },
+   "eligibility": {
+    "label": "다름",
+    "verdict": "자격 차이 지적",
+    "outcome": "찾음"
+   }
+  },
+  "T06": {
+   "deadline": {
+    "label": "시각 빠짐",
+    "verdict": "시각 빠짐 지적",
+    "outcome": "찾음"
+   },
+   "eligibility": {
+    "label": "다름",
+    "verdict": "자격 차이 지적",
+    "outcome": "찾음"
+   }
+  },
+  "T08": {
+   "deadline": {
+    "label": "시각 빠짐",
+    "verdict": "시각 빠짐 지적",
+    "outcome": "찾음"
+   },
+   "eligibility": {
+    "label": "같음",
+    "verdict": "차이 없음·언급 없음",
+    "outcome": "경고 없음(맞음)"
+   }
+  },
+  "T10": {
+   "deadline": {
+    "label": "시각 빠짐",
+    "verdict": "차이 없음·언급 없음",
+    "outcome": "놓침"
+   },
+   "eligibility": {
+    "label": "다름",
+    "verdict": "자격 차이 지적",
+    "outcome": "찾음"
+   }
+  },
+  "R1": {
+   "deadline": {
+    "label": "시각 빠짐",
+    "verdict": "시각 빠짐 지적",
+    "outcome": "찾음"
+   },
+   "eligibility": {
+    "label": "같음",
+    "verdict": "차이 없음·언급 없음",
+    "outcome": "경고 없음(맞음)"
+   }
+  },
+  "R2": {
+   "deadline": {
+    "label": "시각 빠짐",
+    "verdict": "원문 없어 비교 못 함",
+    "outcome": "원문 미입력"
+   },
+   "eligibility": {
+    "label": "다름",
+    "verdict": "원문 없어 비교 못 함",
+    "outcome": "원문 미입력"
+   }
+  },
+  "T11": {
+   "deadline": {
+    "label": "같음",
+    "verdict": "차이 없음·언급 없음",
+    "outcome": "경고 없음(맞음)"
+   },
+   "eligibility": {
+    "label": "같음",
+    "verdict": "자격 차이 지적",
+    "outcome": "잘못 경고"
+   }
+  },
+  "T12": {
+   "deadline": {
+    "label": "날짜 다름",
+    "verdict": "날짜 다름 지적",
+    "outcome": "찾음"
+   },
+   "eligibility": {
+    "label": "다름",
+    "verdict": "자격 차이 지적",
+    "outcome": "찾음"
+   }
+  },
+  "T13": {
+   "deadline": {
+    "label": "원문에 마감 없음",
+    "verdict": "날짜 다름 지적",
+    "outcome": "잘못 경고"
+   },
+   "eligibility": {
+    "label": "같음",
+    "verdict": "자격 차이 지적",
+    "outcome": "잘못 경고"
+   }
+  },
+  "T14": {
+   "deadline": {
+    "label": "날짜 다름",
+    "verdict": "날짜 다름 지적",
+    "outcome": "찾음"
+   },
+   "eligibility": {
+    "label": "다름",
+    "verdict": "자격 차이 지적",
+    "outcome": "찾음"
+   }
+  },
+  "T15": {
+   "deadline": {
+    "label": "원문에 마감 없음",
+    "verdict": "원문에 마감 없다고 함",
+    "outcome": "확인 필요"
+   },
+   "eligibility": {
+    "label": "원문에 자격 없음",
+    "verdict": "자격 차이 지적",
+    "outcome": "잘못 경고"
+   }
+  }
+ },
+ "regex": {
+  "T01": {
+   "deadline": {
+    "label": "같음",
+    "verdict": "확인 필요",
+    "outcome": "확인 필요"
+   }
+  },
+  "T02": {
+   "deadline": {
+    "label": "날짜 다름",
+    "verdict": "확인 필요",
+    "outcome": "확인 필요"
+   }
+  },
+  "T03": {
+   "deadline": {
+    "label": "같음",
+    "verdict": "확인 필요",
+    "outcome": "확인 필요"
+   }
+  },
+  "T04": {
+   "deadline": {
+    "label": "같음",
+    "verdict": "확인 필요",
+    "outcome": "확인 필요"
+   }
+  },
+  "T05": {
+   "deadline": {
+    "label": "같음",
+    "verdict": "확인 필요",
+    "outcome": "확인 필요"
+   }
+  },
+  "T06": {
+   "deadline": {
+    "label": "시각 빠짐",
+    "verdict": "확인 필요",
+    "outcome": "확인 필요"
+   }
+  },
+  "T08": {
+   "deadline": {
+    "label": "시각 빠짐",
+    "verdict": "확인 필요",
+    "outcome": "확인 필요"
+   }
+  },
+  "T10": {
+   "deadline": {
+    "label": "시각 빠짐",
+    "verdict": "다른 점을 찾지 못함",
+    "outcome": "놓침"
+   }
+  },
+  "R1": {
+   "deadline": {
+    "label": "시각 빠짐",
+    "verdict": "확인 필요",
+    "outcome": "확인 필요"
+   }
+  },
+  "R2": {
+   "deadline": {
+    "label": "시각 빠짐",
+    "verdict": "확인 필요",
+    "outcome": "확인 필요"
+   }
+  },
+  "T11": {
+   "deadline": {
+    "label": "같음",
+    "verdict": "확인 필요",
+    "outcome": "확인 필요"
+   }
+  },
+  "T12": {
+   "deadline": {
+    "label": "날짜 다름",
+    "verdict": "확인 필요",
+    "outcome": "확인 필요"
+   }
+  },
+  "T13": {
+   "deadline": {
+    "label": "원문에 마감 없음",
+    "verdict": "불일치",
+    "outcome": "잘못 경고"
+   }
+  },
+  "T14": {
+   "deadline": {
+    "label": "날짜 다름",
+    "verdict": "확인 필요",
+    "outcome": "확인 필요"
+   }
+  },
+  "T15": {
+   "deadline": {
+    "label": "원문에 마감 없음",
+    "verdict": "확인 필요",
+    "outcome": "확인 필요"
+   }
+  }
+ },
+ "summary": {
+  "tool": {
+   "dl_date": [
+    2,
+    3
+   ],
+   "dl_time": [
+    4,
+    5
+   ],
+   "el_diff": [
+    7,
+    8
+   ],
+   "fa_dl": [
+    0,
+    7
+   ],
+   "fa_el": [
+    1,
+    7
+   ],
+   "check": 3,
+   "no_orig": 2,
+   "red_other": 0,
+   "fail": 0,
+   "cells": 30,
+   "fa_list": [
+    "T13 자격(같음 → 불일치)"
+   ],
+   "missed_list": [
+    "T02 마감(날짜 다름 → 다른 점을 찾지 못함)",
+    "R2 마감(시각 빠짐 → 원문 미입력)",
+    "R2 자격(다름 → 원문 미입력)"
+   ],
+   "check_list": [
+    "T13 마감",
+    "T15 마감",
+    "T15 자격"
+   ]
+  },
+  "tool_excl_low": {
+   "dl_date": [
+    1,
+    2
+   ],
+   "dl_time": [
+    4,
+    5
+   ],
+   "el_diff": [
+    7,
+    8
+   ],
+   "fa_dl": [
+    0,
+    7
+   ],
+   "fa_el": [
+    1,
+    6
+   ],
+   "check": 3,
+   "no_orig": 2,
+   "red_other": 0,
+   "fail": 0,
+   "cells": 28,
+   "fa_list": [
+    "T13 자격(같음 → 불일치)"
+   ],
+   "missed_list": [
+    "T02 마감(날짜 다름 → 다른 점을 찾지 못함)",
+    "R2 마감(시각 빠짐 → 원문 미입력)",
+    "R2 자격(다름 → 원문 미입력)"
+   ],
+   "check_list": [
+    "T13 마감",
+    "T15 마감",
+    "T15 자격"
+   ]
+  },
+  "chat": {
+   "dl_date": [
+    2,
+    3
+   ],
+   "dl_time": [
+    3,
+    5
+   ],
+   "el_diff": [
+    6,
+    8
+   ],
+   "fa_dl": [
+    2,
+    7
+   ],
+   "fa_el": [
+    3,
+    7
+   ],
+   "check": 1,
+   "no_orig": 2,
+   "red_other": 0,
+   "fail": 0,
+   "cells": 30,
+   "fa_list": [
+    "T04 마감(같음 → 마감 기타 차이 지적)",
+    "T11 자격(같음 → 자격 차이 지적)",
+    "T13 마감(원문에 마감 없음 → 날짜 다름 지적)",
+    "T13 자격(같음 → 자격 차이 지적)",
+    "T15 자격(원문에 자격 없음 → 자격 차이 지적)"
+   ],
+   "missed_list": [
+    "T01 자격(다름 → 차이 없음·언급 없음)",
+    "T02 마감(날짜 다름 → 차이 없음·언급 없음)",
+    "T10 마감(시각 빠짐 → 차이 없음·언급 없음)",
+    "R2 마감(시각 빠짐 → 원문 없어 비교 못 함)",
+    "R2 자격(다름 → 원문 없어 비교 못 함)"
+   ],
+   "check_list": [
+    "T15 마감"
+   ]
+  },
+  "chat_excl_low": {
+   "dl_date": [
+    1,
+    2
+   ],
+   "dl_time": [
+    3,
+    5
+   ],
+   "el_diff": [
+    6,
+    8
+   ],
+   "fa_dl": [
+    2,
+    7
+   ],
+   "fa_el": [
+    2,
+    6
+   ],
+   "check": 1,
+   "no_orig": 2,
+   "red_other": 0,
+   "fail": 0,
+   "cells": 28,
+   "fa_list": [
+    "T04 마감(같음 → 마감 기타 차이 지적)",
+    "T13 마감(원문에 마감 없음 → 날짜 다름 지적)",
+    "T13 자격(같음 → 자격 차이 지적)",
+    "T15 자격(원문에 자격 없음 → 자격 차이 지적)"
+   ],
+   "missed_list": [
+    "T01 자격(다름 → 차이 없음·언급 없음)",
+    "T02 마감(날짜 다름 → 차이 없음·언급 없음)",
+    "T10 마감(시각 빠짐 → 차이 없음·언급 없음)",
+    "R2 마감(시각 빠짐 → 원문 없어 비교 못 함)",
+    "R2 자격(다름 → 원문 없어 비교 못 함)"
+   ],
+   "check_list": [
+    "T15 마감"
+   ]
+  },
+  "regex": {
+   "dl_date": [
+    0,
+    3
+   ],
+   "dl_time": [
+    0,
+    5
+   ],
+   "el_diff": [
+    0,
+    0
+   ],
+   "fa_dl": [
+    1,
+    7
+   ],
+   "fa_el": [
+    0,
+    0
+   ],
+   "check": 13,
+   "no_orig": 0,
+   "red_other": 0,
+   "fail": 0,
+   "cells": 15,
+   "fa_list": [
+    "T13 마감(원문에 마감 없음 → 불일치)"
+   ],
+   "missed_list": [
+    "T02 마감(날짜 다름 → 확인 필요)",
+    "T06 마감(시각 빠짐 → 확인 필요)",
+    "T08 마감(시각 빠짐 → 확인 필요)",
+    "T10 마감(시각 빠짐 → 다른 점을 찾지 못함)",
+    "R1 마감(시각 빠짐 → 확인 필요)",
+    "R2 마감(시각 빠짐 → 확인 필요)",
+    "T12 마감(날짜 다름 → 확인 필요)",
+    "T14 마감(날짜 다름 → 확인 필요)"
+   ],
+   "check_list": [
+    "T01 마감",
+    "T02 마감",
+    "T03 마감",
+    "T04 마감",
+    "T05 마감",
+    "T06 마감",
+    "T08 마감",
+    "R1 마감",
+    "R2 마감",
+    "T11 마감",
+    "T12 마감",
+    "T14 마감",
+    "T15 마감"
+   ]
+  },
+  "regex_excl_low": {
+   "dl_date": [
+    0,
+    2
+   ],
+   "dl_time": [
+    0,
+    5
+   ],
+   "el_diff": [
+    0,
+    0
+   ],
+   "fa_dl": [
+    1,
+    7
+   ],
+   "fa_el": [
+    0,
+    0
+   ],
+   "check": 12,
+   "no_orig": 0,
+   "red_other": 0,
+   "fail": 0,
+   "cells": 14,
+   "fa_list": [
+    "T13 마감(원문에 마감 없음 → 불일치)"
+   ],
+   "missed_list": [
+    "T02 마감(날짜 다름 → 확인 필요)",
+    "T06 마감(시각 빠짐 → 확인 필요)",
+    "T08 마감(시각 빠짐 → 확인 필요)",
+    "T10 마감(시각 빠짐 → 다른 점을 찾지 못함)",
+    "R1 마감(시각 빠짐 → 확인 필요)",
+    "R2 마감(시각 빠짐 → 확인 필요)",
+    "T12 마감(날짜 다름 → 확인 필요)"
+   ],
+   "check_list": [
+    "T01 마감",
+    "T02 마감",
+    "T03 마감",
+    "T04 마감",
+    "T05 마감",
+    "T06 마감",
+    "T08 마감",
+    "R1 마감",
+    "R2 마감",
+    "T11 마감",
+    "T12 마감",
+    "T15 마감"
+   ]
+  }
+ },
+ "repeat": {
+  "all7": [
+   34,
+   35
+  ],
+  "key2": [
+   10,
+   10
+  ],
+  "value7": [
+   19,
+   35
+  ],
+  "diffs": [
+   [
+    "T06",
+    "시상",
+    [
+     "불일치",
+     "불일치",
+     "다른 점을 찾지 못함"
+    ]
+   ]
+  ],
+  "dl_norm_same": [
+   5,
+   5
+  ],
+  "dl_diffs": []
+ },
+ "ledger": {
+  "calls": 40,
+  "by_purpose": {
+   "extract": {
+    "calls": 25,
+    "tok_in": 137188,
+    "tok_out": 136976,
+    "cost": 0.0822068,
+    "latency_mean": 19.2292
+   },
+   "baseline_chat": {
+    "calls": 15,
+    "tok_in": 29097,
+    "tok_out": 35342,
+    "cost": 0.0205807,
+    "latency_mean": 10.482666666666667
+   }
+  },
+  "tok_in": 166285,
+  "tok_out": 172318,
+  "cost": 0.1027875
+ }
+}
