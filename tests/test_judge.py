@@ -188,6 +188,17 @@ def test_ai_age_without_evidence_is_dropped():
     assert r["verdict"] == NO_DIFF
 
 
+def test_age_range_without_first_unit_is_read():
+    # 시험용 T13: '19~39세'의 19를 못 읽어 잘못 경고하던 결함
+    r = run_elig(
+        top=("연령: 만 19세~만 39세", el(True, ["연령: 만 19세~만 39세"], age_min=19, age_max=39, groups=["청년"])),
+        orig=("[모집 대상] 대구 19~39세 청년", el(True, ["[모집 대상] 대구 19~39세 청년"], age_min=19, age_max=39,
+                                                groups=["청년"])),
+    )
+    assert r["values"]["original"]["norm"]["age_min"] == 19
+    assert r["verdict"] == NO_DIFF
+
+
 # ---------------------------------------------------------------- 시상·있음/없음 항목
 
 def pz(found, quotes, total=0, kind="알 수 없음"):
@@ -281,3 +292,12 @@ def test_stage1_contradiction_wins_over_no_diff_with_original():
     assert r["stage2"]["verdict"] == NO_DIFF
     assert r["verdict"] == DIFF
     assert "같은 페이지" in r["reason"]
+
+
+def test_youth_label_without_age_in_summary_is_still_missing():
+    # 나이 조건이 요약에 없으면 원문의 '청년'은 여전히 빠진 조건이다
+    r = run_elig(
+        top=("거주지역: 대구광역시", el(True, ["거주지역: 대구광역시"], region="대구광역시")),
+        orig=("대구 거주 청년", el(True, ["대구 거주 청년"], groups=["청년"], region="대구")),
+    )
+    assert r["verdict"] == DIFF

@@ -144,3 +144,16 @@ def test_read_deadline_model_time_only_if_written():
 def test_read_deadline_without_model_date_takes_latest_end():
     r = read_deadline(["접수기간: 2026.08.11 ~ 2026.11.25"], "", "", 2026)
     assert r.date == date(2026, 11, 25)
+
+
+def test_same_day_time_range_takes_end_time():
+    # 시험용 R1: 시작 시각 10:00을 마감으로 읽던 결함
+    m = one("접수: 12. 02(수) 10:00~17:30 (방문 접수)")
+    assert m.end.date == date(2026, 12, 2)
+    assert m.end.time == "17:30"
+
+
+def test_date_range_with_times_keeps_both_ends():
+    m = one("4. 접수기간: 2026. 11. 9.(월) 10:00 ~ 11. 13.(금) 16:00")
+    assert m.start.time == "10:00"
+    assert m.end.date == date(2026, 11, 13) and m.end.time == "16:00"

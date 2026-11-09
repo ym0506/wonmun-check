@@ -39,6 +39,7 @@ _STANDALONE_TIME = re.compile(
     r"(?:(?P<ampm>오전|오후|낮|밤|저녁|새벽)\s*)?(?<![\d:])(?P<h>\d{1,2})\s*(?::\s*(?P<mi>\d{2})(?::\d{2})?|시(?:\s*(?P<mi2>\d{1,2})\s*분)?)(?![\d])"
     r"|(?P<mid>자정)|(?P<noon>정오)"
 )
+_TIME_RANGE_SEP = re.compile(r"\s*[~∼～〜\-–—]\s*")
 _RANGE_SEP = re.compile(r"^\s*(?:부터|에서)?\s*[~∼～〜\-–—]\s*$|^\s*부터\s*$")
 _OPEN_START = re.compile(r"[~∼～〜]\s*$")
 _UNIT_AFTER = re.compile(
@@ -96,7 +97,15 @@ def _time_after(text: str, pos: int) -> tuple[str | None, int]:
     if re.match(r"\s*간", text[m.end():m.end() + 2]):
         return None, pos
     t = _norm_time(m.group("ampm"), h, mi)
-    return (t, m.end()) if t else (None, pos)
+    if not t:
+        return None, pos
+    # 같은 날 시간 범위('10:00~17:30')면 끝 시각이 그날의 마감이다. 뒤가 날짜면 건드리지 않는다.
+    rng = _TIME_RANGE_SEP.match(text, m.end())
+    if rng:
+        t2, end2 = _time_after(text, rng.end())
+        if t2:
+            return t2, end2
+    return t, m.end()
 
 
 def guess_ref_year(text: str, default: int | None = None) -> int:

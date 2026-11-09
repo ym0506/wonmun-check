@@ -81,6 +81,7 @@ _GROUP_EVIDENCE = {
     "기관·단체": r"기관|단체|협회", "외국인": r"외국",
 }
 _COVERS_ALL = {"누구나", "일반인"}
+_AGE_LABELS = {"청년"}
 _ORG_TAGS = {"기업·법인", "기관·단체"}
 # '전국'·'제한 없음' 같은 지역 값은 조건이 아니다(11/4 r1 결과를 본 뒤 추가).
 _NO_REGION = re.compile(r"^(전국|전\s*지역|제한\s*없음|제한없음|무관|없음|국내)$")
@@ -100,6 +101,17 @@ def _covered(groups: set[str], tag: str) -> bool:
     return any(tag in _COVER.get(g, set()) for g in groups)
 
 
+_AGE_RANGE = re.compile(r"(?<![\d.])(\d{1,2})\s*세?\s*(?:[~∼～〜\-–—]|부터)\s*(?:만\s*)?(\d{1,2})\s*세")
+
+
+def _age_numbers(text: str) -> set[int]:
+    """근거 글에 적힌 나이 숫자. '19~39세'처럼 앞 숫자에 '세'가 없는 범위도 읽는다."""
+    nums = {int(n) for n in re.findall(r"(\d{1,2})\s*세", text)}
+    for a, b in _AGE_RANGE.findall(text):
+        nums |= {int(a), int(b)}
+    return nums
+
+
 def _elig_norm(ai: dict, text: str) -> tuple[dict, list[str]]:
     dropped = []
     open_all = bool(ai.get("open_to_all")) and bool(_OPEN_RE.search(text))
@@ -114,7 +126,7 @@ def _elig_norm(ai: dict, text: str) -> tuple[dict, list[str]]:
             groups.add(g)
         else:
             dropped.append(f"신분 '{g}'")
-    nums = {int(n) for n in re.findall(r"(\d{1,2})\s*세", text)}
+    nums = _age_numbers(text)
     age_min = ai.get("age_min", -1)
     age_max = ai.get("age_max", -1)
     if age_min not in (-1, None) and age_min not in nums:
@@ -369,7 +381,10 @@ def compare_eligibility(a: SourceValue, b: SourceValue, a_name: str, b_name: str
         missing.append(("region", "지역"))
     if B["nationality"] and not A["nationality"] and not A["open"]:
         missing.append(("nationality", "국적"))
-    if B["groups"] and not B["covers_all"] and not A["groups"] and not A["open"]:
+    # '청년'은 나이로 정해지는 말이라, 나이 조건이 이미 있으면 따로 빠진 조건으로 세지 않는다
+    # (시험용 T13: 요약 '만 19세~만 39세' vs 원문 '19~39세 청년'을 잘못 경고했음)
+    b_groups = B["groups"] - (_AGE_LABELS if A["age"] else set())
+    if b_groups and not B["covers_all"] and not A["groups"] and not A["open"]:
         missing.append(("groups", "신분·학적"))
     if missing:
         return Finding("missing_dim",
