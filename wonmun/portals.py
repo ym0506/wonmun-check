@@ -78,6 +78,10 @@ def parse_linkareer(html: str, url: str) -> tuple[SourceDoc, SourceDoc, dict]:
         fields.append(("혜택", ", ".join(b for b in benefits if b)))
     if act.get("recruitType") == "ALWAYS":
         fields.append(("접수기간", "상시"))
+    elif act.get("recruitType") == "ASAP":
+        # 화면에는 날짜 대신 '채용 시 마감'이 나온다(내장 데이터의 마감값은 화면에 보이지 않음)
+        fields.append(("접수기간", f"{_fmt_day(start)} ~ 채용 시 마감".strip(" ~")))
+        close = None
     elif close:
         fields.append(("접수기간", f"{_fmt_day(start)} ~ {_fmt_day(close)}".strip(" ~")))
     lines = [f"{k}: {v}" for k, v in fields if v]
@@ -88,6 +92,10 @@ def parse_linkareer(html: str, url: str) -> tuple[SourceDoc, SourceDoc, dict]:
             f"페이지 내장 데이터의 마감값(recruitCloseAt)은 {close.strftime('%Y-%m-%d %H:%M:%S')}입니다. "
             "화면의 접수기간 칸에는 시각이 나오지 않습니다."
         )
+
+    if act.get("activityTypeID") == 5 or act.get("type") == 5:
+        top.notes.append("채용·인턴 공고의 위쪽 칸 중 학력·모집직무·근무지역 칸은 이 PoC가 아직 읽지 않습니다. "
+                         "참가 자격의 '칸엔 없음'은 그 때문일 수 있습니다.")
 
     detail = deref(act.get("detailText")) or {}
     body_html = detail.get("text") or ""

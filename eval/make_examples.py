@@ -20,6 +20,11 @@ EXAMPLES = {
     "Y1": "콘진원 2026 우수인재 연계 기업인턴십 (온통청년 요약 붙여 넣기 ↔ 콘진원 공고)",
 }
 LABEL = "2026-11-04 공고 기준 저장 결과"
+# 공모전이 아닌 공고의 예시(11/10 추가 확인에서 고름, 원문 없이 위쪽 칸 ↔ 본문): 예시 번호 → (링커리어 공고 번호, 제목)
+EXTRA = {
+    "S1": ("363176", "경기도체육대회 시민서포터즈 (링커리어 대외활동, 위쪽 칸 ↔ 같은 페이지 본문)"),
+}
+EXTRA_LABEL = "2026-11-10 공고 기준 저장 결과"
 
 _PHONE = re.compile(r"(?<!\d)0\d{1,2}[-.) ]?\d{3,4}[-. ]?\d{4}(?!\d)")
 _EMAIL = re.compile(r"[\w.+-]+@[\w-]+(?:\.[\w-]+)+")
@@ -48,6 +53,14 @@ def main() -> None:
         text = mask(json.dumps(d, ensure_ascii=False, indent=1))
         (out_dir / f"{cid}.json").write_text(text, encoding="utf-8")
         print(cid, len(text))
+    for ex_id, (act_id, title) in EXTRA.items():
+        d = json.loads((ROOT / "data/runs/extra_types" / f"{act_id}.json").read_text(encoding="utf-8"))
+        d.pop("ai_output", None)
+        d["example"] = {"id": ex_id, "title": title, "label": EXTRA_LABEL, "run": "extra_types",
+                        "summary_url": f"https://linkareer.com/activity/{act_id}", "original_url": ""}
+        text = mask(json.dumps(d, ensure_ascii=False, indent=1))
+        (out_dir / f"{ex_id}.json").write_text(text, encoding="utf-8")
+        print(ex_id, len(text))
 
 
 if __name__ == "__main__":

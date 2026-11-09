@@ -42,6 +42,9 @@ _STANDALONE_TIME = re.compile(
 _TIME_RANGE_SEP = re.compile(r"\s*[~∼～〜\-–—]\s*")
 _RANGE_SEP = re.compile(r"^\s*(?:부터|에서)?\s*[~∼～〜\-–—]\s*$|^\s*부터\s*$")
 _OPEN_START = re.compile(r"[~∼～〜]\s*$")
+# 날짜 뒤에 물결표가 오고 그 뒤가 날짜가 아닐 때(하이픈은 항목 구분에도 쓰여서 물결표만 본다)
+_DAY_ONLY_END = re.compile(r"\s*(?:부터)?\s*[~∼～〜]\s*(\d{1,2})\s*일")
+_TEXT_END = re.compile(r"\s*(?:부터)?\s*[~∼～〜]\s*(?=[가-힣A-Za-z(\[])")
 _UNIT_AFTER = re.compile(
     r"^\s*(?:%|퍼센트|배|점|만|천|억|원|초|분|시간|MB|GB|KB|mm|cm|kg|km|m\b|명|개|회|차|인|편|매|쪽|페이지|p\b|px|위|등|년|세)"
 )
@@ -70,6 +73,8 @@ class DateMention:
     end: DatePoint
     is_range: bool
     raw: str
+    # '11월 9일 ~ 채용 시 마감'처럼 끝이 날짜로 적히지 않은 기간. end에는 시작일이 들어 있고, 마감으로 쓰면 안 된다.
+    open_end: bool = False
 
 
 def _norm_time(ampm: str | None, h: int, mi: int) -> str | None:
@@ -181,6 +186,27 @@ def parse_dates(text: str, ref_year: int | None = None) -> list[DateMention]:
             mentions.append(DateMention(start=a, end=b, is_range=True, raw=text[a.start:b.end]))
             i += 2
             continue
+        tail = text[a.end:a.end + 24]
+        m_day = _DAY_ONLY_END.match(tail)
+        if m_day and 1 <= int(m_day.group(1)) <= 31:
+            # '11월 2일 ~ 20일': 끝에 일만 적힌 기간은 같은 달로 읽는다
+            try:
+                bd = date(a.date.year, a.date.month, int(m_day.group(1)))
+            except ValueError:
+                bd = None
+            if bd and bd >= a.date:
+                bend = a.end + m_day.end()
+                t, tend = _time_after(text, bend)
+                b = DatePoint(bd, t, a.year_given, text[a.end:tend if t else bend].strip(" ~∼～〜부터"),
+                              a.end, tend if t else bend)
+                mentions.append(DateMention(start=a, end=b, is_range=True, raw=text[a.start:b.end]))
+                i += 1
+                continue
+        if _TEXT_END.match(tail):
+            mentions.append(DateMention(start=a, end=a, is_range=True, raw=text[a.start:a.end + 12].strip(),
+                                        open_end=True))
+            i += 1
+            continue
         before = text[max(0, a.start - 3):a.start]
         is_open = bool(_OPEN_START.search(before))
         raw_start = a.start - (len(before) - len(before.rstrip())) - 1 if is_open else a.start
@@ -195,7 +221,8 @@ def all_points(text: str, ref_year: int | None = None) -> list[DatePoint]:
     for m in parse_dates(text, ref_year):
         if m.start:
             pts.append(m.start)
-        pts.append(m.end)
+        if not m.open_end:
+            pts.append(m.end)
     return pts
 
 
@@ -259,11 +286,18 @@ def read_deadline(quotes: list[str], model_date: str, model_time: str,
     for q in quotes:
         mentions += parse_dates(q, ref_year)
     points = []
+    open_starts = []
     for m in mentions:
+        if m.open_end:
+            open_starts.append(m)
+            continue
         if m.start:
             points.append((m.start, False))
         points.append((m.end, True))
     if not points:
+        if open_starts:
+            return DeadlineRead(None, None, open_starts[0].raw, False,
+                                "시작일만 날짜로 적혀 있고 끝은 날짜가 아님(채용 시 마감, 선착순 등)")
         return DeadlineRead(None, None, "", False, "인용 문장에서 날짜를 읽지 못함")
     md = parse_iso(model_date)
     chosen = None
@@ -271,6 +305,9 @@ def read_deadline(quotes: list[str], model_date: str, model_time: str,
         cands = [(p, is_end) for p, is_end in points
                  if (p.date == md) or (not p.year_given and (p.date.month, p.date.day) == (md.month, md.day))]
         if not cands:
+            if any(m.end.date == md or (m.end.date.month, m.end.date.day) == (md.month, md.day) for m in open_starts):
+                return DeadlineRead(None, None, open_starts[0].raw, False,
+                                    "AI가 고른 날짜는 기간의 시작일이고 끝은 날짜가 아님(채용 시 마감, 선착순 등)")
             return DeadlineRead(None, None, "", False,
                                 f"AI가 고른 날짜 {md.isoformat()}가 인용 문장에 없음")
         cands.sort(key=lambda x: (not x[1], x[0].time is None))  # 끝 날짜, 시각 있는 것 우선
@@ -278,6 +315,8 @@ def read_deadline(quotes: list[str], model_date: str, model_time: str,
         d = md if chosen.year_given is False and chosen.date != md else chosen.date
     else:
         ends = [p for p, is_end in points if is_end]
+        if not ends:
+            return DeadlineRead(None, None, "", False, "인용 문장에 끝 날짜가 없음")
         chosen = max(ends, key=lambda p: (p.date, p.time or ""))
         d = chosen.date
     t = chosen.time

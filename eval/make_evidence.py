@@ -103,6 +103,34 @@ def test_0911() -> str:
             f'<tbody>{"".join(trs)}</tbody></table>')
 
 
+EXTRA = ROOT / "eval/results_extra/extra_types.json"
+REVIEW = ROOT / "eval/results_extra/review_2026-11-10.json"
+REVIEW_CLASS = {"맞음": "hit", "애매": "chk", "도구 잘못(고침)": "fa", "세지 않음": "chk"}
+
+
+def extra_table() -> str:
+    cases = json.loads(EXTRA.read_text(encoding="utf-8"))["cases"]
+    review = {(c["id"], c["item"]): c for c in json.loads(REVIEW.read_text(encoding="utf-8"))["cells"]}
+
+    def cell_x(r: dict, item: str) -> str:
+        it = r["items"][item]
+        rv = review.get((r["id"], item))
+        if not rv:
+            return f'<td class="muted">{escape(it["verdict"])}</td>'
+        return (f'<td class="oc {REVIEW_CLASS.get(rv["review"], "")}">{escape(it["verdict"])}'
+                f'<div class="tag">{escape(rv["review"])}</div><div class="muted">{escape(rv["note"])}</div></td>')
+
+    trs = []
+    for r in cases:
+        if "error" in r:
+            continue
+        trs.append(f'<tr><td>{escape(r["kind"])}</td><td>{link(r["url"], r["title"])}<div class="muted">{escape(r["org"])}</div></td>'
+                   f'<td>{escape(r["top_fields"].get("참여대상", "(칸 없음)"))}<div class="muted">{escape(r["top_fields"].get("접수기간", ""))}</div></td>'
+                   f'{cell_x(r, "deadline")}{cell_x(r, "eligibility")}</tr>')
+    return ('<table class="wide"><thead><tr><th>종류</th><th>공고</th><th>위쪽 칸(참여대상, 접수기간)</th>'
+            f'<th>마감</th><th>자격</th></tr></thead><tbody>{"".join(trs)}</tbody></table>')
+
+
 SHOTS = [
     ("1104_kisti_portal.jpg", "11/4 링커리어 KISTI 경진대회: D-21, 접수기간 칸 2026.08.11 ~ 2026.11.25"),
     ("1104_calendar_1125.jpg", "11/4 링커리어 공고 달력: 이 대회가 11월 25일 마감으로 올라 있음"),
@@ -110,6 +138,7 @@ SHOTS = [
     ("1104_miryang_portal.jpg", "11/4 링커리어 밀양 쇼츠 공모전: 접수기간 칸 ~ 2026.11.15 (원문 공지는 11.7 마감)"),
     ("1104_dgist_youthcenter.jpg", "11/4 온통청년 DGIST 사업: 사업 신청기간 2026년 11월 1일 ~ 11월 30일"),
     ("1104_dgist_original.jpg", "11/4 DGIST 원문: 2027학년도 봄학기 3차 원서접수 '26.11.5 ~ 11.19"),
+    ("1110_s1_portal.jpg", "11/10 링커리어 대외활동 공고: 위쪽 칸은 참여대상 '대상 제한 없음', 접수기간에 시각 없음. 포스터에는 '18:00까지'. 본문의 모집대상은 오산시 거주자 등"),
     ("1109_l12_poster.jpg", "L12 주최 원문(한국음악협회 페이지의 포스터, 11/9 확인): 참가 자격 '외국 국적의 클래식 전공자'. 포털 칸은 '대상 제한 없음'"),
 ]
 
@@ -183,8 +212,16 @@ def main() -> None:
 <div class="scroll">{test_0911()}</div>
 <p class="muted">칸 아래 작은 글씨: 찾음·놓침(정답이 '다름'인 칸), 경고 없음(맞음)·잘못 경고(정답이 '같음'인 칸), 확인 필요(판정을 미룸). '같은 AI 1회'의 판정은 Claude가 답을 읽고 매겼다.</p>
 
-<h2>5. 생성형 AI 활용</h2>
-<p>Claude(Anthropic, Claude Code): 주제와 경쟁 서비스·통계 조사, 11/4 표본 1차 판정과 원문과 다른 7건 재확인, 시험용 표본 선정과 온통청년 요약 칸 옮겨 적기, 정답 작성(PoC 결과를 보기 전, 원문만 보고), 시험 실행·채점과 비교군 답 판정, PoC 코드, 이 근거 자료 페이지, 화면 캡처와 시연 영상, 기획안 문장 작성과 모의 심사. Claude Haiku 5.5(PoC 안): 근거 문장 찾기, 마감 날짜와 자격 조건 고르기, 항목별 짧은 요약('AI 요약'으로 표시). 날짜·시각·금액 읽기와 판정은 코드가 한다. 참가자: 주제 선택, 진행 범위 결정, 제출 판단.</p>
+<h2>5. 11월 10일 다른 종류 공고 추가 확인 (대외활동 10건, 인턴 10건)</h2>
+<p>공모전과 청년정책 말고 다른 공고에도 같은 문제가 있는지 봤다. 링커리어 대외활동 목록 1쪽(모집 중, 최신 등록순)과 인턴 목록 1쪽(최신순)에서 광고 칸을 빼고 위에서부터 10건씩, 원문 없이 같은 페이지의 위쪽 칸과 본문만 대조했다. 정답표 없이 돌렸기 때문에 '찾은 비율'은 말할 수 없다. 도구가 빨갛게 표시한 마감·자격 칸을 Claude가 근거 문장을 읽고 판단했고, 그 판단을 칸 아래에 적었다.</p>
+<ul class="nums">
+<li>대외활동 10건 중 8건: 위쪽 칸에 없는 마감 시각(4건)이나 자격 조건(6건)이 같은 페이지 본문에 있었다. 도구가 표시했지만 애매한 2칸은 세지 않았다.</li>
+<li>인턴 10건: 실제로 다른 곳은 없었다. 도구가 1건을 잘못 경고했다('채용 시 마감' 공고의 시작일을 마감으로 읽음). 그날 고쳤고 단위 시험을 넣었다. 채용 공고 위쪽 칸의 학력·직무 칸은 PoC가 아직 읽지 않아 자격은 세지 않았다.</li>
+</ul>
+<div class="scroll">{extra_table()}</div>
+
+<h2>6. 생성형 AI 활용</h2>
+<p>Claude(Anthropic, Claude Code): 주제와 경쟁 서비스·통계 조사, 11/4 표본 1차 판정과 원문과 다른 7건 재확인, 11/10 추가 확인의 판단, 시험용 표본 선정과 온통청년 요약 칸 옮겨 적기, 정답 작성(PoC 결과를 보기 전, 원문만 보고), 시험 실행·채점과 비교군 답 판정, PoC 코드, 이 근거 자료 페이지, 화면 캡처와 시연 영상, 기획안 문장 작성과 모의 심사. Claude Haiku 5.5(PoC 안): 근거 문장 찾기, 마감 날짜와 자격 조건 고르기, 항목별 짧은 요약('AI 요약'으로 표시). 날짜·시각·금액 읽기와 판정은 코드가 한다. 참가자: 주제 선택, 진행 범위 결정, 제출 판단.</p>
 </main>
 <footer class="wrap foot"><p><a href="/">원문 확인으로 돌아가기</a></p></footer>
 </body>

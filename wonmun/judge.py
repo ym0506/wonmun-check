@@ -283,7 +283,7 @@ def compare_deadline(a: SourceValue, b: SourceValue, a_name: str, b_name: str) -
         return Finding("check", "근거를 확인하지 못한 값이 있어 비교하지 않았습니다.")
     if b.status == "absent":
         if a.status == "absent":
-            return Finding("neither", f"{a_name}·{b_name} 모두 마감이 없습니다.")
+            return Finding("neither", f"{a_name}과 받은 {b_name}에서 마감을 찾지 못했습니다.")
         return Finding("check", f"{b_name}에서 마감 문장을 찾지 못했습니다.")
     if a.status == "absent":
         return Finding("absent", f"{a_name}에 마감이 없습니다.", "date")
@@ -342,7 +342,7 @@ def compare_eligibility(a: SourceValue, b: SourceValue, a_name: str, b_name: str
         return Finding("check", "근거를 확인하지 못한 값이 있어 비교하지 않았습니다.")
     if b.status == "absent":
         if a.status == "absent":
-            return Finding("neither", f"{a_name}·{b_name} 모두 자격 조건이 없습니다.")
+            return Finding("neither", f"{a_name}과 받은 {b_name}에서 자격 조건을 찾지 못했습니다.")
         return Finding("check", f"{b_name}에서 자격 문장을 찾지 못했습니다.")
     if a.status == "absent":
         return Finding("absent", f"{a_name}에 참가 자격이 없습니다.", "all")
@@ -401,7 +401,7 @@ def compare_prize(a: SourceValue, b: SourceValue, a_name: str, b_name: str) -> F
         return Finding("check", "근거를 확인하지 못한 값이 있어 비교하지 않았습니다.")
     if b.status == "absent":
         if a.status == "absent":
-            return Finding("neither", f"{a_name}·{b_name} 모두 시상 내용이 없습니다.")
+            return Finding("neither", f"{a_name}과 받은 {b_name}에서 시상 내용을 찾지 못했습니다.")
         return Finding("check", f"{b_name}에서 시상 문장을 찾지 못했습니다.")
     if a.status == "absent":
         return Finding("absent", f"{a_name}에 시상 내용이 없습니다.", "prize")
@@ -420,7 +420,7 @@ def compare_presence(a: SourceValue, b: SourceValue, a_name: str, b_name: str) -
         return Finding("check", f"{b_name} 근거를 확인하지 못했습니다.")
     if b.status == "absent":
         if a.status in ("absent", "unverified"):
-            return Finding("neither", f"{a_name}·{b_name} 모두 해당 내용이 없습니다.")
+            return Finding("neither", f"{a_name}과 받은 {b_name}에서 해당 내용을 찾지 못했습니다.")
         return Finding("check", f"{a_name}에는 있지만 {b_name}에서 근거를 찾지 못했습니다.")
     if a.status != "found":
         return Finding("absent", f"{b_name}에는 있는데 {a_name}에는 없습니다.", "presence")

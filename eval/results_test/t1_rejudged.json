@@ -290,10 +290,10 @@
     }
    },
    "penalty": {
-    "verdict": "원문에도 없음",
-    "reason": "요약·원문 모두 해당 내용이 없습니다.",
+    "verdict": "받은 글엔 없음",
+    "reason": "요약과 받은 원문에서 해당 내용을 찾지 못했습니다.",
     "stage1": null,
-    "stage2": "원문에도 없음",
+    "stage2": "받은 글엔 없음",
     "values": {
      "top": {
       "status": "absent",
@@ -1105,10 +1105,10 @@
     }
    },
    "team": {
-    "verdict": "원문에도 없음",
-    "reason": "요약·원문 모두 해당 내용이 없습니다.",
+    "verdict": "받은 글엔 없음",
+    "reason": "요약과 받은 원문에서 해당 내용을 찾지 못했습니다.",
     "stage1": null,
-    "stage2": "원문에도 없음",
+    "stage2": "받은 글엔 없음",
     "values": {
      "top": {
       "status": "absent",
@@ -2549,10 +2549,10 @@
     }
    },
    "penalty": {
-    "verdict": "원문에도 없음",
-    "reason": "요약·원문 모두 해당 내용이 없습니다.",
+    "verdict": "받은 글엔 없음",
+    "reason": "요약과 받은 원문에서 해당 내용을 찾지 못했습니다.",
     "stage1": null,
-    "stage2": "원문에도 없음",
+    "stage2": "받은 글엔 없음",
     "values": {
      "top": {
       "status": "absent",
@@ -2584,10 +2584,10 @@
     }
    },
    "ai_copyright": {
-    "verdict": "원문에도 없음",
-    "reason": "요약·원문 모두 해당 내용이 없습니다.",
+    "verdict": "받은 글엔 없음",
+    "reason": "요약과 받은 원문에서 해당 내용을 찾지 못했습니다.",
     "stage1": null,
-    "stage2": "원문에도 없음",
+    "stage2": "받은 글엔 없음",
     "values": {
      "top": {
       "status": "absent",
@@ -3288,10 +3288,10 @@
     }
    },
    "team": {
-    "verdict": "원문에도 없음",
-    "reason": "요약·원문 모두 해당 내용이 없습니다.",
+    "verdict": "받은 글엔 없음",
+    "reason": "요약과 받은 원문에서 해당 내용을 찾지 못했습니다.",
     "stage1": null,
-    "stage2": "원문에도 없음",
+    "stage2": "받은 글엔 없음",
     "values": {
      "top": {
       "status": "absent",
@@ -3388,10 +3388,10 @@
     }
    },
    "penalty": {
-    "verdict": "원문에도 없음",
-    "reason": "요약·원문 모두 해당 내용이 없습니다.",
+    "verdict": "받은 글엔 없음",
+    "reason": "요약과 받은 원문에서 해당 내용을 찾지 못했습니다.",
     "stage1": null,
-    "stage2": "원문에도 없음",
+    "stage2": "받은 글엔 없음",
     "values": {
      "top": {
       "status": "absent",
@@ -3414,10 +3414,10 @@
     }
    },
    "ai_copyright": {
-    "verdict": "원문에도 없음",
-    "reason": "요약·원문 모두 해당 내용이 없습니다.",
+    "verdict": "받은 글엔 없음",
+    "reason": "요약과 받은 원문에서 해당 내용을 찾지 못했습니다.",
     "stage1": null,
-    "stage2": "원문에도 없음",
+    "stage2": "받은 글엔 없음",
     "values": {
      "top": {
       "status": "absent",
@@ -3657,10 +3657,10 @@
     }
    },
    "penalty": {
-    "verdict": "원문에도 없음",
-    "reason": "요약·원문 모두 해당 내용이 없습니다.",
+    "verdict": "받은 글엔 없음",
+    "reason": "요약과 받은 원문에서 해당 내용을 찾지 못했습니다.",
     "stage1": null,
-    "stage2": "원문에도 없음",
+    "stage2": "받은 글엔 없음",
     "values": {
      "top": {
       "status": "absent",
@@ -3683,10 +3683,10 @@
     }
    },
    "ai_copyright": {
-    "verdict": "원문에도 없음",
-    "reason": "요약·원문 모두 해당 내용이 없습니다.",
+    "verdict": "받은 글엔 없음",
+    "reason": "요약과 받은 원문에서 해당 내용을 찾지 못했습니다.",
     "stage1": null,
-    "stage2": "원문에도 없음",
+    "stage2": "받은 글엔 없음",
     "values": {
      "top": {
       "status": "absent",
@@ -3829,10 +3829,10 @@
     }
    },
    "team": {
-    "verdict": "원문에도 없음",
-    "reason": "요약·원문 모두 해당 내용이 없습니다.",
+    "verdict": "받은 글엔 없음",
+    "reason": "요약과 받은 원문에서 해당 내용을 찾지 못했습니다.",
     "stage1": null,
-    "stage2": "원문에도 없음",
+    "stage2": "받은 글엔 없음",
     "values": {
      "top": {
       "status": "absent",
@@ -3855,10 +3855,10 @@
     }
    },
    "prize": {
-    "verdict": "원문에도 없음",
-    "reason": "요약 칸·원문 모두 시상 내용이 없습니다.",
+    "verdict": "받은 글엔 없음",
+    "reason": "요약 칸과 받은 원문에서 시상 내용을 찾지 못했습니다.",
     "stage1": null,
-    "stage2": "원문에도 없음",
+    "stage2": "받은 글엔 없음",
     "values": {
      "top": {
       "status": "absent",
@@ -3881,10 +3881,10 @@
     }
    },
    "submission": {
-    "verdict": "원문에도 없음",
-    "reason": "요약·원문 모두 해당 내용이 없습니다.",
+    "verdict": "받은 글엔 없음",
+    "reason": "요약과 받은 원문에서 해당 내용을 찾지 못했습니다.",
     "stage1": null,
-    "stage2": "원문에도 없음",
+    "stage2": "받은 글엔 없음",
     "values": {
      "top": {
       "status": "absent",
@@ -3935,10 +3935,10 @@
     }
    },
    "ai_copyright": {
-    "verdict": "원문에도 없음",
-    "reason": "요약·원문 모두 해당 내용이 없습니다.",
+    "verdict": "받은 글엔 없음",
+    "reason": "요약과 받은 원문에서 해당 내용을 찾지 못했습니다.",
     "stage1": null,
-    "stage2": "원문에도 없음",
+    "stage2": "받은 글엔 없음",
     "values": {
      "top": {
       "status": "absent",
@@ -4117,10 +4117,10 @@
     }
    },
    "prize": {
-    "verdict": "원문에도 없음",
-    "reason": "요약 칸·원문 모두 시상 내용이 없습니다.",
+    "verdict": "받은 글엔 없음",
+    "reason": "요약 칸과 받은 원문에서 시상 내용을 찾지 못했습니다.",
     "stage1": null,
-    "stage2": "원문에도 없음",
+    "stage2": "받은 글엔 없음",
     "values": {
      "top": {
       "status": "absent",
@@ -4143,10 +4143,10 @@
     }
    },
    "submission": {
-    "verdict": "원문에도 없음",
-    "reason": "요약·원문 모두 해당 내용이 없습니다.",
+    "verdict": "받은 글엔 없음",
+    "reason": "요약과 받은 원문에서 해당 내용을 찾지 못했습니다.",
     "stage1": null,
-    "stage2": "원문에도 없음",
+    "stage2": "받은 글엔 없음",
     "values": {
      "top": {
       "status": "absent",
@@ -4169,10 +4169,10 @@
     }
    },
    "penalty": {
-    "verdict": "원문에도 없음",
-    "reason": "요약·원문 모두 해당 내용이 없습니다.",
+    "verdict": "받은 글엔 없음",
+    "reason": "요약과 받은 원문에서 해당 내용을 찾지 못했습니다.",
     "stage1": null,
-    "stage2": "원문에도 없음",
+    "stage2": "받은 글엔 없음",
     "values": {
      "top": {
       "status": "absent",
@@ -4195,10 +4195,10 @@
     }
    },
    "ai_copyright": {
-    "verdict": "원문에도 없음",
-    "reason": "요약·원문 모두 해당 내용이 없습니다.",
+    "verdict": "받은 글엔 없음",
+    "reason": "요약과 받은 원문에서 해당 내용을 찾지 못했습니다.",
     "stage1": null,
-    "stage2": "원문에도 없음",
+    "stage2": "받은 글엔 없음",
     "values": {
      "top": {
       "status": "absent",
@@ -4328,10 +4328,10 @@
     }
    },
    "team": {
-    "verdict": "원문에도 없음",
-    "reason": "요약·원문 모두 해당 내용이 없습니다.",
+    "verdict": "받은 글엔 없음",
+    "reason": "요약과 받은 원문에서 해당 내용을 찾지 못했습니다.",
     "stage1": null,
-    "stage2": "원문에도 없음",
+    "stage2": "받은 글엔 없음",
     "values": {
      "top": {
       "status": "absent",
@@ -4354,10 +4354,10 @@
     }
    },
    "prize": {
-    "verdict": "원문에도 없음",
-    "reason": "요약 칸·원문 모두 시상 내용이 없습니다.",
+    "verdict": "받은 글엔 없음",
+    "reason": "요약 칸과 받은 원문에서 시상 내용을 찾지 못했습니다.",
     "stage1": null,
-    "stage2": "원문에도 없음",
+    "stage2": "받은 글엔 없음",
     "values": {
      "top": {
       "status": "absent",
@@ -4410,10 +4410,10 @@
     }
    },
    "penalty": {
-    "verdict": "원문에도 없음",
-    "reason": "요약·원문 모두 해당 내용이 없습니다.",
+    "verdict": "받은 글엔 없음",
+    "reason": "요약과 받은 원문에서 해당 내용을 찾지 못했습니다.",
     "stage1": null,
-    "stage2": "원문에도 없음",
+    "stage2": "받은 글엔 없음",
     "values": {
      "top": {
       "status": "absent",
@@ -4436,10 +4436,10 @@
     }
    },
    "ai_copyright": {
-    "verdict": "원문에도 없음",
-    "reason": "요약·원문 모두 해당 내용이 없습니다.",
+    "verdict": "받은 글엔 없음",
+    "reason": "요약과 받은 원문에서 해당 내용을 찾지 못했습니다.",
     "stage1": null,
-    "stage2": "원문에도 없음",
+    "stage2": "받은 글엔 없음",
     "values": {
      "top": {
       "status": "absent",

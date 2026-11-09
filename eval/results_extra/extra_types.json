@@ -1,0 +1,4866 @@
+{
+ "today": "2026-11-10",
+ "rule": "- 표본 규칙(돌리기 전에 정함): 링커리어 대외활동 목록 1쪽(모집 중, 최신 등록순)과 채용 목록의 인턴 필터 1쪽(최신순)에서",
+ "cases": [
+  {
+   "id": "363186",
+   "kind": "대외활동",
+   "title": "[알파브라더스] 「2026 충청 스타트업 벤처포럼」 2회차-오픈이노베이션 교류회 참가 안내의 건",
+   "org": "주식회사 알파브라더스",
+   "url": "https://linkareer.com/activity/363186",
+   "fetched_at": "2026-11-09T20:41:11+00:00",
+   "top_fields": {
+    "공고명": "[알파브라더스] 「2026 충청 스타트업 벤처포럼」 2회차-오픈이노베이션 교류회 참가 안내의 건",
+    "주최": "주식회사 알파브라더스",
+    "참여대상": "직장인/일반인",
+    "혜택": "행사 참여",
+    "접수기간": "2026.11.10 ~ 2026.11.17"
+   },
+   "body_chars": 1495,
+   "items": {
+    "deadline": {
+     "verdict": "원문 미입력",
+     "reason": "요약 본문에 해당 내용이 없어 칸만으로는 확인할 수 없습니다. 원문을 넣으면 대조합니다.",
+     "stage1": "확인 필요",
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "found",
+       "value": "2026-11-17(화) 시각 없음",
+       "value_by": "코드",
+       "norm": {
+        "date": "2026-11-17",
+        "time": null,
+        "raw": "2026.11.17",
+        "role_text": "접수기간 끝"
+       },
+       "quotes": [
+        "접수기간: 2026.11.10 ~ 2026.11.17"
+       ],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "eligibility": {
+     "verdict": "불일치",
+     "reason": "대상 범위가 다릅니다. 요약 칸 직장인, 요약 본문 창업자·스타트업 (요약 본문 쪽이 더 좁음). (같은 페이지 칸과 본문 비교)",
+     "stage1": "불일치",
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "found",
+       "value": "일반인, 직장인",
+       "value_by": "코드",
+       "norm": {
+        "open": false,
+        "applicant": "개인",
+        "age_min": -1,
+        "age_max": -1,
+        "groups": [
+         "일반인",
+         "직장인"
+        ],
+        "region": "",
+        "nationality": "언급 없음",
+        "other": []
+       },
+       "quotes": [
+        "참여대상: 직장인/일반인"
+       ],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "found",
+       "value": "신청 주체: 개인과 기업·기관 모두 · 기업·법인, 창업자·스타트업 · 지역: 충청남도 소재 우대 · 기타: 오픈이노베이션에 관심 있을 것; 선착순",
+       "value_by": "코드",
+       "norm": {
+        "open": false,
+        "applicant": "개인과 기업·기관 모두",
+        "age_min": -1,
+        "age_max": -1,
+        "groups": [
+         "기업·법인",
+         "창업자·스타트업"
+        ],
+        "region": "충청남도 소재 우대",
+        "nationality": "언급 없음",
+        "other": [
+         "오픈이노베이션에 관심 있을 것",
+         "선착순"
+        ]
+       },
+       "quotes": [
+        "- 모집대상 : 전국에 있는 오픈이노베이션에 관심있는 기업 및 관계자 (선착순)",
+        "※ 충청남도 소재 기업 및 예비(초기) 창업자 우대"
+       ],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "team": {
+     "verdict": "원문 미입력",
+     "reason": "원문을 넣으면 대조합니다.",
+     "stage1": null,
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "prize": {
+     "verdict": "원문 미입력",
+     "reason": "요약 본문에 해당 내용이 없어 칸만으로는 확인할 수 없습니다. 원문을 넣으면 대조합니다.",
+     "stage1": "확인 필요",
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "found",
+       "value": "행사 참여가 혜택으로 적힘",
+       "value_by": "AI 요약",
+       "norm": {
+        "total": 0,
+        "total_how": "",
+        "verified_total": false,
+        "kind": "알 수 없음",
+        "amounts": []
+       },
+       "quotes": [
+        "혜택: 행사 참여"
+       ],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "submission": {
+     "verdict": "원문 미입력",
+     "reason": "원문을 넣으면 대조합니다.",
+     "stage1": null,
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "penalty": {
+     "verdict": "원문 미입력",
+     "reason": "원문을 넣으면 대조합니다.",
+     "stage1": null,
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "ai_copyright": {
+     "verdict": "원문 미입력",
+     "reason": "원문을 넣으면 대조합니다.",
+     "stage1": null,
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    }
+   },
+   "elapsed_s": 7.41,
+   "usage": {
+    "purpose": "extract",
+    "case": "extra-363186",
+    "model": "claude-haiku-5-5",
+    "input_tokens": 5106,
+    "output_tokens": 2318,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "latency_s": 7.41,
+    "stop_reason": "end_turn",
+    "ok": true,
+    "ts": "2026-11-09T20:41:18+00:00",
+    "cost_usd": 0.00167
+   }
+  },
+  {
+   "id": "363176",
+   "kind": "대외활동",
+   "title": "2027년 경기도(장애인)체육대회 시민서포터즈 모집",
+   "org": "경기도",
+   "url": "https://linkareer.com/activity/363176",
+   "fetched_at": "2026-11-09T20:41:11+00:00",
+   "top_fields": {
+    "공고명": "2027년 경기도(장애인)체육대회 시민서포터즈 모집",
+    "주최": "경기도",
+    "참여대상": "대상 제한 없음",
+    "혜택": "수료증 및 인증서",
+    "접수기간": "2026.11.09 ~ 2026.12.11"
+   },
+   "body_chars": 394,
+   "items": {
+    "deadline": {
+     "verdict": "칸엔 없음·본문엔 있음",
+     "reason": "같은 날이지만 요약 본문은 18:00 마감인데 요약 칸에 시각이 없습니다. 밤까지 열린 것처럼 읽힐 수 있습니다. (같은 페이지 칸과 본문 비교)",
+     "stage1": "시각 누락",
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "found",
+       "value": "2026-12-11(금) 시각 없음",
+       "value_by": "코드",
+       "norm": {
+        "date": "2026-12-11",
+        "time": null,
+        "raw": "2026.12.11",
+        "role_text": "접수기간 마감"
+       },
+       "quotes": [
+        "접수기간: 2026.11.09 ~ 2026.12.11"
+       ],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "found",
+       "value": "2026-12-11(금) 18:00",
+       "value_by": "코드",
+       "norm": {
+        "date": "2026-12-11",
+        "time": "18:00",
+        "raw": "12. 11.(금) 18:00",
+        "role_text": "모집기간 마감"
+       },
+       "quotes": [
+        "2026. 11. 2.(월) ~ 12. 11.(금) 18:00까지"
+       ],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "eligibility": {
+     "verdict": "불일치",
+     "reason": "요약 칸은 '제한 없음'인데 요약 본문에는 조건이 있습니다(신분·학적, 지역: 신청 주체: 개인과 기업·기관 모두 · 기관·단체, 대학생, 직장인 · 지역: 오산시 · 기타: 관내 재직자 또는 기관·단체 소속자 포함). (같은 페이지 칸과 본문 비교)",
+     "stage1": "불일치",
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "found",
+       "value": "제한 없음 · 누구나",
+       "value_by": "코드",
+       "norm": {
+        "open": true,
+        "applicant": "알 수 없음",
+        "age_min": -1,
+        "age_max": -1,
+        "groups": [
+         "누구나"
+        ],
+        "region": "",
+        "nationality": "언급 없음",
+        "other": []
+       },
+       "quotes": [
+        "참여대상: 대상 제한 없음"
+       ],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "found",
+       "value": "신청 주체: 개인과 기업·기관 모두 · 기관·단체, 대학생, 직장인 · 지역: 오산시 · 기타: 관내 재직자 또는 기관·단체 소속자 포함",
+       "value_by": "코드",
+       "norm": {
+        "open": false,
+        "applicant": "개인과 기업·기관 모두",
+        "age_min": -1,
+        "age_max": -1,
+        "groups": [
+         "기관·단체",
+         "대학생",
+         "직장인"
+        ],
+        "region": "오산시",
+        "nationality": "언급 없음",
+        "other": [
+         "관내 재직자 또는 기관·단체 소속자 포함"
+        ]
+       },
+       "quotes": [
+        "오산시 거주자, 관내 직장 재직자, 관내 고등학교·대학교 재학생 또는 관내 기관·단체 소속자"
+       ],
+       "rejected": [],
+       "note": "인용에 근거가 없어 뺀 AI 값: 신분 '고등학생'"
+      }
+     }
+    },
+    "team": {
+     "verdict": "원문 미입력",
+     "reason": "원문을 넣으면 대조합니다.",
+     "stage1": null,
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "prize": {
+     "verdict": "원문 미입력",
+     "reason": "요약 본문에 해당 내용이 없어 칸만으로는 확인할 수 없습니다. 원문을 넣으면 대조합니다.",
+     "stage1": "받은 글엔 없음",
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "submission": {
+     "verdict": "원문 미입력",
+     "reason": "원문을 넣으면 대조합니다.",
+     "stage1": null,
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "penalty": {
+     "verdict": "원문 미입력",
+     "reason": "원문을 넣으면 대조합니다.",
+     "stage1": null,
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "ai_copyright": {
+     "verdict": "원문 미입력",
+     "reason": "원문을 넣으면 대조합니다.",
+     "stage1": null,
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    }
+   },
+   "elapsed_s": 16.18,
+   "usage": {
+    "purpose": "extract",
+    "case": "extra-363176",
+    "model": "claude-haiku-5-5",
+    "input_tokens": 3764,
+    "output_tokens": 4435,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "latency_s": 16.18,
+    "stop_reason": "end_turn",
+    "ok": true,
+    "ts": "2026-11-09T20:41:27+00:00",
+    "cost_usd": 0.002594
+   }
+  },
+  {
+   "id": "363175",
+   "kind": "대외활동",
+   "title": "취업사이다 유튜브 채널 크루 1기 모집",
+   "org": "렛유인에듀",
+   "url": "https://linkareer.com/activity/363175",
+   "fetched_at": "2026-11-09T20:41:19+00:00",
+   "top_fields": {
+    "공고명": "취업사이다 유튜브 채널 크루 1기 모집",
+    "주최": "렛유인에듀",
+    "참여대상": "대학생, 직장인/일반인",
+    "혜택": "활동비, 실무 교육",
+    "접수기간": "2026.11.09 ~ 2026.11.15"
+   },
+   "body_chars": 826,
+   "items": {
+    "deadline": {
+     "verdict": "다른 점을 찾지 못함",
+     "reason": "날짜와 시각에서 다른 점을 찾지 못했습니다. (같은 페이지 칸과 본문 비교)",
+     "stage1": "다른 점을 찾지 못함",
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "found",
+       "value": "2026-11-15(일) 시각 없음",
+       "value_by": "코드",
+       "norm": {
+        "date": "2026-11-15",
+        "time": null,
+        "raw": "2026.11.15",
+        "role_text": "접수기간 마감"
+       },
+       "quotes": [
+        "접수기간: 2026.11.09 ~ 2026.11.15"
+       ],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "found",
+       "value": "2026-11-15(일) 23:59",
+       "value_by": "코드",
+       "norm": {
+        "date": "2026-11-15",
+        "time": "23:59",
+        "raw": "11월 15일(일) 23:59",
+        "role_text": "신청 접수 마감"
+       },
+       "quotes": [
+        "신청 접수: ~ 11월 15일(일) 23:59까지"
+       ],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "eligibility": {
+     "verdict": "불일치",
+     "reason": "대상 범위가 다릅니다. 요약 칸 대학생, 직장인, 요약 본문 대학생 (요약 본문 쪽이 더 좁음). (같은 페이지 칸과 본문 비교)",
+     "stage1": "불일치",
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "found",
+       "value": "대학생, 일반인, 직장인",
+       "value_by": "코드",
+       "norm": {
+        "open": false,
+        "applicant": "개인",
+        "age_min": -1,
+        "age_max": -1,
+        "groups": [
+         "대학생",
+         "일반인",
+         "직장인"
+        ],
+        "region": "",
+        "nationality": "언급 없음",
+        "other": []
+       },
+       "quotes": [
+        "참여대상: 대학생, 직장인/일반인"
+       ],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "found",
+       "value": "대학생 · 기타: 얼굴 출연 가능",
+       "value_by": "코드",
+       "norm": {
+        "open": false,
+        "applicant": "개인",
+        "age_min": -1,
+        "age_max": -1,
+        "groups": [
+         "대학생"
+        ],
+        "region": "",
+        "nationality": "언급 없음",
+        "other": [
+         "얼굴 출연 가능"
+        ]
+       },
+       "quotes": [
+        "반도체·첨단산업 취업을 꿈꾸는 대학생들이 직접 출연해서",
+        "얼굴 출연이 가능해야 합니다."
+       ],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "team": {
+     "verdict": "원문 미입력",
+     "reason": "원문을 넣으면 대조합니다.",
+     "stage1": null,
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "found",
+       "value": "총 3명 모집",
+       "value_by": "AI 요약",
+       "norm": {},
+       "quotes": [
+        "총 3명"
+       ],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "prize": {
+     "verdict": "다른 점을 찾지 못함",
+     "reason": "금액과 현금/현물 구분에서 다른 점을 찾지 못했습니다. (같은 페이지 칸과 본문 비교)",
+     "stage1": "다른 점을 찾지 못함",
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "found",
+       "value": "활동비·실무 교육 제공(금액 없음) (현금)",
+       "value_by": "AI 요약",
+       "norm": {
+        "total": 0,
+        "total_how": "",
+        "verified_total": false,
+        "kind": "현금",
+        "amounts": []
+       },
+       "quotes": [
+        "혜택: 활동비, 실무 교육"
+       ],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "found",
+       "value": "소정의 출연료 지급(금액 미표기)",
+       "value_by": "AI 요약",
+       "norm": {
+        "total": 0,
+        "total_how": "",
+        "verified_total": false,
+        "kind": "알 수 없음",
+        "amounts": []
+       },
+       "quotes": [
+        "4. 소정의 출연료 지급"
+       ],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "submission": {
+     "verdict": "원문 미입력",
+     "reason": "원문을 넣으면 대조합니다.",
+     "stage1": null,
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "found",
+       "value": "구글 폼으로 지원",
+       "value_by": "AI 요약",
+       "norm": {},
+       "quotes": [
+        "구글 폼 지원"
+       ],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "penalty": {
+     "verdict": "원문 미입력",
+     "reason": "원문을 넣으면 대조합니다.",
+     "stage1": null,
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "ai_copyright": {
+     "verdict": "원문 미입력",
+     "reason": "원문을 넣으면 대조합니다.",
+     "stage1": null,
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "found",
+       "value": "촬영 내용 채널·SNS 활용 가능",
+       "value_by": "AI 요약",
+       "norm": {},
+       "quotes": [
+        "촬영한 내용은 취업사이다 유튜브 채널 및 SNS 콘텐츠로 활용될 수 있습니다."
+       ],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    }
+   },
+   "elapsed_s": 17.78,
+   "usage": {
+    "purpose": "extract",
+    "case": "extra-363175",
+    "model": "claude-haiku-5-5",
+    "input_tokens": 4373,
+    "output_tokens": 4734,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "latency_s": 17.78,
+    "stop_reason": "end_turn",
+    "ok": true,
+    "ts": "2026-11-09T20:41:37+00:00",
+    "cost_usd": 0.002804
+   }
+  },
+  {
+   "id": "363173",
+   "kind": "대외활동",
+   "title": "2027년 시민리포터 모집",
+   "org": "남양주시",
+   "url": "https://linkareer.com/activity/363173",
+   "fetched_at": "2026-11-09T20:41:28+00:00",
+   "top_fields": {
+    "공고명": "2027년 시민리포터 모집",
+    "주최": "남양주시",
+    "참여대상": "대학생, 직장인/일반인",
+    "혜택": "활동비",
+    "접수기간": "2026.11.09 ~ 2026.11.19"
+   },
+   "body_chars": 747,
+   "items": {
+    "deadline": {
+     "verdict": "칸엔 없음·본문엔 있음",
+     "reason": "같은 날이지만 요약 본문은 18:00 마감인데 요약 칸에 시각이 없습니다. 밤까지 열린 것처럼 읽힐 수 있습니다. (같은 페이지 칸과 본문 비교)",
+     "stage1": "시각 누락",
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "found",
+       "value": "2026-11-19(목) 시각 없음",
+       "value_by": "코드",
+       "norm": {
+        "date": "2026-11-19",
+        "time": null,
+        "raw": "2026.11.19",
+        "role_text": "접수기간 끝(접수 마감)"
+       },
+       "quotes": [
+        "접수기간: 2026.11.09 ~ 2026.11.19"
+       ],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "found",
+       "value": "2026-11-19(목) 18:00",
+       "value_by": "코드",
+       "norm": {
+        "date": "2026-11-19",
+        "time": "18:00",
+        "raw": "2026. 11. 19.(목) 18:00",
+        "role_text": "모집기간 끝(전자우편 접수 마감)"
+       },
+       "quotes": [
+        "2026. 11. 2.(월) 09:00 ~ 2026. 11. 19.(목) 18:00",
+        "※ 접수 마감일 18:00 도착분까지 인정함."
+       ],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "eligibility": {
+     "verdict": "불일치",
+     "reason": "대상 범위가 다릅니다. 요약 칸 대학생, 직장인, 요약 본문 재직자 (요약 본문 쪽이 더 좁음). (같은 페이지 칸과 본문 비교)",
+     "stage1": "불일치",
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "found",
+       "value": "대학생, 일반인, 직장인",
+       "value_by": "코드",
+       "norm": {
+        "open": false,
+        "applicant": "개인",
+        "age_min": -1,
+        "age_max": -1,
+        "groups": [
+         "대학생",
+         "일반인",
+         "직장인"
+        ],
+        "region": "",
+        "nationality": "언급 없음",
+        "other": []
+       },
+       "quotes": [
+        "참여대상: 대학생, 직장인/일반인"
+       ],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "found",
+       "value": "재직자 · 지역: 남양주시 · 기타: 시정·지역사회 관심, 글쓰기 또는 사진 촬영 소질, 현장 취재·기사 작성 가능",
+       "value_by": "코드",
+       "norm": {
+        "open": false,
+        "applicant": "개인",
+        "age_min": -1,
+        "age_max": -1,
+        "groups": [
+         "재직자"
+        ],
+        "region": "남양주시",
+        "nationality": "언급 없음",
+        "other": [
+         "시정·지역사회 관심, 글쓰기 또는 사진 촬영 소질, 현장 취재·기사 작성 가능"
+        ]
+       },
+       "quotes": [
+        "가. 주민등록상 남양주시 거주자 또는 남양주시 소재 직장·학교 재직(재학)자",
+        "나. 시정과 지역사회에 대한 관심이 높고, 글쓰기 또는 사진 촬영에 소질이 있으며 현장 취재와 기사 작성 활동이 가능한 자"
+       ],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "team": {
+     "verdict": "원문 미입력",
+     "reason": "원문을 넣으면 대조합니다.",
+     "stage1": null,
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "found",
+       "value": "총 16명 모집, 권역별 2명",
+       "value_by": "AI 요약",
+       "norm": {},
+       "quotes": [
+        "총 16명(8개 권역별 2명)"
+       ],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "prize": {
+     "verdict": "다른 점을 찾지 못함",
+     "reason": "금액과 현금/현물 구분에서 다른 점을 찾지 못했습니다. (같은 페이지 칸과 본문 비교)",
+     "stage1": "다른 점을 찾지 못함",
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "found",
+       "value": "활동비 (금액 미기재) (현금)",
+       "value_by": "AI 요약",
+       "norm": {
+        "total": 0,
+        "total_how": "",
+        "verified_total": false,
+        "kind": "현금",
+        "amounts": []
+       },
+       "quotes": [
+        "혜택: 활동비"
+       ],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "found",
+       "value": "15만 원 (현금)",
+       "value_by": "코드",
+       "norm": {
+        "total": 150000,
+        "total_how": "적힌 금액",
+        "verified_total": true,
+        "kind": "현금",
+        "amounts": [
+         150000
+        ]
+       },
+       "quotes": [
+        "가. 원고료 지급: 1건당 150,000원(세전)"
+       ],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "submission": {
+     "verdict": "원문 미입력",
+     "reason": "원문을 넣으면 대조합니다.",
+     "stage1": null,
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "found",
+       "value": "지원서·자기소개서·기획안 3건·기사 원고 등",
+       "value_by": "AI 요약",
+       "norm": {},
+       "quotes": [
+        "1) 시민리포터 지원서 1부",
+        "3) 희망권역 콘텐츠 기획안(3건)",
+        "4) 제출한 기획안 중 1건을 선정하여 작성한 기사 원고 1부(사진 포함)"
+       ],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "penalty": {
+     "verdict": "원문 미입력",
+     "reason": "원문을 넣으면 대조합니다.",
+     "stage1": null,
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "ai_copyright": {
+     "verdict": "원문 미입력",
+     "reason": "원문을 넣으면 대조합니다.",
+     "stage1": null,
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    }
+   },
+   "elapsed_s": 18.04,
+   "usage": {
+    "purpose": "extract",
+    "case": "extra-363173",
+    "model": "claude-haiku-5-5",
+    "input_tokens": 4187,
+    "output_tokens": 4900,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "latency_s": 18.04,
+    "stop_reason": "end_turn",
+    "ok": true,
+    "ts": "2026-11-09T20:41:46+00:00",
+    "cost_usd": 0.002869
+   }
+  },
+  {
+   "id": "363172",
+   "kind": "대외활동",
+   "title": "제12기 대구어린이기자단 모집",
+   "org": "대구광역시",
+   "url": "https://linkareer.com/activity/363172",
+   "fetched_at": "2026-11-09T20:41:37+00:00",
+   "top_fields": {
+    "공고명": "제12기 대구어린이기자단 모집",
+    "주최": "대구광역시",
+    "참여대상": "청소년",
+    "혜택": "행사 참여, 수료증 및 인증서",
+    "접수기간": "2026.11.09 ~ 2026.11.27"
+   },
+   "body_chars": 400,
+   "items": {
+    "deadline": {
+     "verdict": "다른 점을 찾지 못함",
+     "reason": "날짜와 시각에서 다른 점을 찾지 못했습니다. (같은 페이지 칸과 본문 비교)",
+     "stage1": "다른 점을 찾지 못함",
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "found",
+       "value": "2026-11-27(금) 시각 없음",
+       "value_by": "코드",
+       "norm": {
+        "date": "2026-11-27",
+        "time": null,
+        "raw": "2026.11.27",
+        "role_text": "접수기간 끝(온라인 지원서 제출)"
+       },
+       "quotes": [
+        "접수기간: 2026.11.09 ~ 2026.11.27"
+       ],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "found",
+       "value": "2026-11-27(금) 시각 없음",
+       "value_by": "코드",
+       "norm": {
+        "date": "2026-11-27",
+        "time": null,
+        "raw": "11. 27.(금)",
+        "role_text": "접수기간 끝(온라인 지원서 제출)"
+       },
+       "quotes": [
+        "- 접수기간: 2026. 11. 1.(일) ~ 11. 27.(금)"
+       ],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "eligibility": {
+     "verdict": "불일치",
+     "reason": "대상 범위가 다릅니다. 요약 칸 청소년, 요약 본문 초등학생 (요약 칸 쪽이 더 좁음). (같은 페이지 칸과 본문 비교)",
+     "stage1": "불일치",
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "found",
+       "value": "청소년",
+       "value_by": "코드",
+       "norm": {
+        "open": false,
+        "applicant": "개인",
+        "age_min": -1,
+        "age_max": -1,
+        "groups": [
+         "청소년"
+        ],
+        "region": "",
+        "nationality": "언급 없음",
+        "other": []
+       },
+       "quotes": [
+        "참여대상: 청소년"
+       ],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "found",
+       "value": "초등학생 · 지역: 대구시 관내 · 기타: 초등학교 3~5학년",
+       "value_by": "코드",
+       "norm": {
+        "open": false,
+        "applicant": "개인",
+        "age_min": -1,
+        "age_max": -1,
+        "groups": [
+         "초등학생"
+        ],
+        "region": "대구시 관내",
+        "nationality": "언급 없음",
+        "other": [
+         "초등학교 3~5학년"
+        ]
+       },
+       "quotes": [
+        "대구시 관내 초등학교 3~5학년 학생",
+        "(2026년 기준)"
+       ],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "team": {
+     "verdict": "원문 미입력",
+     "reason": "원문을 넣으면 대조합니다.",
+     "stage1": null,
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "prize": {
+     "verdict": "다른 점을 찾지 못함",
+     "reason": "금액과 현금/현물 구분에서 다른 점을 찾지 못했습니다. (같은 페이지 칸과 본문 비교)",
+     "stage1": "다른 점을 찾지 못함",
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "found",
+       "value": "행사 참여, 수료증·인증서 (현금 없음)",
+       "value_by": "AI 요약",
+       "norm": {
+        "total": 0,
+        "total_how": "",
+        "verified_total": false,
+        "kind": "알 수 없음",
+        "amounts": []
+       },
+       "quotes": [
+        "혜택: 행사 참여, 수료증 및 인증서"
+       ],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "found",
+       "value": "표창, 취재물품 지원 (현금 없음)",
+       "value_by": "AI 요약",
+       "norm": {
+        "total": 0,
+        "total_how": "",
+        "verified_total": false,
+        "kind": "알 수 없음",
+        "amounts": []
+       },
+       "quotes": [
+        "① 우수 어린이기자 표창(대구광역시장)",
+        "② 기자증, 기자수첩, 기자가방, 모자 등 취재물품 지원"
+       ],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "submission": {
+     "verdict": "원문 미입력",
+     "reason": "원문을 넣으면 대조합니다.",
+     "stage1": null,
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "found",
+       "value": "온라인 지원서와 취재기사 1편 등록",
+       "value_by": "AI 요약",
+       "norm": {},
+       "quotes": [
+        "- 클럽회원가입 후 온라인 지원서 작성 및 취재기사 1편 등록"
+       ],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "penalty": {
+     "verdict": "원문 미입력",
+     "reason": "원문을 넣으면 대조합니다.",
+     "stage1": null,
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "ai_copyright": {
+     "verdict": "원문 미입력",
+     "reason": "원문을 넣으면 대조합니다.",
+     "stage1": null,
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    }
+   },
+   "elapsed_s": 7.52,
+   "usage": {
+    "purpose": "extract",
+    "case": "extra-363172",
+    "model": "claude-haiku-5-5",
+    "input_tokens": 3741,
+    "output_tokens": 2470,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "latency_s": 7.52,
+    "stop_reason": "end_turn",
+    "ok": true,
+    "ts": "2026-11-09T20:41:45+00:00",
+    "cost_usd": 0.001609
+   }
+  },
+  {
+   "id": "363171",
+   "kind": "대외활동",
+   "title": "엔터애즈 K-pop 쇼츠 크리에이터 1기 모집",
+   "org": "엔터애즈",
+   "url": "https://linkareer.com/activity/363171",
+   "fetched_at": "2026-11-09T20:41:45+00:00",
+   "top_fields": {
+    "공고명": "엔터애즈 K-pop 쇼츠 크리에이터 1기 모집",
+    "주최": "엔터애즈",
+    "참여대상": "대학생, 직장인/일반인",
+    "혜택": "사은품 지급",
+    "접수기간": "2026.11.09 ~ 2026.11.30"
+   },
+   "body_chars": 423,
+   "items": {
+    "deadline": {
+     "verdict": "다른 점을 찾지 못함",
+     "reason": "날짜와 시각에서 다른 점을 찾지 못했습니다. (같은 페이지 칸과 본문 비교)",
+     "stage1": "다른 점을 찾지 못함",
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "found",
+       "value": "2026-11-30(월) 시각 없음",
+       "value_by": "코드",
+       "norm": {
+        "date": "2026-11-30",
+        "time": null,
+        "raw": "2026.11.30",
+        "role_text": "접수기간 끝"
+       },
+       "quotes": [
+        "접수기간: 2026.11.09 ~ 2026.11.30"
+       ],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "found",
+       "value": "2026-11-30(월) 시각 없음",
+       "value_by": "코드",
+       "norm": {
+        "date": "2026-11-30",
+        "time": null,
+        "raw": "11. 30(월)",
+        "role_text": "접수기간 끝"
+       },
+       "quotes": [
+        "2026. 11. 9(월) ~ 11. 30(월)까지, 접수 순으로 상시 선발"
+       ],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "eligibility": {
+     "verdict": "칸엔 없음·본문엔 있음",
+     "reason": "요약 본문의 조건 중 요약 칸에 없는 것: 연령 (만 19세 이상 · 기타: 본인 유튜브 채널 운영자; 구독자 100명 이상 또는 최근 쇼츠 평균 조회수 1,500회 이상). (같은 페이지 칸과 본문 비교)",
+     "stage1": "불일치",
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "found",
+       "value": "대학생, 일반인, 직장인",
+       "value_by": "코드",
+       "norm": {
+        "open": false,
+        "applicant": "개인",
+        "age_min": -1,
+        "age_max": -1,
+        "groups": [
+         "대학생",
+         "일반인",
+         "직장인"
+        ],
+        "region": "",
+        "nationality": "언급 없음",
+        "other": []
+       },
+       "quotes": [
+        "참여대상: 대학생, 직장인/일반인"
+       ],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "found",
+       "value": "만 19세 이상 · 기타: 본인 유튜브 채널 운영자; 구독자 100명 이상 또는 최근 쇼츠 평균 조회수 1,500회 이상",
+       "value_by": "코드",
+       "norm": {
+        "open": false,
+        "applicant": "개인",
+        "age_min": 19,
+        "age_max": -1,
+        "groups": [],
+        "region": "",
+        "nationality": "언급 없음",
+        "other": [
+         "본인 유튜브 채널 운영자",
+         "구독자 100명 이상 또는 최근 쇼츠 평균 조회수 1,500회 이상"
+        ]
+       },
+       "quotes": [
+        "만 19세 이상 본인 유튜브 채널 운영자",
+        "구독자 100명 이상 또는 최근 쇼츠 평균 조회수 1,500회 이상"
+       ],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "team": {
+     "verdict": "원문 미입력",
+     "reason": "원문을 넣으면 대조합니다.",
+     "stage1": null,
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "prize": {
+     "verdict": "다른 점을 찾지 못함",
+     "reason": "금액과 현금/현물 구분에서 다른 점을 찾지 못했습니다. (같은 페이지 칸과 본문 비교)",
+     "stage1": "다른 점을 찾지 못함",
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "found",
+       "value": "사은품 지급",
+       "value_by": "AI 요약",
+       "norm": {
+        "total": 0,
+        "total_how": "",
+        "verified_total": false,
+        "kind": "알 수 없음",
+        "amounts": []
+       },
+       "quotes": [
+        "혜택: 사은품 지급"
+       ],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "found",
+       "value": "1만 원",
+       "value_by": "코드",
+       "norm": {
+        "total": 10000,
+        "total_how": "적힌 금액",
+        "verified_total": true,
+        "kind": "알 수 없음",
+        "amounts": [
+         10000
+        ]
+       },
+       "quotes": [
+        "가입하고 채널을 등록하면 10,000원 적립(출금 기준 별도)"
+       ],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "submission": {
+     "verdict": "원문 미입력",
+     "reason": "원문을 넣으면 대조합니다.",
+     "stage1": null,
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "found",
+       "value": "정해진 기간에 쇼츠 영상 게시",
+       "value_by": "AI 요약",
+       "norm": {},
+       "quotes": [
+        "기획사 신곡 캠페인에 참여해 정해진 기간에 쇼츠를 올립니다. 소재와 가이드를 드립니다."
+       ],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "penalty": {
+     "verdict": "원문 미입력",
+     "reason": "원문을 넣으면 대조합니다.",
+     "stage1": null,
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "ai_copyright": {
+     "verdict": "원문 미입력",
+     "reason": "원문을 넣으면 대조합니다.",
+     "stage1": null,
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    }
+   },
+   "elapsed_s": 7.99,
+   "usage": {
+    "purpose": "extract",
+    "case": "extra-363171",
+    "model": "claude-haiku-5-5",
+    "input_tokens": 3769,
+    "output_tokens": 2640,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "latency_s": 7.99,
+    "stop_reason": "end_turn",
+    "ok": true,
+    "ts": "2026-11-09T20:41:53+00:00",
+    "cost_usd": 0.001697
+   }
+  },
+  {
+   "id": "363152",
+   "kind": "대외활동",
+   "title": "Show Your Charming 자민경 글로벌 서포터즈 1기 모집",
+   "org": "자민경",
+   "url": "https://linkareer.com/activity/363152",
+   "fetched_at": "2026-11-09T20:41:46+00:00",
+   "top_fields": {
+    "공고명": "Show Your Charming 자민경 글로벌 서포터즈 1기 모집",
+    "주최": "자민경",
+    "참여대상": "대학생, 직장인/일반인",
+    "혜택": "활동비",
+    "접수기간": "2026.11.09 ~ 2026.11.22"
+   },
+   "body_chars": 458,
+   "items": {
+    "deadline": {
+     "verdict": "원문 미입력",
+     "reason": "요약 본문에 해당 내용이 없어 칸만으로는 확인할 수 없습니다. 원문을 넣으면 대조합니다.",
+     "stage1": "확인 필요",
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "found",
+       "value": "2026-11-22(일) 시각 없음",
+       "value_by": "코드",
+       "norm": {
+        "date": "2026-11-22",
+        "time": null,
+        "raw": "2026.11.22",
+        "role_text": "접수기간 끝 날짜"
+       },
+       "quotes": [
+        "접수기간: 2026.11.09 ~ 2026.11.22"
+       ],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "eligibility": {
+     "verdict": "불일치",
+     "reason": "대상 범위가 다릅니다. 요약 칸 대학생, 직장인, 요약 본문 외국인 (요약 본문 쪽이 더 좁음). (같은 페이지 칸과 본문 비교)",
+     "stage1": "불일치",
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "found",
+       "value": "대학생, 일반인, 직장인",
+       "value_by": "코드",
+       "norm": {
+        "open": false,
+        "applicant": "개인",
+        "age_min": -1,
+        "age_max": -1,
+        "groups": [
+         "대학생",
+         "일반인",
+         "직장인"
+        ],
+        "region": "",
+        "nationality": "언급 없음",
+        "other": []
+       },
+       "quotes": [
+        "참여대상: 대학생, 직장인/일반인"
+       ],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "found",
+       "value": "외국인 · 지역: 한국 · 국적: 외국인 · 기타: 개인 SNS 채널 활발히 활동하는 자; 한국어 능통자 우대",
+       "value_by": "코드",
+       "norm": {
+        "open": false,
+        "applicant": "개인",
+        "age_min": -1,
+        "age_max": -1,
+        "groups": [
+         "외국인"
+        ],
+        "region": "한국",
+        "nationality": "외국인",
+        "other": [
+         "개인 SNS 채널 활발히 활동하는 자",
+         "한국어 능통자 우대"
+        ]
+       },
+       "quotes": [
+        "한국에 거주하는 외국인",
+        "개인 SNS 채널에서 활발하게 활동하는 분",
+        "한국어 능통자 우대"
+       ],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "team": {
+     "verdict": "원문 미입력",
+     "reason": "원문을 넣으면 대조합니다.",
+     "stage1": null,
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "prize": {
+     "verdict": "칸엔 없음·본문엔 있음",
+     "reason": "요약 칸에 시상 내용이 없습니다. (같은 페이지 칸과 본문 비교)",
+     "stage1": "요약에 없음",
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "found",
+       "value": "450만 원 (현금)",
+       "value_by": "코드",
+       "norm": {
+        "total": 4500000,
+        "total_how": "적힌 금액",
+        "verified_total": true,
+        "kind": "현금",
+        "amounts": [
+         4500000,
+         1000000
+        ]
+       },
+       "quotes": [
+        "총 상금 450만 원",
+        "최우수 챠밍경 (1명): 100만 원"
+       ],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "submission": {
+     "verdict": "원문 미입력",
+     "reason": "원문을 넣으면 대조합니다.",
+     "stage1": null,
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "found",
+       "value": "영상 콘텐츠 3회 발행 등 활동",
+       "value_by": "AI 요약",
+       "norm": {},
+       "quotes": [
+        "영상 콘텐츠 3회 발행",
+        "자국어와 한국어를 함께 활용한 콘텐츠 제작"
+       ],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "penalty": {
+     "verdict": "원문 미입력",
+     "reason": "원문을 넣으면 대조합니다.",
+     "stage1": null,
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "ai_copyright": {
+     "verdict": "원문 미입력",
+     "reason": "원문을 넣으면 대조합니다.",
+     "stage1": null,
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    }
+   },
+   "elapsed_s": 13.51,
+   "usage": {
+    "purpose": "extract",
+    "case": "extra-363152",
+    "model": "claude-haiku-5-5",
+    "input_tokens": 3847,
+    "output_tokens": 3992,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "latency_s": 13.51,
+    "stop_reason": "end_turn",
+    "ok": true,
+    "ts": "2026-11-09T20:42:00+00:00",
+    "cost_usd": 0.002381
+   }
+  },
+  {
+   "id": "363117",
+   "kind": "대외활동",
+   "title": "[굿네이버스] 한 달 충분! 핵심 경험·의미 챙겨가는 글로벌 서포터즈ㅣGOAL라잡는 사람들 모집",
+   "org": "굿네이버스 경기2사업본부",
+   "url": "https://linkareer.com/activity/363117",
+   "fetched_at": "2026-11-09T20:41:54+00:00",
+   "top_fields": {
+    "공고명": "[굿네이버스] 한 달 충분! 핵심 경험·의미 챙겨가는 글로벌 서포터즈ㅣGOAL라잡는 사람들 모집",
+    "주최": "굿네이버스 경기2사업본부",
+    "참여대상": "대학생, 직장인/일반인",
+    "혜택": "수료증 및 인증서, 입사시 혜택",
+    "접수기간": "2026.11.02 ~ 2026.11.30"
+   },
+   "body_chars": 1557,
+   "items": {
+    "deadline": {
+     "verdict": "칸엔 없음·본문엔 있음",
+     "reason": "같은 날이지만 요약 본문은 12:00 마감인데 요약 칸에 시각이 없습니다. 밤까지 열린 것처럼 읽힐 수 있습니다. (같은 페이지 칸과 본문 비교)",
+     "stage1": "시각 누락",
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "found",
+       "value": "2026-11-30(월) 시각 없음",
+       "value_by": "코드",
+       "norm": {
+        "date": "2026-11-30",
+        "time": null,
+        "raw": "2026.11.30",
+        "role_text": "접수기간 마감"
+       },
+       "quotes": [
+        "접수기간: 2026.11.02 ~ 2026.11.30"
+       ],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "found",
+       "value": "2026-11-30(월) 12:00",
+       "value_by": "코드",
+       "norm": {
+        "date": "2026-11-30",
+        "time": "12:00",
+        "raw": "11월 30일(월) 12:00",
+        "role_text": "모집 기간 마감"
+       },
+       "quotes": [
+        "모집 기간 : 2026년 11월 02일(월) ~ 11월 30일(월) 12:00까지"
+       ],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "eligibility": {
+     "verdict": "다른 점을 찾지 못함",
+     "reason": "자격 조건에서 다른 점을 찾지 못했습니다. (같은 페이지 칸과 본문 비교)",
+     "stage1": "다른 점을 찾지 못함",
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "found",
+       "value": "대학생, 일반인, 직장인",
+       "value_by": "코드",
+       "norm": {
+        "open": false,
+        "applicant": "개인",
+        "age_min": -1,
+        "age_max": -1,
+        "groups": [
+         "대학생",
+         "일반인",
+         "직장인"
+        ],
+        "region": "",
+        "nationality": "언급 없음",
+        "other": []
+       },
+       "quotes": [
+        "참여대상: 대학생, 직장인/일반인"
+       ],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "found",
+       "value": "대학생, 일반인 · 기타: 선착순 70명",
+       "value_by": "코드",
+       "norm": {
+        "open": false,
+        "applicant": "개인",
+        "age_min": -1,
+        "age_max": -1,
+        "groups": [
+         "대학생",
+         "일반인"
+        ],
+        "region": "",
+        "nationality": "언급 없음",
+        "other": [
+         "선착순 70명"
+        ]
+       },
+       "quotes": [
+        "모집 인원 : 선착순 70명 (대학생 · 일반인 누구나)",
+        "대외활동이 처음이라 부담 없이 시작하고 싶은 대학생"
+       ],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "team": {
+     "verdict": "원문 미입력",
+     "reason": "원문을 넣으면 대조합니다.",
+     "stage1": null,
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "found",
+       "value": "선착순 70명 모집",
+       "value_by": "AI 요약",
+       "norm": {},
+       "quotes": [
+        "모집 인원 : 선착순 70명 (대학생 · 일반인 누구나)"
+       ],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "prize": {
+     "verdict": "원문 미입력",
+     "reason": "요약 본문에 해당 내용이 없어 칸만으로는 확인할 수 없습니다. 원문을 넣으면 대조합니다.",
+     "stage1": "받은 글엔 없음",
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "submission": {
+     "verdict": "원문 미입력",
+     "reason": "원문을 넣으면 대조합니다.",
+     "stage1": null,
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "found",
+       "value": "온라인 수강 후 실천 활동 3회 인증",
+       "value_by": "AI 요약",
+       "norm": {},
+       "quotes": [
+        "활동 방식 : SDGs 이해콘텐츠 온라인 수강 + 3회의 개별 실천 활동 및 인증",
+        "블로그로 진로연관 프로젝트 인증"
+       ],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "penalty": {
+     "verdict": "원문 미입력",
+     "reason": "원문을 넣으면 대조합니다.",
+     "stage1": null,
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "ai_copyright": {
+     "verdict": "원문 미입력",
+     "reason": "원문을 넣으면 대조합니다.",
+     "stage1": null,
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    }
+   },
+   "elapsed_s": 16.63,
+   "usage": {
+    "purpose": "extract",
+    "case": "extra-363117",
+    "model": "claude-haiku-5-5",
+    "input_tokens": 5223,
+    "output_tokens": 4667,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "latency_s": 16.63,
+    "stop_reason": "end_turn",
+    "ok": true,
+    "ts": "2026-11-09T20:42:10+00:00",
+    "cost_usd": 0.002856
+   }
+  },
+  {
+   "id": "363112",
+   "kind": "대외활동",
+   "title": "2026 아주경제 국방방산포럼 서포터즈 모집",
+   "org": "주식회사 아주뉴스코퍼레이션",
+   "url": "https://linkareer.com/activity/363112",
+   "fetched_at": "2026-11-09T20:42:00+00:00",
+   "top_fields": {
+    "공고명": "2026 아주경제 국방방산포럼 서포터즈 모집",
+    "주최": "주식회사 아주뉴스코퍼레이션",
+    "참여대상": "대학생, 직장인/일반인",
+    "혜택": "행사 참여, 수료증 및 인증서",
+    "접수기간": "2026.11.10 ~ 2026.11.18"
+   },
+   "body_chars": 664,
+   "items": {
+    "deadline": {
+     "verdict": "칸엔 없음·본문엔 있음",
+     "reason": "같은 날이지만 요약 본문은 18:00 마감인데 요약 칸에 시각이 없습니다. 밤까지 열린 것처럼 읽힐 수 있습니다. (같은 페이지 칸과 본문 비교)",
+     "stage1": "시각 누락",
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "found",
+       "value": "2026-11-18(수) 시각 없음",
+       "value_by": "코드",
+       "norm": {
+        "date": "2026-11-18",
+        "time": null,
+        "raw": "2026.11.18",
+        "role_text": "접수기간 끝"
+       },
+       "quotes": [
+        "접수기간: 2026.11.10 ~ 2026.11.18"
+       ],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "found",
+       "value": "2026-11-18(수) 18:00",
+       "value_by": "코드",
+       "norm": {
+        "date": "2026-11-18",
+        "time": "18:00",
+        "raw": "11월 18일(수) 18시",
+        "role_text": "접수기간 마감(구글폼 제출)"
+       },
+       "quotes": [
+        "- 접수기간 : 11월 10일(화) ~ 11월 18일(수) 18시"
+       ],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "eligibility": {
+     "verdict": "다른 점을 찾지 못함",
+     "reason": "자격 조건에서 다른 점을 찾지 못했습니다. (같은 페이지 칸과 본문 비교)",
+     "stage1": "다른 점을 찾지 못함",
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "found",
+       "value": "대학생, 일반인, 직장인",
+       "value_by": "코드",
+       "norm": {
+        "open": false,
+        "applicant": "개인",
+        "age_min": -1,
+        "age_max": -1,
+        "groups": [
+         "대학생",
+         "일반인",
+         "직장인"
+        ],
+        "region": "",
+        "nationality": "언급 없음",
+        "other": []
+       },
+       "quotes": [
+        "참여대상: 대학생, 직장인/일반인"
+       ],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "found",
+       "value": "제한 없음 · 대학생, 대학원생, 졸업(예정)자, 휴학생 · 기타: 관련 분야에 관심 있는 사람",
+       "value_by": "코드",
+       "norm": {
+        "open": true,
+        "applicant": "개인",
+        "age_min": -1,
+        "age_max": -1,
+        "groups": [
+         "대학생",
+         "대학원생",
+         "졸업(예정)자",
+         "휴학생"
+        ],
+        "region": "",
+        "nationality": "언급 없음",
+        "other": [
+         "관련 분야에 관심 있는 사람"
+        ]
+       },
+       "quotes": [
+        "- 대학(원)생, 휴학생 및 졸업생 지원 가능",
+        "- 관련 분야에 관심 있는 누구나 참여"
+       ],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "team": {
+     "verdict": "원문 미입력",
+     "reason": "원문을 넣으면 대조합니다.",
+     "stage1": null,
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "found",
+       "value": "모집 인원 30명, 선착순 마감",
+       "value_by": "AI 요약",
+       "norm": {},
+       "quotes": [
+        "- 30명(선착순 마감)"
+       ],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "prize": {
+     "verdict": "칸엔 없음·본문엔 있음",
+     "reason": "요약 칸에 시상 내용이 없습니다. (같은 페이지 칸과 본문 비교)",
+     "stage1": "요약에 없음",
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "found",
+       "value": "활동 수료증 발급, 금전 상금 없음",
+       "value_by": "AI 요약",
+       "norm": {
+        "total": 0,
+        "total_how": "",
+        "verified_total": false,
+        "kind": "알 수 없음",
+        "amounts": []
+       },
+       "quotes": [
+        "- 서포터즈 활동 수료증 발급"
+       ],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "submission": {
+     "verdict": "원문 미입력",
+     "reason": "원문을 넣으면 대조합니다.",
+     "stage1": null,
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "found",
+       "value": "구글폼으로 신청서 제출",
+       "value_by": "AI 요약",
+       "norm": {},
+       "quotes": [
+        "- 구글폼 제출(https://forms.gle/d4F6TfnxMAgawzox6)"
+       ],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "penalty": {
+     "verdict": "원문 미입력",
+     "reason": "원문을 넣으면 대조합니다.",
+     "stage1": null,
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "ai_copyright": {
+     "verdict": "원문 미입력",
+     "reason": "원문을 넣으면 대조합니다.",
+     "stage1": null,
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    }
+   },
+   "elapsed_s": 7.06,
+   "usage": {
+    "purpose": "extract",
+    "case": "extra-363112",
+    "model": "claude-haiku-5-5",
+    "input_tokens": 4036,
+    "output_tokens": 2322,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "latency_s": 7.06,
+    "stop_reason": "end_turn",
+    "ok": true,
+    "ts": "2026-11-09T20:42:07+00:00",
+    "cost_usd": 0.001565
+   }
+  },
+  {
+   "id": "363055",
+   "kind": "대외활동",
+   "title": "[수협×줍는사람들] 해양환경 보호 프로젝트 - 도비도항 플로깅 봉사활동 참가자 모집",
+   "org": "수협중앙회",
+   "url": "https://linkareer.com/activity/363055",
+   "fetched_at": "2026-11-09T20:42:08+00:00",
+   "top_fields": {
+    "공고명": "[수협×줍는사람들] 해양환경 보호 프로젝트 - 도비도항 플로깅 봉사활동 참가자 모집",
+    "주최": "수협중앙회",
+    "참여대상": "대학생",
+    "혜택": "수료증 및 인증서, 봉사활동시간",
+    "접수기간": "2026.11.04 ~ 2026.11.12"
+   },
+   "body_chars": 639,
+   "items": {
+    "deadline": {
+     "verdict": "다른 점을 찾지 못함",
+     "reason": "날짜와 시각에서 다른 점을 찾지 못했습니다. (같은 페이지 칸과 본문 비교)",
+     "stage1": "다른 점을 찾지 못함",
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "found",
+       "value": "2026-11-12(목) 시각 없음",
+       "value_by": "코드",
+       "norm": {
+        "date": "2026-11-12",
+        "time": null,
+        "raw": "2026.11.12",
+        "role_text": "접수기간 끝"
+       },
+       "quotes": [
+        "접수기간: 2026.11.04 ~ 2026.11.12"
+       ],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "found",
+       "value": "2026-11-12(목) 시각 없음",
+       "value_by": "코드",
+       "norm": {
+        "date": "2026-11-12",
+        "time": null,
+        "raw": "11월 12일(목)",
+        "role_text": "모집 마감"
+       },
+       "quotes": [
+        "- 모집 마감 : 11월 12일(목)"
+       ],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "eligibility": {
+     "verdict": "칸엔 없음·본문엔 있음",
+     "reason": "요약 본문의 조건 중 요약 칸에 없는 것: 지역 (대학생 · 지역: 충남권). (같은 페이지 칸과 본문 비교)",
+     "stage1": "불일치",
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "found",
+       "value": "대학생",
+       "value_by": "코드",
+       "norm": {
+        "open": false,
+        "applicant": "개인",
+        "age_min": -1,
+        "age_max": -1,
+        "groups": [
+         "대학생"
+        ],
+        "region": "",
+        "nationality": "언급 없음",
+        "other": []
+       },
+       "quotes": [
+        "참여대상: 대학생"
+       ],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "found",
+       "value": "대학생 · 지역: 충남권",
+       "value_by": "코드",
+       "norm": {
+        "open": false,
+        "applicant": "개인",
+        "age_min": -1,
+        "age_max": -1,
+        "groups": [
+         "대학생"
+        ],
+        "region": "충남권",
+        "nationality": "언급 없음",
+        "other": []
+       },
+       "quotes": [
+        "- 대상 : 충남권 대학생 누구나!"
+       ],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "team": {
+     "verdict": "원문 미입력",
+     "reason": "원문을 넣으면 대조합니다.",
+     "stage1": null,
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "prize": {
+     "verdict": "칸엔 없음·본문엔 있음",
+     "reason": "요약 칸에 시상 내용이 없습니다. (같은 페이지 칸과 본문 비교)",
+     "stage1": "요약에 없음",
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "found",
+       "value": "플로깅 물품 제공(금액 없음)",
+       "value_by": "AI 요약",
+       "norm": {
+        "total": 0,
+        "total_how": "",
+        "verified_total": false,
+        "kind": "알 수 없음",
+        "amounts": []
+       },
+       "quotes": [
+        "✅ 플로깅 물품 제공"
+       ],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "submission": {
+     "verdict": "원문 미입력",
+     "reason": "원문을 넣으면 대조합니다.",
+     "stage1": null,
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "penalty": {
+     "verdict": "원문 미입력",
+     "reason": "원문을 넣으면 대조합니다.",
+     "stage1": null,
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "ai_copyright": {
+     "verdict": "원문 미입력",
+     "reason": "원문을 넣으면 대조합니다.",
+     "stage1": null,
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    }
+   },
+   "elapsed_s": 15.05,
+   "usage": {
+    "purpose": "extract",
+    "case": "extra-363055",
+    "model": "claude-haiku-5-5",
+    "input_tokens": 4157,
+    "output_tokens": 4062,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "latency_s": 15.05,
+    "stop_reason": "end_turn",
+    "ok": true,
+    "ts": "2026-11-09T20:42:23+00:00",
+    "cost_usd": 0.002447
+   }
+  },
+  {
+   "id": "363160",
+   "kind": "인턴",
+   "title": "[삼정KPMG] Deal Adv 3본부 인턴 채용",
+   "org": "삼정KPMG",
+   "url": "https://linkareer.com/activity/363160",
+   "fetched_at": "2026-11-09T20:46:59+00:00",
+   "top_fields": {
+    "공고명": "[삼정KPMG] Deal Adv 3본부 인턴 채용",
+    "주최": "삼정KPMG",
+    "접수기간": "2026.11.09 ~ 2026.11.20"
+   },
+   "body_chars": 173,
+   "items": {
+    "deadline": {
+     "verdict": "다른 점을 찾지 못함",
+     "reason": "날짜와 시각에서 다른 점을 찾지 못했습니다. (같은 페이지 칸과 본문 비교)",
+     "stage1": "다른 점을 찾지 못함",
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "found",
+       "value": "2026-11-20(금) 시각 없음",
+       "value_by": "코드",
+       "norm": {
+        "date": "2026-11-20",
+        "time": null,
+        "raw": "2026.11.20",
+        "role_text": "접수기간 종료일"
+       },
+       "quotes": [
+        "접수기간: 2026.11.09 ~ 2026.11.20"
+       ],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "found",
+       "value": "2026-11-20(금) 시각 없음",
+       "value_by": "코드",
+       "norm": {
+        "date": "2026-11-20",
+        "time": null,
+        "raw": "11월 20일",
+        "role_text": "접수기간 종료일"
+       },
+       "quotes": [
+        "11월 05일 ~ 11월 20일"
+       ],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "eligibility": {
+     "verdict": "원문 미입력",
+     "reason": "요약 본문에 해당 내용이 없어 칸만으로는 확인할 수 없습니다. 원문을 넣으면 대조합니다.",
+     "stage1": "받은 글엔 없음",
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "team": {
+     "verdict": "원문 미입력",
+     "reason": "원문을 넣으면 대조합니다.",
+     "stage1": null,
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "prize": {
+     "verdict": "원문 미입력",
+     "reason": "요약 본문에 해당 내용이 없어 칸만으로는 확인할 수 없습니다. 원문을 넣으면 대조합니다.",
+     "stage1": "받은 글엔 없음",
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "submission": {
+     "verdict": "원문 미입력",
+     "reason": "원문을 넣으면 대조합니다.",
+     "stage1": null,
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "penalty": {
+     "verdict": "원문 미입력",
+     "reason": "원문을 넣으면 대조합니다.",
+     "stage1": null,
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "ai_copyright": {
+     "verdict": "원문 미입력",
+     "reason": "원문을 넣으면 대조합니다.",
+     "stage1": null,
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    }
+   },
+   "elapsed_s": 14.47,
+   "usage": {
+    "purpose": "extract",
+    "case": "extra-363160",
+    "model": "claude-haiku-5-5",
+    "input_tokens": 3371,
+    "output_tokens": 3743,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "latency_s": 14.47,
+    "stop_reason": "end_turn",
+    "ok": true,
+    "ts": "2026-11-09T20:47:13+00:00",
+    "cost_usd": 0.002209
+   }
+  },
+  {
+   "id": "363149",
+   "kind": "인턴",
+   "title": "[한화세미텍] 2027년 상반기 채용전제형 인턴 채용(영업/CS)",
+   "org": "한화세미텍",
+   "url": "https://linkareer.com/activity/363149",
+   "fetched_at": "2026-11-09T20:46:59+00:00",
+   "top_fields": {
+    "공고명": "[한화세미텍] 2027년 상반기 채용전제형 인턴 채용(영업/CS)",
+    "주최": "한화세미텍",
+    "접수기간": "2026.11.09 ~ 2026.11.23"
+   },
+   "body_chars": 79,
+   "items": {
+    "deadline": {
+     "verdict": "다른 점을 찾지 못함",
+     "reason": "날짜와 시각에서 다른 점을 찾지 못했습니다. (같은 페이지 칸과 본문 비교)",
+     "stage1": "다른 점을 찾지 못함",
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "found",
+       "value": "2026-11-23(월) 시각 없음",
+       "value_by": "코드",
+       "norm": {
+        "date": "2026-11-23",
+        "time": null,
+        "raw": "2026.11.23",
+        "role_text": "접수기간 끝"
+       },
+       "quotes": [
+        "접수기간: 2026.11.09 ~ 2026.11.23"
+       ],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "found",
+       "value": "2026-11-23(월) 시각 없음",
+       "value_by": "코드",
+       "norm": {
+        "date": "2026-11-23",
+        "time": null,
+        "raw": "11월 23일",
+        "role_text": "접수기간 끝"
+       },
+       "quotes": [
+        "11월 09일 ~ 11월 23일"
+       ],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "eligibility": {
+     "verdict": "원문 미입력",
+     "reason": "요약 본문에 해당 내용이 없어 칸만으로는 확인할 수 없습니다. 원문을 넣으면 대조합니다.",
+     "stage1": "받은 글엔 없음",
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "team": {
+     "verdict": "원문 미입력",
+     "reason": "원문을 넣으면 대조합니다.",
+     "stage1": null,
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "prize": {
+     "verdict": "원문 미입력",
+     "reason": "요약 본문에 해당 내용이 없어 칸만으로는 확인할 수 없습니다. 원문을 넣으면 대조합니다.",
+     "stage1": "받은 글엔 없음",
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "submission": {
+     "verdict": "원문 미입력",
+     "reason": "원문을 넣으면 대조합니다.",
+     "stage1": null,
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "penalty": {
+     "verdict": "원문 미입력",
+     "reason": "원문을 넣으면 대조합니다.",
+     "stage1": null,
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "ai_copyright": {
+     "verdict": "원문 미입력",
+     "reason": "원문을 넣으면 대조합니다.",
+     "stage1": null,
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    }
+   },
+   "elapsed_s": 6.59,
+   "usage": {
+    "purpose": "extract",
+    "case": "extra-363149",
+    "model": "claude-haiku-5-5",
+    "input_tokens": 3291,
+    "output_tokens": 2129,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "latency_s": 6.59,
+    "stop_reason": "end_turn",
+    "ok": true,
+    "ts": "2026-11-09T20:47:05+00:00",
+    "cost_usd": 0.001394
+   }
+  },
+  {
+   "id": "363146",
+   "kind": "인턴",
+   "title": "[EY한영] 금융컨설팅본부 IT컨설팅 (AXIS팀) 인턴",
+   "org": "EY한영",
+   "url": "https://linkareer.com/activity/363146",
+   "fetched_at": "2026-11-09T20:47:06+00:00",
+   "top_fields": {
+    "공고명": "[EY한영] 금융컨설팅본부 IT컨설팅 (AXIS팀) 인턴",
+    "주최": "EY한영",
+    "접수기간": "2026.11.09 ~ 2026.11.11"
+   },
+   "body_chars": 188,
+   "items": {
+    "deadline": {
+     "verdict": "다른 점을 찾지 못함",
+     "reason": "날짜와 시각에서 다른 점을 찾지 못했습니다. (같은 페이지 칸과 본문 비교)",
+     "stage1": "다른 점을 찾지 못함",
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "found",
+       "value": "2026-11-11(수) 시각 없음",
+       "value_by": "코드",
+       "norm": {
+        "date": "2026-11-11",
+        "time": null,
+        "raw": "2026.11.11",
+        "role_text": "접수기간 종료일"
+       },
+       "quotes": [
+        "접수기간: 2026.11.09 ~ 2026.11.11"
+       ],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "found",
+       "value": "2026-11-11(수) 시각 없음",
+       "value_by": "코드",
+       "norm": {
+        "date": "2026-11-11",
+        "time": null,
+        "raw": "11월 11일",
+        "role_text": "접수기간 종료일"
+       },
+       "quotes": [
+        "11월 09일 ~ 11월 11일"
+       ],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "eligibility": {
+     "verdict": "원문 미입력",
+     "reason": "요약 본문에 해당 내용이 없어 칸만으로는 확인할 수 없습니다. 원문을 넣으면 대조합니다.",
+     "stage1": "받은 글엔 없음",
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "team": {
+     "verdict": "원문 미입력",
+     "reason": "원문을 넣으면 대조합니다.",
+     "stage1": null,
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "prize": {
+     "verdict": "원문 미입력",
+     "reason": "요약 본문에 해당 내용이 없어 칸만으로는 확인할 수 없습니다. 원문을 넣으면 대조합니다.",
+     "stage1": "받은 글엔 없음",
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "submission": {
+     "verdict": "원문 미입력",
+     "reason": "원문을 넣으면 대조합니다.",
+     "stage1": null,
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "penalty": {
+     "verdict": "원문 미입력",
+     "reason": "원문을 넣으면 대조합니다.",
+     "stage1": null,
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "ai_copyright": {
+     "verdict": "원문 미입력",
+     "reason": "원문을 넣으면 대조합니다.",
+     "stage1": null,
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    }
+   },
+   "elapsed_s": 10.61,
+   "usage": {
+    "purpose": "extract",
+    "case": "extra-363146",
+    "model": "claude-haiku-5-5",
+    "input_tokens": 3423,
+    "output_tokens": 2936,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "latency_s": 10.61,
+    "stop_reason": "end_turn",
+    "ok": true,
+    "ts": "2026-11-09T20:47:16+00:00",
+    "cost_usd": 0.00181
+   }
+  },
+  {
+   "id": "363145",
+   "kind": "인턴",
+   "title": "[EY한영] 감사부문 Data Analytics – IT Specialist 동계인턴",
+   "org": "EY한영",
+   "url": "https://linkareer.com/activity/363145",
+   "fetched_at": "2026-11-09T20:47:14+00:00",
+   "top_fields": {
+    "공고명": "[EY한영] 감사부문 Data Analytics – IT Specialist 동계인턴",
+    "주최": "EY한영",
+    "접수기간": "2026.11.09 ~ 2026.11.15"
+   },
+   "body_chars": 175,
+   "items": {
+    "deadline": {
+     "verdict": "다른 점을 찾지 못함",
+     "reason": "날짜와 시각에서 다른 점을 찾지 못했습니다. (같은 페이지 칸과 본문 비교)",
+     "stage1": "다른 점을 찾지 못함",
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "found",
+       "value": "2026-11-15(일) 시각 없음",
+       "value_by": "코드",
+       "norm": {
+        "date": "2026-11-15",
+        "time": null,
+        "raw": "2026.11.15",
+        "role_text": "접수기간 마감"
+       },
+       "quotes": [
+        "접수기간: 2026.11.09 ~ 2026.11.15"
+       ],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "found",
+       "value": "2026-11-15(일) 시각 없음",
+       "value_by": "코드",
+       "norm": {
+        "date": "2026-11-15",
+        "time": null,
+        "raw": "11월 15일",
+        "role_text": "접수기간 마감"
+       },
+       "quotes": [
+        "11월 09일 ~ 11월 15일"
+       ],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "eligibility": {
+     "verdict": "원문 미입력",
+     "reason": "원문을 넣으면 대조합니다.",
+     "stage1": null,
+     "stage2": null,
+     "values": {}
+    },
+    "team": {
+     "verdict": "원문 미입력",
+     "reason": "원문을 넣으면 대조합니다.",
+     "stage1": null,
+     "stage2": null,
+     "values": {}
+    },
+    "prize": {
+     "verdict": "원문 미입력",
+     "reason": "원문을 넣으면 대조합니다.",
+     "stage1": null,
+     "stage2": null,
+     "values": {}
+    },
+    "submission": {
+     "verdict": "원문 미입력",
+     "reason": "원문을 넣으면 대조합니다.",
+     "stage1": null,
+     "stage2": null,
+     "values": {}
+    },
+    "penalty": {
+     "verdict": "원문 미입력",
+     "reason": "원문을 넣으면 대조합니다.",
+     "stage1": null,
+     "stage2": null,
+     "values": {}
+    },
+    "ai_copyright": {
+     "verdict": "원문 미입력",
+     "reason": "원문을 넣으면 대조합니다.",
+     "stage1": null,
+     "stage2": null,
+     "values": {}
+    }
+   },
+   "elapsed_s": 2.32,
+   "usage": {
+    "purpose": "extract",
+    "case": "extra-363145",
+    "model": "claude-haiku-5-5",
+    "input_tokens": 3374,
+    "output_tokens": 568,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "latency_s": 2.32,
+    "stop_reason": "end_turn",
+    "ok": true,
+    "ts": "2026-11-09T20:47:16+00:00",
+    "cost_usd": 0.000621
+   }
+  },
+  {
+   "id": "363142",
+   "kind": "인턴",
+   "title": "[스피어코퍼레이션] Administrative Associate (행정지원 담당자) - 채용연계형 인턴",
+   "org": "스피어코퍼레이션",
+   "url": "https://linkareer.com/activity/363142",
+   "fetched_at": "2026-11-09T20:47:17+00:00",
+   "top_fields": {
+    "공고명": "[스피어코퍼레이션] Administrative Associate (행정지원 담당자) - 채용연계형 인턴",
+    "주최": "스피어코퍼레이션",
+    "접수기간": "2026.11.09 ~ 채용 시 마감"
+   },
+   "body_chars": 358,
+   "items": {
+    "deadline": {
+     "verdict": "확인 필요",
+     "reason": "근거를 확인하지 못한 값이 있어 비교하지 않았습니다. (같은 페이지 칸과 본문 비교)",
+     "stage1": "확인 필요",
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "unverified",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [
+        "접수기간: 2026.11.09 ~ 채용 시 마감"
+       ],
+       "rejected": [],
+       "note": "마감 날짜를 인용 문장에서 다시 읽지 못했습니다(시작일만 날짜로 적혀 있고 끝은 날짜가 아님(채용 시 마감, 선착순 등))."
+      },
+      "body": {
+       "status": "unverified",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [
+        "11월 09일 ~ 채용시 마감"
+       ],
+       "rejected": [],
+       "note": "마감 날짜를 인용 문장에서 다시 읽지 못했습니다(시작일만 날짜로 적혀 있고 끝은 날짜가 아님(채용 시 마감, 선착순 등))."
+      }
+     }
+    },
+    "eligibility": {
+     "verdict": "원문 미입력",
+     "reason": "요약 본문에 해당 내용이 없어 칸만으로는 확인할 수 없습니다. 원문을 넣으면 대조합니다.",
+     "stage1": "받은 글엔 없음",
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "team": {
+     "verdict": "원문 미입력",
+     "reason": "원문을 넣으면 대조합니다.",
+     "stage1": null,
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "prize": {
+     "verdict": "원문 미입력",
+     "reason": "요약 본문에 해당 내용이 없어 칸만으로는 확인할 수 없습니다. 원문을 넣으면 대조합니다.",
+     "stage1": "받은 글엔 없음",
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "submission": {
+     "verdict": "원문 미입력",
+     "reason": "원문을 넣으면 대조합니다.",
+     "stage1": null,
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "penalty": {
+     "verdict": "원문 미입력",
+     "reason": "원문을 넣으면 대조합니다.",
+     "stage1": null,
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "ai_copyright": {
+     "verdict": "원문 미입력",
+     "reason": "원문을 넣으면 대조합니다.",
+     "stage1": null,
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    }
+   },
+   "elapsed_s": 6.01,
+   "usage": {
+    "purpose": "extract",
+    "case": "extra-363142",
+    "model": "claude-haiku-5-5",
+    "input_tokens": 3636,
+    "output_tokens": 1995,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "latency_s": 6.01,
+    "stop_reason": "end_turn",
+    "ok": true,
+    "ts": "2026-11-09T20:47:23+00:00",
+    "cost_usd": 0.001361
+   }
+  },
+  {
+   "id": "363139",
+   "kind": "인턴",
+   "title": "[(주)이삼오구] MARKETER INTERNSHIP RUN-UP",
+   "org": "(주)이삼오구",
+   "url": "https://linkareer.com/activity/363139",
+   "fetched_at": "2026-11-09T20:47:17+00:00",
+   "top_fields": {
+    "공고명": "[(주)이삼오구] MARKETER INTERNSHIP RUN-UP",
+    "주최": "(주)이삼오구",
+    "접수기간": "2026.11.09 ~ 2026.12.04"
+   },
+   "body_chars": 271,
+   "items": {
+    "deadline": {
+     "verdict": "다른 점을 찾지 못함",
+     "reason": "날짜와 시각에서 다른 점을 찾지 못했습니다. (같은 페이지 칸과 본문 비교)",
+     "stage1": "다른 점을 찾지 못함",
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "found",
+       "value": "2026-12-04(금) 시각 없음",
+       "value_by": "코드",
+       "norm": {
+        "date": "2026-12-04",
+        "time": null,
+        "raw": "2026.12.04",
+        "role_text": "접수기간 끝"
+       },
+       "quotes": [
+        "접수기간: 2026.11.09 ~ 2026.12.04"
+       ],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "found",
+       "value": "2026-12-04(금) 시각 없음",
+       "value_by": "코드",
+       "norm": {
+        "date": "2026-12-04",
+        "time": null,
+        "raw": "12월 04일",
+        "role_text": "접수기간 끝"
+       },
+       "quotes": [
+        "11월 09일 ~ 12월 04일"
+       ],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "eligibility": {
+     "verdict": "칸엔 없음·본문엔 있음",
+     "reason": "요약 칸에 참가 자격이 없습니다. (같은 페이지 칸과 본문 비교)",
+     "stage1": "요약에 없음",
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "found",
+       "value": "졸업(예정)자 · 기타: 2027년 1월 18일 입사, 3개월간 주 5일 근무 가능",
+       "value_by": "코드",
+       "norm": {
+        "open": false,
+        "applicant": "개인",
+        "age_min": -1,
+        "age_max": -1,
+        "groups": [
+         "졸업(예정)자"
+        ],
+        "region": "",
+        "nationality": "언급 없음",
+        "other": [
+         "2027년 1월 18일 입사, 3개월간 주 5일 근무 가능"
+        ]
+       },
+       "quotes": [
+        "2027년 2월 졸업예정자 또는 기졸업자 (전공 무관)",
+        "2027년 1월 18일 입사 및 3개월간 주 5일 근무가 가능한 분",
+        "커머스 마케터에 도전하고 싶은 분"
+       ],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "team": {
+     "verdict": "원문 미입력",
+     "reason": "원문을 넣으면 대조합니다.",
+     "stage1": null,
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "prize": {
+     "verdict": "원문 미입력",
+     "reason": "요약 본문에 해당 내용이 없어 칸만으로는 확인할 수 없습니다. 원문을 넣으면 대조합니다.",
+     "stage1": "받은 글엔 없음",
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "submission": {
+     "verdict": "원문 미입력",
+     "reason": "원문을 넣으면 대조합니다.",
+     "stage1": null,
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "penalty": {
+     "verdict": "원문 미입력",
+     "reason": "원문을 넣으면 대조합니다.",
+     "stage1": null,
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "ai_copyright": {
+     "verdict": "원문 미입력",
+     "reason": "원문을 넣으면 대조합니다.",
+     "stage1": null,
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    }
+   },
+   "elapsed_s": 14.31,
+   "usage": {
+    "purpose": "extract",
+    "case": "extra-363139",
+    "model": "claude-haiku-5-5",
+    "input_tokens": 3528,
+    "output_tokens": 4196,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "latency_s": 14.31,
+    "stop_reason": "end_turn",
+    "ok": true,
+    "ts": "2026-11-09T20:47:31+00:00",
+    "cost_usd": 0.002451
+   }
+  },
+  {
+   "id": "363127",
+   "kind": "인턴",
+   "title": "[카카오뱅크] DevOps 엔지니어 (채용연계형 인턴)",
+   "org": "카카오뱅크",
+   "url": "https://linkareer.com/activity/363127",
+   "fetched_at": "2026-11-09T20:47:23+00:00",
+   "top_fields": {
+    "공고명": "[카카오뱅크] DevOps 엔지니어 (채용연계형 인턴)",
+    "주최": "카카오뱅크",
+    "접수기간": "2026.11.09 ~ 2026.11.25"
+   },
+   "body_chars": 303,
+   "items": {
+    "deadline": {
+     "verdict": "다른 점을 찾지 못함",
+     "reason": "날짜와 시각에서 다른 점을 찾지 못했습니다. (같은 페이지 칸과 본문 비교)",
+     "stage1": "다른 점을 찾지 못함",
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "found",
+       "value": "2026-11-25(수) 시각 없음",
+       "value_by": "코드",
+       "norm": {
+        "date": "2026-11-25",
+        "time": null,
+        "raw": "2026.11.25",
+        "role_text": "접수기간 마감"
+       },
+       "quotes": [
+        "접수기간: 2026.11.09 ~ 2026.11.25"
+       ],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "found",
+       "value": "2026-11-25(수) 시각 없음",
+       "value_by": "코드",
+       "norm": {
+        "date": "2026-11-25",
+        "time": null,
+        "raw": "11월 25일",
+        "role_text": "접수기간 마감"
+       },
+       "quotes": [
+        "11월 09일 ~ 11월 25일"
+       ],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "eligibility": {
+     "verdict": "원문 미입력",
+     "reason": "요약 본문에 해당 내용이 없어 칸만으로는 확인할 수 없습니다. 원문을 넣으면 대조합니다.",
+     "stage1": "받은 글엔 없음",
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "team": {
+     "verdict": "원문 미입력",
+     "reason": "원문을 넣으면 대조합니다.",
+     "stage1": null,
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "prize": {
+     "verdict": "원문 미입력",
+     "reason": "요약 본문에 해당 내용이 없어 칸만으로는 확인할 수 없습니다. 원문을 넣으면 대조합니다.",
+     "stage1": "받은 글엔 없음",
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "submission": {
+     "verdict": "원문 미입력",
+     "reason": "원문을 넣으면 대조합니다.",
+     "stage1": null,
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "penalty": {
+     "verdict": "원문 미입력",
+     "reason": "원문을 넣으면 대조합니다.",
+     "stage1": null,
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "ai_copyright": {
+     "verdict": "원문 미입력",
+     "reason": "원문을 넣으면 대조합니다.",
+     "stage1": null,
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    }
+   },
+   "elapsed_s": 11.05,
+   "usage": {
+    "purpose": "extract",
+    "case": "extra-363127",
+    "model": "claude-haiku-5-5",
+    "input_tokens": 3514,
+    "output_tokens": 3165,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "latency_s": 11.05,
+    "stop_reason": "end_turn",
+    "ok": true,
+    "ts": "2026-11-09T20:47:34+00:00",
+    "cost_usd": 0.001934
+   }
+  },
+  {
+   "id": "363126",
+   "kind": "인턴",
+   "title": "유럽ㆍ아시아 사업본부 전환형 인턴 채용",
+   "org": "마녀공장",
+   "url": "https://linkareer.com/activity/363126",
+   "fetched_at": "2026-11-09T20:47:32+00:00",
+   "top_fields": {
+    "공고명": "유럽ㆍ아시아 사업본부 전환형 인턴 채용",
+    "주최": "마녀공장",
+    "접수기간": "2026.11.09 ~ 2026.11.22"
+   },
+   "body_chars": 0,
+   "items": {
+    "deadline": {
+     "verdict": "원문 미입력",
+     "reason": "요약 본문에 해당 내용이 없어 칸만으로는 확인할 수 없습니다. 원문을 넣으면 대조합니다.",
+     "stage1": "확인 필요",
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "found",
+       "value": "2026-11-22(일) 시각 없음",
+       "value_by": "코드",
+       "norm": {
+        "date": "2026-11-22",
+        "time": null,
+        "raw": "2026.11.22",
+        "role_text": "접수기간 종료일"
+       },
+       "quotes": [
+        "접수기간: 2026.11.09 ~ 2026.11.22"
+       ],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "eligibility": {
+     "verdict": "원문 미입력",
+     "reason": "요약 본문에 해당 내용이 없어 칸만으로는 확인할 수 없습니다. 원문을 넣으면 대조합니다.",
+     "stage1": "받은 글엔 없음",
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "team": {
+     "verdict": "원문 미입력",
+     "reason": "원문을 넣으면 대조합니다.",
+     "stage1": null,
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "prize": {
+     "verdict": "원문 미입력",
+     "reason": "요약 본문에 해당 내용이 없어 칸만으로는 확인할 수 없습니다. 원문을 넣으면 대조합니다.",
+     "stage1": "받은 글엔 없음",
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "submission": {
+     "verdict": "원문 미입력",
+     "reason": "원문을 넣으면 대조합니다.",
+     "stage1": null,
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "penalty": {
+     "verdict": "원문 미입력",
+     "reason": "원문을 넣으면 대조합니다.",
+     "stage1": null,
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "ai_copyright": {
+     "verdict": "원문 미입력",
+     "reason": "원문을 넣으면 대조합니다.",
+     "stage1": null,
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    }
+   },
+   "elapsed_s": 5.79,
+   "usage": {
+    "purpose": "extract",
+    "case": "extra-363126",
+    "model": "claude-haiku-5-5",
+    "input_tokens": 3152,
+    "output_tokens": 1945,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "latency_s": 5.79,
+    "stop_reason": "end_turn",
+    "ok": true,
+    "ts": "2026-11-09T20:47:38+00:00",
+    "cost_usd": 0.001288
+   }
+  },
+  {
+   "id": "363125",
+   "kind": "인턴",
+   "title": "일본 사업본부 전환형 인턴 채용",
+   "org": "마녀공장",
+   "url": "https://linkareer.com/activity/363125",
+   "fetched_at": "2026-11-09T20:47:35+00:00",
+   "top_fields": {
+    "공고명": "일본 사업본부 전환형 인턴 채용",
+    "주최": "마녀공장",
+    "접수기간": "2026.11.09 ~ 2026.11.22"
+   },
+   "body_chars": 0,
+   "items": {
+    "deadline": {
+     "verdict": "원문 미입력",
+     "reason": "요약 본문에 해당 내용이 없어 칸만으로는 확인할 수 없습니다. 원문을 넣으면 대조합니다.",
+     "stage1": "확인 필요",
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "found",
+       "value": "2026-11-22(일) 시각 없음",
+       "value_by": "코드",
+       "norm": {
+        "date": "2026-11-22",
+        "time": null,
+        "raw": "2026.11.22",
+        "role_text": "접수기간 끝 날짜"
+       },
+       "quotes": [
+        "접수기간: 2026.11.09 ~ 2026.11.22"
+       ],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "eligibility": {
+     "verdict": "원문 미입력",
+     "reason": "요약 본문에 해당 내용이 없어 칸만으로는 확인할 수 없습니다. 원문을 넣으면 대조합니다.",
+     "stage1": "받은 글엔 없음",
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "team": {
+     "verdict": "원문 미입력",
+     "reason": "원문을 넣으면 대조합니다.",
+     "stage1": null,
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "prize": {
+     "verdict": "원문 미입력",
+     "reason": "요약 본문에 해당 내용이 없어 칸만으로는 확인할 수 없습니다. 원문을 넣으면 대조합니다.",
+     "stage1": "받은 글엔 없음",
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "submission": {
+     "verdict": "원문 미입력",
+     "reason": "원문을 넣으면 대조합니다.",
+     "stage1": null,
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "penalty": {
+     "verdict": "원문 미입력",
+     "reason": "원문을 넣으면 대조합니다.",
+     "stage1": null,
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "ai_copyright": {
+     "verdict": "원문 미입력",
+     "reason": "원문을 넣으면 대조합니다.",
+     "stage1": null,
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    }
+   },
+   "elapsed_s": 11.39,
+   "usage": {
+    "purpose": "extract",
+    "case": "extra-363125",
+    "model": "claude-haiku-5-5",
+    "input_tokens": 3143,
+    "output_tokens": 3204,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "latency_s": 11.39,
+    "stop_reason": "end_turn",
+    "ok": true,
+    "ts": "2026-11-09T20:47:46+00:00",
+    "cost_usd": 0.001916
+   }
+  },
+  {
+   "id": "363124",
+   "kind": "인턴",
+   "title": "북미 사업본부 전환형 인턴 채용",
+   "org": "마녀공장",
+   "url": "https://linkareer.com/activity/363124",
+   "fetched_at": "2026-11-09T20:47:38+00:00",
+   "top_fields": {
+    "공고명": "북미 사업본부 전환형 인턴 채용",
+    "주최": "마녀공장",
+    "접수기간": "2026.11.09 ~ 2026.11.22"
+   },
+   "body_chars": 0,
+   "items": {
+    "deadline": {
+     "verdict": "원문 미입력",
+     "reason": "요약 본문에 해당 내용이 없어 칸만으로는 확인할 수 없습니다. 원문을 넣으면 대조합니다.",
+     "stage1": "확인 필요",
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "found",
+       "value": "2026-11-22(일) 시각 없음",
+       "value_by": "코드",
+       "norm": {
+        "date": "2026-11-22",
+        "time": null,
+        "raw": "2026.11.22",
+        "role_text": "접수기간 종료일"
+       },
+       "quotes": [
+        "접수기간: 2026.11.09 ~ 2026.11.22"
+       ],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "eligibility": {
+     "verdict": "원문 미입력",
+     "reason": "요약 본문에 해당 내용이 없어 칸만으로는 확인할 수 없습니다. 원문을 넣으면 대조합니다.",
+     "stage1": "받은 글엔 없음",
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "team": {
+     "verdict": "원문 미입력",
+     "reason": "원문을 넣으면 대조합니다.",
+     "stage1": null,
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "prize": {
+     "verdict": "원문 미입력",
+     "reason": "요약 본문에 해당 내용이 없어 칸만으로는 확인할 수 없습니다. 원문을 넣으면 대조합니다.",
+     "stage1": "받은 글엔 없음",
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "submission": {
+     "verdict": "원문 미입력",
+     "reason": "원문을 넣으면 대조합니다.",
+     "stage1": null,
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "penalty": {
+     "verdict": "원문 미입력",
+     "reason": "원문을 넣으면 대조합니다.",
+     "stage1": null,
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    },
+    "ai_copyright": {
+     "verdict": "원문 미입력",
+     "reason": "원문을 넣으면 대조합니다.",
+     "stage1": null,
+     "stage2": null,
+     "values": {
+      "top": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      },
+      "body": {
+       "status": "absent",
+       "value": "",
+       "value_by": "",
+       "norm": {},
+       "quotes": [],
+       "rejected": [],
+       "note": ""
+      }
+     }
+    }
+   },
+   "elapsed_s": 10.04,
+   "usage": {
+    "purpose": "extract",
+    "case": "extra-363124",
+    "model": "claude-haiku-5-5",
+    "input_tokens": 3143,
+    "output_tokens": 2911,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "latency_s": 10.03,
+    "stop_reason": "end_turn",
+    "ok": true,
+    "ts": "2026-11-09T20:47:48+00:00",
+    "cost_usd": 0.00177
+   }
+  }
+ ]
+}

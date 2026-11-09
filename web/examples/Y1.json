@@ -1,6 +1,6 @@
 {
  "version": 1,
- "checked_at": "2026-11-09T13:42:42+00:00",
+ "checked_at": "2026-11-09T20:48:19+00:00",
  "today": "2026-11-04",
  "model": "claude-haiku-5-5",
  "case": "Y1",
@@ -780,11 +780,11 @@
    "name": "참가 형태·인원",
    "verdict": "받은 글엔 없음",
    "severity": "check",
-   "reason": "요약·원문 모두 해당 내용이 없습니다.",
+   "reason": "요약과 받은 원문에서 해당 내용을 찾지 못했습니다.",
    "stage1": null,
    "stage2": {
     "verdict": "받은 글엔 없음",
-    "reason": "요약·원문 모두 해당 내용이 없습니다.",
+    "reason": "요약과 받은 원문에서 해당 내용을 찾지 못했습니다.",
     "kind": "neither"
    },
    "values": {
@@ -866,11 +866,11 @@
    "name": "시상",
    "verdict": "받은 글엔 없음",
    "severity": "check",
-   "reason": "요약 칸·원문 모두 시상 내용이 없습니다.",
+   "reason": "요약 칸과 받은 원문에서 시상 내용을 찾지 못했습니다.",
    "stage1": null,
    "stage2": {
     "verdict": "받은 글엔 없음",
-    "reason": "요약 칸·원문 모두 시상 내용이 없습니다.",
+    "reason": "요약 칸과 받은 원문에서 시상 내용을 찾지 못했습니다.",
     "kind": "neither"
    },
    "values": {
@@ -1160,11 +1160,11 @@
    "name": "생성형 AI·저작권",
    "verdict": "받은 글엔 없음",
    "severity": "check",
-   "reason": "요약·원문 모두 해당 내용이 없습니다.",
+   "reason": "요약과 받은 원문에서 해당 내용을 찾지 못했습니다.",
    "stage1": null,
    "stage2": {
     "verdict": "받은 글엔 없음",
-    "reason": "요약·원문 모두 해당 내용이 없습니다.",
+    "reason": "요약과 받은 원문에서 해당 내용을 찾지 못했습니다.",
     "kind": "neither"
    },
    "values": {
@@ -1278,7 +1278,7 @@
   "id": "Y1",
   "title": "콘진원 2026 우수인재 연계 기업인턴십 (온통청년 요약 붙여 넣기 ↔ 콘진원 공고)",
   "label": "2026-11-04 공고 기준 저장 결과",
-  "run": "r1fix2",
+  "run": "r1fix3",
   "summary_url": "https://www.youthcenter.go.kr/youthPolicy/ythPlcyTotalSearch/ythPlcyDetail/20261103005400114715",
   "original_url": "https://www.kocca.kr/kocca/bbs/view/B0000137/2012372.do?menuNo=204802"
  }

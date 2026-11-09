@@ -157,3 +157,24 @@ def test_date_range_with_times_keeps_both_ends():
     m = one("4. 접수기간: 2026. 11. 9.(월) 10:00 ~ 11. 13.(금) 16:00")
     assert m.start.time == "10:00"
     assert m.end.date == date(2026, 11, 13) and m.end.time == "16:00"
+
+
+def test_open_ended_range_is_not_a_deadline():
+    # 11/10 인턴 공고: '11월 09일 ~ 채용시 마감'의 시작일을 마감으로 읽어 잘못 경고했음
+    m = one("접수기간: 11월 09일 ~ 채용시 마감")
+    assert m.open_end
+    r = read_deadline(["접수기간: 11월 09일 ~ 채용시 마감"], "2026-11-09", "", 2026)
+    assert not r.verified and r.date is None
+    r2 = read_deadline(["[신청 기간] 2026. 10. 21.(수) ~ 선착순 마감까지"], "", "", 2026)
+    assert not r2.verified
+
+
+def test_day_only_range_end_uses_same_month():
+    m = one("접수: 11월 2일 ~ 20일 18:00", ref_year=2026)
+    assert m.start.date == date(2026, 11, 2)
+    assert m.end.date == date(2026, 11, 20) and m.end.time == "18:00"
+
+
+def test_hyphen_after_date_is_not_open_ended():
+    m = one("11월 9일 - 온라인 접수", ref_year=2026)
+    assert not m.open_end and m.end.date == date(2026, 11, 9)

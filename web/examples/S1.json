@@ -1,0 +1,908 @@
+{
+ "version": 1,
+ "checked_at": "2026-11-09T20:41:27+00:00",
+ "today": "2026-11-10",
+ "model": "claude-haiku-5-5",
+ "case": "extra-363176",
+ "meta": {
+  "portal": "linkareer",
+  "title": "2027년 경기도(장애인)체육대회 시민서포터즈 모집",
+  "homepage_url": "https://www.instagram.com/p/DfWefZoI1_q/",
+  "recruit_close_at": "2026-12-11T23:59:59.999000+09:00",
+  "fields": {
+   "공고명": "2027년 경기도(장애인)체육대회 시민서포터즈 모집",
+   "주최": "경기도",
+   "참여대상": "대상 제한 없음",
+   "혜택": "수료증 및 인증서",
+   "접수기간": "2026.11.09 ~ 2026.12.11"
+  }
+ },
+ "sources": {
+  "top": {
+   "role": "top",
+   "label": "요약 위쪽 칸",
+   "origin": "https://linkareer.com/activity/363176",
+   "kind": "linkareer-fields",
+   "segments": [
+    {
+     "sid": "칸-1",
+     "text": "공고명: 2027년 경기도(장애인)체육대회 시민서포터즈 모집",
+     "page": null
+    },
+    {
+     "sid": "칸-2",
+     "text": "주최: 경기도",
+     "page": null
+    },
+    {
+     "sid": "칸-3",
+     "text": "참여대상: 대상 제한 없음",
+     "page": null
+    },
+    {
+     "sid": "칸-4",
+     "text": "혜택: 수료증 및 인증서",
+     "page": null
+    },
+    {
+     "sid": "칸-5",
+     "text": "접수기간: 2026.11.09 ~ 2026.12.11",
+     "page": null
+    }
+   ],
+   "notes": [
+    "페이지 내장 데이터의 마감값(recruitCloseAt)은 2026-12-11 23:59:59입니다. 화면의 접수기간 칸에는 시각이 나오지 않습니다."
+   ],
+   "truncated": false
+  },
+  "body": {
+   "role": "body",
+   "label": "요약 본문",
+   "origin": "https://linkareer.com/activity/363176",
+   "kind": "linkareer-body",
+   "segments": [
+    {
+     "sid": "본문-1",
+     "text": "■ 모집명",
+     "page": null
+    },
+    {
+     "sid": "본문-2",
+     "text": "2027년 경기도(장애인)체육대회 시민서포터즈 모집",
+     "page": null
+    },
+    {
+     "sid": "본문-3",
+     "text": "■ 모집기간",
+     "page": null
+    },
+    {
+     "sid": "본문-4",
+     "text": "2026. 11. 2.(월) ~ 12. 11.(금) 18:00까지",
+     "page": null
+    },
+    {
+     "sid": "본문-5",
+     "text": "■ 모집인원",
+     "page": null
+    },
+    {
+     "sid": "본문-6",
+     "text": "100명 내외",
+     "page": null
+    },
+    {
+     "sid": "본문-7",
+     "text": "■ 모집대상",
+     "page": null
+    },
+    {
+     "sid": "본문-8",
+     "text": "오산시 거주자, 관내 직장 재직자, 관내 고등학교·대학교 재학생 또는 관내 기관·단체 소속자",
+     "page": null
+    },
+    {
+     "sid": "본문-9",
+     "text": "■ 활동기간",
+     "page": null
+    },
+    {
+     "sid": "본문-10",
+     "text": "2027년 1월 ~ 5월",
+     "page": null
+    },
+    {
+     "sid": "본문-11",
+     "text": "■ 주요 활동",
+     "page": null
+    },
+    {
+     "sid": "본문-12",
+     "text": "- 대회 홍보 및 경기장 응원",
+     "page": null
+    },
+    {
+     "sid": "본문-13",
+     "text": "- 현장 홍보 활동 등",
+     "page": null
+    },
+    {
+     "sid": "본문-14",
+     "text": "■ 지원 혜택",
+     "page": null
+    },
+    {
+     "sid": "본문-15",
+     "text": "- 단체복 및 응원용품 지원",
+     "page": null
+    },
+    {
+     "sid": "본문-16",
+     "text": "- 활동인증서 발급 및 우수활동자 표창",
+     "page": null
+    },
+    {
+     "sid": "본문-17",
+     "text": "- 주요 공식행사 참여 기회 제공",
+     "page": null
+    },
+    {
+     "sid": "본문-18",
+     "text": "- 우수 콘텐츠 공식 SNS 및 홍보매체 게재",
+     "page": null
+    },
+    {
+     "sid": "본문-19",
+     "text": "■ 신청 방법",
+     "page": null
+    },
+    {
+     "sid": "본문-20",
+     "text": "- 온라인(이메일) : ********@*****.**",
+     "page": null
+    },
+    {
+     "sid": "본문-21",
+     "text": "- 오프라인(등기우편) : 오산시 성호대로 141",
+     "page": null
+    },
+    {
+     "sid": "본문-22",
+     "text": "(오산시청 체육과 도체전기획TF팀)",
+     "page": null
+    },
+    {
+     "sid": "본문-23",
+     "text": "■ 결과 발표",
+     "page": null
+    },
+    {
+     "sid": "본문-24",
+     "text": "2026. 12. 18.(금) 예정",
+     "page": null
+    }
+   ],
+   "notes": [],
+   "truncated": false
+  }
+ },
+ "items": [
+  {
+   "key": "deadline",
+   "name": "마감 일시",
+   "verdict": "칸엔 없음·본문엔 있음",
+   "severity": "red",
+   "reason": "같은 날이지만 요약 본문은 18:00 마감인데 요약 칸에 시각이 없습니다. 밤까지 열린 것처럼 읽힐 수 있습니다. (같은 페이지 칸과 본문 비교)",
+   "stage1": {
+    "verdict": "시각 누락",
+    "reason": "같은 날이지만 요약 본문은 18:00 마감인데 요약 칸에 시각이 없습니다. 밤까지 열린 것처럼 읽힐 수 있습니다.",
+    "kind": "missing_time"
+   },
+   "stage2": null,
+   "values": {
+    "top": {
+     "role": "top",
+     "status": "found",
+     "value": "2026-12-11(금) 시각 없음",
+     "value_by": "코드",
+     "norm": {
+      "date": "2026-12-11",
+      "time": null,
+      "raw": "2026.12.11",
+      "role_text": "접수기간 마감"
+     },
+     "quotes": [
+      {
+       "text": "접수기간: 2026.11.09 ~ 2026.12.11",
+       "sid": "칸-5",
+       "sids": [
+        "칸-5"
+       ],
+       "start": 0,
+       "end": 29
+      }
+     ],
+     "rejected_quotes": [],
+     "ai": {
+      "item": "deadline",
+      "source": "top",
+      "found": true,
+      "quotes": [
+       "접수기간: 2026.11.09 ~ 2026.12.11"
+      ],
+      "value": "접수기간 끝 2026-12-11",
+      "deadline_date": "2026-12-11",
+      "deadline_time": "",
+      "date_role": "접수기간 마감",
+      "open_to_all": false,
+      "applicant": "알 수 없음",
+      "age_min": -1,
+      "age_max": -1,
+      "groups": [],
+      "region": "",
+      "nationality": "언급 없음",
+      "other": [],
+      "total_won": 0,
+      "kind": "알 수 없음"
+     },
+     "note": ""
+    },
+    "body": {
+     "role": "body",
+     "status": "found",
+     "value": "2026-12-11(금) 18:00",
+     "value_by": "코드",
+     "norm": {
+      "date": "2026-12-11",
+      "time": "18:00",
+      "raw": "12. 11.(금) 18:00",
+      "role_text": "모집기간 마감"
+     },
+     "quotes": [
+      {
+       "text": "2026. 11. 2.(월) ~ 12. 11.(금) 18:00까지",
+       "sid": "본문-4",
+       "sids": [
+        "본문-4"
+       ],
+       "start": 0,
+       "end": 36
+      }
+     ],
+     "rejected_quotes": [],
+     "ai": {
+      "item": "deadline",
+      "source": "body",
+      "found": true,
+      "quotes": [
+       "2026. 11. 2.(월) ~ 12. 11.(금) 18:00까지"
+      ],
+      "value": "모집기간 끝 12월 11일 18:00",
+      "deadline_date": "2026-12-11",
+      "deadline_time": "18:00",
+      "date_role": "모집기간 마감",
+      "open_to_all": false,
+      "applicant": "알 수 없음",
+      "age_min": -1,
+      "age_max": -1,
+      "groups": [],
+      "region": "",
+      "nationality": "언급 없음",
+      "other": [],
+      "total_won": 0,
+      "kind": "알 수 없음"
+     },
+     "note": ""
+    },
+    "original": {
+     "role": "original",
+     "status": "not_given",
+     "value": "",
+     "value_by": "",
+     "norm": {},
+     "quotes": [],
+     "rejected_quotes": [],
+     "ai": {},
+     "note": ""
+    }
+   }
+  },
+  {
+   "key": "eligibility",
+   "name": "참가 자격",
+   "verdict": "불일치",
+   "severity": "red",
+   "reason": "요약 칸은 '제한 없음'인데 요약 본문에는 조건이 있습니다(신분·학적, 지역: 신청 주체: 개인과 기업·기관 모두 · 기관·단체, 대학생, 직장인 · 지역: 오산시 · 기타: 관내 재직자 또는 기관·단체 소속자 포함). (같은 페이지 칸과 본문 비교)",
+   "stage1": {
+    "verdict": "불일치",
+    "reason": "요약 칸은 '제한 없음'인데 요약 본문에는 조건이 있습니다(신분·학적, 지역: 신청 주체: 개인과 기업·기관 모두 · 기관·단체, 대학생, 직장인 · 지역: 오산시 · 기타: 관내 재직자 또는 기관·단체 소속자 포함).",
+    "kind": "contradiction"
+   },
+   "stage2": null,
+   "values": {
+    "top": {
+     "role": "top",
+     "status": "found",
+     "value": "제한 없음 · 누구나",
+     "value_by": "코드",
+     "norm": {
+      "open": true,
+      "applicant": "알 수 없음",
+      "age_min": -1,
+      "age_max": -1,
+      "groups": [
+       "누구나"
+      ],
+      "region": "",
+      "nationality": "언급 없음",
+      "other": []
+     },
+     "quotes": [
+      {
+       "text": "참여대상: 대상 제한 없음",
+       "sid": "칸-3",
+       "sids": [
+        "칸-3"
+       ],
+       "start": 0,
+       "end": 14
+      }
+     ],
+     "rejected_quotes": [],
+     "ai": {
+      "item": "eligibility",
+      "source": "top",
+      "found": true,
+      "quotes": [
+       "참여대상: 대상 제한 없음"
+      ],
+      "value": "대상 제한 없음",
+      "deadline_date": "",
+      "deadline_time": "",
+      "date_role": "",
+      "open_to_all": true,
+      "applicant": "알 수 없음",
+      "age_min": -1,
+      "age_max": -1,
+      "groups": [
+       "누구나"
+      ],
+      "region": "",
+      "nationality": "언급 없음",
+      "other": [],
+      "total_won": 0,
+      "kind": "알 수 없음"
+     },
+     "note": ""
+    },
+    "body": {
+     "role": "body",
+     "status": "found",
+     "value": "신청 주체: 개인과 기업·기관 모두 · 기관·단체, 대학생, 직장인 · 지역: 오산시 · 기타: 관내 재직자 또는 기관·단체 소속자 포함",
+     "value_by": "코드",
+     "norm": {
+      "open": false,
+      "applicant": "개인과 기업·기관 모두",
+      "age_min": -1,
+      "age_max": -1,
+      "groups": [
+       "기관·단체",
+       "대학생",
+       "직장인"
+      ],
+      "region": "오산시",
+      "nationality": "언급 없음",
+      "other": [
+       "관내 재직자 또는 기관·단체 소속자 포함"
+      ]
+     },
+     "quotes": [
+      {
+       "text": "오산시 거주자, 관내 직장 재직자, 관내 고등학교·대학교 재학생 또는 관내 기관·단체 소속자",
+       "sid": "본문-8",
+       "sids": [
+        "본문-8"
+       ],
+       "start": 0,
+       "end": 51
+      }
+     ],
+     "rejected_quotes": [],
+     "ai": {
+      "item": "eligibility",
+      "source": "body",
+      "found": true,
+      "quotes": [
+       "오산시 거주자, 관내 직장 재직자, 관내 고등학교·대학교 재학생 또는 관내 기관·단체 소속자"
+      ],
+      "value": "오산시 거주자 또는 관내 재직자·재학생·기관 소속자",
+      "deadline_date": "",
+      "deadline_time": "",
+      "date_role": "",
+      "open_to_all": false,
+      "applicant": "개인과 기업·기관 모두",
+      "age_min": -1,
+      "age_max": -1,
+      "groups": [
+       "직장인",
+       "고등학생",
+       "대학생",
+       "기관·단체"
+      ],
+      "region": "오산시",
+      "nationality": "언급 없음",
+      "other": [
+       "관내 재직자 또는 기관·단체 소속자 포함"
+      ],
+      "total_won": 0,
+      "kind": "알 수 없음"
+     },
+     "note": "인용에 근거가 없어 뺀 AI 값: 신분 '고등학생'"
+    },
+    "original": {
+     "role": "original",
+     "status": "not_given",
+     "value": "",
+     "value_by": "",
+     "norm": {},
+     "quotes": [],
+     "rejected_quotes": [],
+     "ai": {},
+     "note": ""
+    }
+   }
+  },
+  {
+   "key": "team",
+   "name": "참가 형태·인원",
+   "verdict": "원문 미입력",
+   "severity": "check",
+   "reason": "원문을 넣으면 대조합니다.",
+   "stage1": null,
+   "stage2": null,
+   "values": {
+    "top": {
+     "role": "top",
+     "status": "absent",
+     "value": "",
+     "value_by": "",
+     "norm": {},
+     "quotes": [],
+     "rejected_quotes": [],
+     "ai": {
+      "item": "team",
+      "source": "top",
+      "found": false,
+      "quotes": [],
+      "value": "",
+      "deadline_date": "",
+      "deadline_time": "",
+      "date_role": "",
+      "open_to_all": false,
+      "applicant": "알 수 없음",
+      "age_min": -1,
+      "age_max": -1,
+      "groups": [],
+      "region": "",
+      "nationality": "언급 없음",
+      "other": [],
+      "total_won": 0,
+      "kind": "알 수 없음"
+     },
+     "note": ""
+    },
+    "body": {
+     "role": "body",
+     "status": "absent",
+     "value": "",
+     "value_by": "",
+     "norm": {},
+     "quotes": [],
+     "rejected_quotes": [],
+     "ai": {
+      "item": "team",
+      "source": "body",
+      "found": false,
+      "quotes": [],
+      "value": "",
+      "deadline_date": "",
+      "deadline_time": "",
+      "date_role": "",
+      "open_to_all": false,
+      "applicant": "알 수 없음",
+      "age_min": -1,
+      "age_max": -1,
+      "groups": [],
+      "region": "",
+      "nationality": "언급 없음",
+      "other": [],
+      "total_won": 0,
+      "kind": "알 수 없음"
+     },
+     "note": ""
+    },
+    "original": {
+     "role": "original",
+     "status": "not_given",
+     "value": "",
+     "value_by": "",
+     "norm": {},
+     "quotes": [],
+     "rejected_quotes": [],
+     "ai": {},
+     "note": ""
+    }
+   }
+  },
+  {
+   "key": "prize",
+   "name": "시상",
+   "verdict": "원문 미입력",
+   "severity": "check",
+   "reason": "요약 본문에 해당 내용이 없어 칸만으로는 확인할 수 없습니다. 원문을 넣으면 대조합니다.",
+   "stage1": {
+    "verdict": "받은 글엔 없음",
+    "reason": "요약 칸·요약 본문 모두 시상 내용이 없습니다.",
+    "kind": "neither"
+   },
+   "stage2": null,
+   "values": {
+    "top": {
+     "role": "top",
+     "status": "absent",
+     "value": "",
+     "value_by": "",
+     "norm": {},
+     "quotes": [],
+     "rejected_quotes": [],
+     "ai": {
+      "item": "prize",
+      "source": "top",
+      "found": false,
+      "quotes": [],
+      "value": "",
+      "deadline_date": "",
+      "deadline_time": "",
+      "date_role": "",
+      "open_to_all": false,
+      "applicant": "알 수 없음",
+      "age_min": -1,
+      "age_max": -1,
+      "groups": [],
+      "region": "",
+      "nationality": "언급 없음",
+      "other": [],
+      "total_won": 0,
+      "kind": "알 수 없음"
+     },
+     "note": ""
+    },
+    "body": {
+     "role": "body",
+     "status": "absent",
+     "value": "",
+     "value_by": "",
+     "norm": {},
+     "quotes": [],
+     "rejected_quotes": [],
+     "ai": {
+      "item": "prize",
+      "source": "body",
+      "found": false,
+      "quotes": [],
+      "value": "",
+      "deadline_date": "",
+      "deadline_time": "",
+      "date_role": "",
+      "open_to_all": false,
+      "applicant": "알 수 없음",
+      "age_min": -1,
+      "age_max": -1,
+      "groups": [],
+      "region": "",
+      "nationality": "언급 없음",
+      "other": [],
+      "total_won": 0,
+      "kind": "알 수 없음"
+     },
+     "note": ""
+    },
+    "original": {
+     "role": "original",
+     "status": "not_given",
+     "value": "",
+     "value_by": "",
+     "norm": {},
+     "quotes": [],
+     "rejected_quotes": [],
+     "ai": {},
+     "note": ""
+    }
+   }
+  },
+  {
+   "key": "submission",
+   "name": "제출물·분량",
+   "verdict": "원문 미입력",
+   "severity": "check",
+   "reason": "원문을 넣으면 대조합니다.",
+   "stage1": null,
+   "stage2": null,
+   "values": {
+    "top": {
+     "role": "top",
+     "status": "absent",
+     "value": "",
+     "value_by": "",
+     "norm": {},
+     "quotes": [],
+     "rejected_quotes": [],
+     "ai": {
+      "item": "submission",
+      "source": "top",
+      "found": false,
+      "quotes": [],
+      "value": "",
+      "deadline_date": "",
+      "deadline_time": "",
+      "date_role": "",
+      "open_to_all": false,
+      "applicant": "알 수 없음",
+      "age_min": -1,
+      "age_max": -1,
+      "groups": [],
+      "region": "",
+      "nationality": "언급 없음",
+      "other": [],
+      "total_won": 0,
+      "kind": "알 수 없음"
+     },
+     "note": ""
+    },
+    "body": {
+     "role": "body",
+     "status": "absent",
+     "value": "",
+     "value_by": "",
+     "norm": {},
+     "quotes": [],
+     "rejected_quotes": [],
+     "ai": {
+      "item": "submission",
+      "source": "body",
+      "found": false,
+      "quotes": [],
+      "value": "",
+      "deadline_date": "",
+      "deadline_time": "",
+      "date_role": "",
+      "open_to_all": false,
+      "applicant": "알 수 없음",
+      "age_min": -1,
+      "age_max": -1,
+      "groups": [],
+      "region": "",
+      "nationality": "언급 없음",
+      "other": [],
+      "total_won": 0,
+      "kind": "알 수 없음"
+     },
+     "note": ""
+    },
+    "original": {
+     "role": "original",
+     "status": "not_given",
+     "value": "",
+     "value_by": "",
+     "norm": {},
+     "quotes": [],
+     "rejected_quotes": [],
+     "ai": {},
+     "note": ""
+    }
+   }
+  },
+  {
+   "key": "penalty",
+   "name": "실격·감점",
+   "verdict": "원문 미입력",
+   "severity": "check",
+   "reason": "원문을 넣으면 대조합니다.",
+   "stage1": null,
+   "stage2": null,
+   "values": {
+    "top": {
+     "role": "top",
+     "status": "absent",
+     "value": "",
+     "value_by": "",
+     "norm": {},
+     "quotes": [],
+     "rejected_quotes": [],
+     "ai": {
+      "item": "penalty",
+      "source": "top",
+      "found": false,
+      "quotes": [],
+      "value": "",
+      "deadline_date": "",
+      "deadline_time": "",
+      "date_role": "",
+      "open_to_all": false,
+      "applicant": "알 수 없음",
+      "age_min": -1,
+      "age_max": -1,
+      "groups": [],
+      "region": "",
+      "nationality": "언급 없음",
+      "other": [],
+      "total_won": 0,
+      "kind": "알 수 없음"
+     },
+     "note": ""
+    },
+    "body": {
+     "role": "body",
+     "status": "absent",
+     "value": "",
+     "value_by": "",
+     "norm": {},
+     "quotes": [],
+     "rejected_quotes": [],
+     "ai": {
+      "item": "penalty",
+      "source": "body",
+      "found": false,
+      "quotes": [],
+      "value": "",
+      "deadline_date": "",
+      "deadline_time": "",
+      "date_role": "",
+      "open_to_all": false,
+      "applicant": "알 수 없음",
+      "age_min": -1,
+      "age_max": -1,
+      "groups": [],
+      "region": "",
+      "nationality": "언급 없음",
+      "other": [],
+      "total_won": 0,
+      "kind": "알 수 없음"
+     },
+     "note": ""
+    },
+    "original": {
+     "role": "original",
+     "status": "not_given",
+     "value": "",
+     "value_by": "",
+     "norm": {},
+     "quotes": [],
+     "rejected_quotes": [],
+     "ai": {},
+     "note": ""
+    }
+   }
+  },
+  {
+   "key": "ai_copyright",
+   "name": "생성형 AI·저작권",
+   "verdict": "원문 미입력",
+   "severity": "check",
+   "reason": "원문을 넣으면 대조합니다.",
+   "stage1": null,
+   "stage2": null,
+   "values": {
+    "top": {
+     "role": "top",
+     "status": "absent",
+     "value": "",
+     "value_by": "",
+     "norm": {},
+     "quotes": [],
+     "rejected_quotes": [],
+     "ai": {
+      "item": "ai_copyright",
+      "source": "top",
+      "found": false,
+      "quotes": [],
+      "value": "",
+      "deadline_date": "",
+      "deadline_time": "",
+      "date_role": "",
+      "open_to_all": false,
+      "applicant": "알 수 없음",
+      "age_min": -1,
+      "age_max": -1,
+      "groups": [],
+      "region": "",
+      "nationality": "언급 없음",
+      "other": [],
+      "total_won": 0,
+      "kind": "알 수 없음"
+     },
+     "note": ""
+    },
+    "body": {
+     "role": "body",
+     "status": "absent",
+     "value": "",
+     "value_by": "",
+     "norm": {},
+     "quotes": [],
+     "rejected_quotes": [],
+     "ai": {
+      "item": "ai_copyright",
+      "source": "body",
+      "found": false,
+      "quotes": [],
+      "value": "",
+      "deadline_date": "",
+      "deadline_time": "",
+      "date_role": "",
+      "open_to_all": false,
+      "applicant": "알 수 없음",
+      "age_min": -1,
+      "age_max": -1,
+      "groups": [],
+      "region": "",
+      "nationality": "언급 없음",
+      "other": [],
+      "total_won": 0,
+      "kind": "알 수 없음"
+     },
+     "note": ""
+    },
+    "original": {
+     "role": "original",
+     "status": "not_given",
+     "value": "",
+     "value_by": "",
+     "norm": {},
+     "quotes": [],
+     "rejected_quotes": [],
+     "ai": {},
+     "note": ""
+    }
+   }
+  }
+ ],
+ "summary": {
+  "red_items": [
+   "마감 일시",
+   "참가 자격"
+  ],
+  "needs_check": [],
+  "quotes_total": 4,
+  "quotes_verified": 4
+ },
+ "deadline_dday": {
+  "basis": "body",
+  "date": "2026-12-11",
+  "time": "18:00",
+  "days_left": 31
+ },
+ "elapsed_s": 16.18,
+ "usage": {
+  "purpose": "extract",
+  "case": "extra-363176",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 3764,
+  "output_tokens": 4435,
+  "cache_read_input_tokens": 0,
+  "cache_creation_input_tokens": 0,
+  "latency_s": 16.18,
+  "stop_reason": "end_turn",
+  "ok": true,
+  "ts": "2026-11-09T20:41:27+00:00",
+  "cost_usd": 0.002594
+ },
+ "example": {
+  "id": "S1",
+  "title": "경기도체육대회 시민서포터즈 (링커리어 대외활동, 위쪽 칸 ↔ 같은 페이지 본문)",
+  "label": "2026-11-10 공고 기준 저장 결과",
+  "run": "extra_types",
+  "summary_url": "https://linkareer.com/activity/363176",
+  "original_url": ""
+ }
+}

@@ -78,3 +78,20 @@ def test_money():
     assert parse_amounts("총 1천만원") == [10_000_000]
     assert prize_kind("240만원 규모의 시상품(모바일상품권 및 커피쿠폰 등)") == "현물·상품권"
     assert prize_kind("총 상금 1,300만원") == "현금"
+
+
+def test_linkareer_hire_until_filled_shows_text_not_date():
+    """채용 시 마감(ASAP) 공고: 화면처럼 날짜 대신 '채용 시 마감'을 칸 값으로 쓴다."""
+    import json
+
+    from wonmun.portals import parse_linkareer
+
+    state = {"Activity:1": {"id": "1", "title": "행정지원 인턴", "organizationName": "회사", "activityTypeID": 5,
+                            "recruitType": "ASAP", "recruitStartAt": 1794150000000, "recruitCloseAt": 1802012399999,
+                            "detailText": {"text": "<p>접수기간: 11월 09일 ~ 채용시 마감</p>"}}}
+    html = ('<script id="__NEXT_DATA__" type="application/json">'
+            + json.dumps({"props": {"pageProps": {"__APOLLO_STATE__": state}}}) + "</script>")
+    top, body, meta = parse_linkareer(html, "https://linkareer.com/activity/1")
+    assert meta["fields"]["접수기간"] == "2026.11.09 ~ 채용 시 마감"
+    assert "2027" not in top.full_text()
+    assert any("학력" in n for n in top.notes)
