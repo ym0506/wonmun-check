@@ -22,3 +22,8 @@ data/redact_names.txt
 
 # Vercel 연결 정보
 .vercel
+
+# vercel build가 로컬에 만드는 파일
+uv.lock
+pyproject.toml
+_uv/

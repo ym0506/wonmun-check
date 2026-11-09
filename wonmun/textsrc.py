@@ -195,7 +195,7 @@ def decode_bytes(data: bytes, content_type: str = "") -> str:
 # ---------------------------------------------------------------- PDF
 
 def pdf_doc(data: bytes, role: str, origin: str) -> SourceDoc:
-    import fitz  # PyMuPDF
+    import pymupdf as fitz  # PyMuPDF
 
     doc = SourceDoc(role=role, label=ROLE_LABEL[role], origin=origin, kind="pdf")
     with fitz.open(stream=data, filetype="pdf") as pdf:

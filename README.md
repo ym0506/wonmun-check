@@ -13,7 +13,7 @@
 ```bash
 cd ~/dev/wonmun-check
 python3 -m venv .venv
-.venv/bin/pip install -r requirements.txt
+.venv/bin/pip install -r requirements-dev.txt
 ```
 
 AI 키는 저장소에 두지 않습니다. 실행할 때 `~/.config/kic-hanbaguni/.env`의 `ANTHROPIC_API_KEY=` 한 줄을 읽습니다.
@@ -105,7 +105,7 @@ docs/study/        학습 노트
 
 ## 배포(Vercel)
 
-루트 `index.py`가 `web.app`의 `app`을 Vercel에 넘긴다. 설정은 `vercel.json`(함수 최대 60초, 시험·자료 폴더 제외), 올리지 않을 파일은 `.vercelignore`, 파이썬 버전은 `.python-version`(3.13).
+루트 `index.py`가 `web.app`의 `app`을 Vercel에 넘긴다. 설정은 `vercel.json`(함수 최대 60초, 시험·자료 폴더 제외), 올리지 않을 파일은 `.vercelignore`, 파이썬 버전은 `.python-version`(3.14, Vercel이 3.13을 받지 않음). 배포 묶음에는 `requirements.txt`만 들어간다(개발·시험용은 `requirements-dev.txt`).
 
 - 키는 Vercel 환경변수 `ANTHROPIC_API_KEY`로만 넣는다(저장소·파일에 두지 않음).
 - Vercel에서는 디스크가 `/tmp`만 쓰기 가능이라 호출 기록이 `/tmp`로 간다. 인스턴스가 바뀌면 지워지므로 하루 호출 제한(`WONMUN_DAILY_LIMIT`, `WONMUN_IP_DAILY_LIMIT`)도 인스턴스마다 따로 센다. 비용 상한은 Anthropic 콘솔의 사용 한도로 건다.

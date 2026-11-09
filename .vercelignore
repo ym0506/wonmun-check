@@ -13,3 +13,8 @@ __pycache__
 *.env
 .DS_Store
 tools
+# vercel build가 로컬에 만드는 파일(올리면 requirements.txt와 어긋날 수 있음)
+uv.lock
+pyproject.toml
+_uv
+requirements-dev.txt
