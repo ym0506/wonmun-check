@@ -153,6 +153,10 @@ def main() -> None:
 <p class="sub">기획안의 숫자가 어디서 나왔는지: 표본 목록, 원문 주소, 칸별 판정, 화면 캡처. <a href="/">← 원문 확인으로</a></p></div></header>
 <main class="wrap ev">
 
+<h2>0. 시연 영상 (1분 10초)</h2>
+<p>저장 예시 3건을 보고, 포털 주소 하나로 직접 확인을 1번 돌린 화면이다(11월 9일 녹화). AI를 기다리는 약 20초는 영상에서 줄였다. 자막은 영상 위에 덧씌운 것이다.</p>
+<video controls preload="metadata" playsinline style="width:100%;max-width:960px;border:1px solid var(--line);border-radius:var(--radius)" src="/static/demo/demo.mp4"></video>
+
 <h2>1. 11월 4일 표본 23건 (문제 정의)</h2>
 <p>링커리어 공모전 목록 1쪽을 순서대로 20건(공모가 아닌 1건 제외), 온통청년 최신순 1쪽에서 신청기간이 날짜로 적힌 정책 3건. 원문을 찾지 못하거나 열 수 없던 3건(L03, L16, Y3)을 빼고 20건을 원문과 대조했고, 2건(L06, L09)은 주최 측 공식 SNS로 원문을 대신했다. 빨간 줄이 마감이나 자격이 원문과 다른 7건이다. 항목별 1차 판정은 Claude가 했고, 원문과 다른 7건은 Claude가 원문을 다시 열어 확인했다.</p>
 <div class="scroll">{t1104}</div>

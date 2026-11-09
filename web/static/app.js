@@ -202,7 +202,10 @@ function heroCard(result) {
       el("div", { class: "hero-label", text: label }),
       el("div", { class: "hero-date", text: v.norm.date.slice(5).replace("-", ".") + (v.norm.time ? ` ${v.norm.time}` : "") }),
       el("div", { class: "hero-dday", text: `${result.today} 기준 ${ddayText(daysLeft(result.today, v.norm.date))}` }));
-    const title = it.verdict === "시각 누락" ? "포털에는 마감 시각이 없습니다" : "포털의 마감 날짜가 원문과 다릅니다";
+    const vsOrig = ref.role === "original";
+    const title = it.verdict === "시각 누락"
+      ? (vsOrig ? "포털에는 마감 시각이 없습니다" : "포털 위쪽 칸에는 마감 시각이 없습니다")
+      : (vsOrig ? "포털의 마감 날짜가 원문과 다릅니다" : "포털 위쪽 칸의 마감이 같은 페이지 본문과 다릅니다");
     card.append(el("div", { class: "hero-title", text: title }),
       el("div", { class: "hero-row" }, side("포털에 보이는 마감", top, "is-summary"), el("div", { class: "hero-arrow", text: "→" }), side(`${refLabel}의 마감`, ref, "is-original")));
   } else {
