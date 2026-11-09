@@ -38,8 +38,12 @@ class Settings:
     daily_limit: int = field(default_factory=lambda: _int_env("WONMUN_DAILY_LIMIT", 30))
     ip_daily_limit: int = field(default_factory=lambda: _int_env("WONMUN_IP_DAILY_LIMIT", 5))
     # API 호출 기록(토큰 수만, 키·본문 없음)
+    # Vercel 함수는 /tmp만 쓸 수 있어 그곳에 둔다(인스턴스가 바뀌면 지워진다).
     ledger_path: Path = field(
-        default_factory=lambda: Path(os.environ.get("WONMUN_LEDGER", str(ROOT / "data/api_ledger.jsonl")))
+        default_factory=lambda: Path(os.environ.get(
+            "WONMUN_LEDGER",
+            "/tmp/wonmun_api_ledger.jsonl" if os.environ.get("VERCEL") else str(ROOT / "data/api_ledger.jsonl"),
+        ))
     )
     # 이 기록 파일 기준 누적 호출 상한. 넘으면 호출하지 않는다.
     call_budget: int = field(default_factory=lambda: _int_env("WONMUN_CALL_BUDGET", 1000))

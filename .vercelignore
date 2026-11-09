@@ -1,0 +1,14 @@
+# 배포 때 올리지 않는 것: 가상환경, 로컬 자료·기록, 시험·평가 자료, 비밀값
+.venv
+data
+eval
+tests
+docs
+.pytest_cache
+__pycache__
+*.pyc
+*.jsonl
+.env
+.env*
+*.env
+.DS_Store

@@ -311,14 +311,14 @@ function render(result, opts = {}) {
     rb.append(btn, ta);
     box.append(rb);
   }
-  box.scrollIntoView({ behavior: "smooth", block: "start" });
+  if (opts.scroll !== false) box.scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
-async function loadExample(id, btn, openKey) {
+async function loadExample(id, btn, openKey, scroll = true) {
   document.querySelectorAll(".example-buttons button").forEach((b) => b.classList.toggle("active", b === btn));
   const r = await fetch(`/api/examples/${encodeURIComponent(id)}`);
   if (!r.ok) return;
-  render(await r.json(), { saved: true });
+  render(await r.json(), { saved: true, scroll });
   // #L07/deadline 처럼 항목 키가 붙어 있으면 그 행의 근거를 펼쳐 보여 준다
   const row = openKey && document.querySelector(`.item-row[data-key="${CSS.escape(openKey)}"]`);
   if (row) { row.click(); row.scrollIntoView({ block: "center" }); }
@@ -345,10 +345,12 @@ async function init() {
     b.addEventListener("click", () => loadExample(e.id, b));
     wrap.append(b);
   }
-  // 주소 끝에 #L07 처럼 예시 번호를 붙이면 그 예시를 바로 연다
+  // 주소 끝에 #L07 처럼 예시 번호를 붙이면 그 예시를 바로 연다.
+  // 번호 없이 들어오면 첫 예시를 스크롤 없이 열어 빈 화면을 보이지 않는다.
   const [want, openKey] = decodeURIComponent(location.hash.slice(1)).split("/");
   const hit = ex.findIndex((e) => e.id === want);
   if (hit >= 0) loadExample(ex[hit].id, wrap.children[hit], openKey);
+  else if (ex.length) loadExample(ex[0].id, wrap.children[0], "", false);
 
   document.querySelectorAll(".tab").forEach((t) => t.addEventListener("click", () => {
     document.querySelectorAll(".tab").forEach((x) => { x.classList.toggle("active", x === t); x.setAttribute("aria-selected", x === t); });

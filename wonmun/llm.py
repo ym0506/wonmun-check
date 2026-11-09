@@ -170,9 +170,13 @@ def ledger_count(path: Path) -> int:
 
 
 def _append_ledger(path: Path, rec: CallRecord) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    with path.open("a", encoding="utf-8") as f:
-        f.write(json.dumps(rec.__dict__, ensure_ascii=False) + "\n")
+    # 기록은 비용 확인용이라, 쓰기 금지 디스크(배포 환경)에서 실패해도 확인 결과는 돌려준다.
+    try:
+        path.parent.mkdir(parents=True, exist_ok=True)
+        with path.open("a", encoding="utf-8") as f:
+            f.write(json.dumps(rec.__dict__, ensure_ascii=False) + "\n")
+    except OSError:
+        pass
 
 
 class Extractor:

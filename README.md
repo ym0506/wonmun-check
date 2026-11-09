@@ -99,6 +99,14 @@ docs/study/        학습 노트
 
 ## 지키는 것
 
-- 배포·공개 저장소 연결 없음(로컬 PoC). 키는 출력·로그·커밋하지 않습니다.
+- 공개 저장소 연결 없음. 배포는 아래 Vercel 설정으로만 합니다. 키는 출력·로그·커밋하지 않습니다.
 - 봇 확인 화면·로그인·403은 우회하지 않고 실패로 알립니다.
 - `data/dev_sources/`(받은 원본), `data/runs/`(전체 실행 결과)는 git에 넣지 않습니다.
+
+## 배포(Vercel)
+
+루트 `index.py`가 `web.app`의 `app`을 Vercel에 넘긴다. 설정은 `vercel.json`(함수 최대 60초, 시험·자료 폴더 제외), 올리지 않을 파일은 `.vercelignore`, 파이썬 버전은 `.python-version`(3.13).
+
+- 키는 Vercel 환경변수 `ANTHROPIC_API_KEY`로만 넣는다(저장소·파일에 두지 않음).
+- Vercel에서는 디스크가 `/tmp`만 쓰기 가능이라 호출 기록이 `/tmp`로 간다. 인스턴스가 바뀌면 지워지므로 하루 호출 제한(`WONMUN_DAILY_LIMIT`, `WONMUN_IP_DAILY_LIMIT`)도 인스턴스마다 따로 센다. 비용 상한은 Anthropic 콘솔의 사용 한도로 건다.
+- 접속 주소는 Vercel이 채우는 `x-real-ip`를 쓴다(로컬에서는 헤더를 믿지 않음).

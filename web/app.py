@@ -10,6 +10,7 @@
 from __future__ import annotations
 
 import json
+import os
 import threading
 from datetime import date
 from pathlib import Path
@@ -60,6 +61,15 @@ class DailyLimiter:
 
 
 limiter = DailyLimiter(settings.daily_limit, settings.ip_daily_limit)
+
+
+def _client_ip(request: Request) -> str:
+    """접속 주소. Vercel에서는 프록시 뒤라 Vercel이 채우는 x-real-ip를 쓴다."""
+    if os.environ.get("VERCEL"):
+        ip = request.headers.get("x-real-ip") or request.headers.get("x-forwarded-for", "").split(",")[0]
+        if ip.strip():
+            return ip.strip()
+    return request.client.host if request.client else "unknown"
 
 
 @app.get("/")
@@ -116,8 +126,7 @@ async def check(request: Request,
         if len(file_bytes) > settings.fetch_max_bytes:
             raise HTTPException(400, "파일이 너무 큽니다(15MB 이하).")
         filename = original_file.filename
-    ip = request.client.host if request.client else "unknown"
-    msg = limiter.take(ip)
+    msg = limiter.take(_client_ip(request))
     if msg:
         raise HTTPException(429, msg)
     def work():

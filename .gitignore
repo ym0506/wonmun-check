@@ -19,3 +19,6 @@ __pycache__/
 data/runs/
 data/*.log
 data/redact_names.txt
+
+# Vercel 연결 정보
+.vercel
