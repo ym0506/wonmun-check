@@ -278,7 +278,7 @@ function render(result, opts = {}) {
   const tbody = el("tbody");
   for (const it of result.items) {
     const isRed = RED.has(it.verdict);
-    const row = el("tr", { class: "item-row", tabindex: "0", "aria-expanded": "false" },
+    const row = el("tr", { class: "item-row", tabindex: "0", "aria-expanded": "false", "data-key": it.key },
       el("td", { "data-label": "항목" }, el("span", { class: "item-name", text: it.name })),
       summaryCell(it, isRed),
       el("td", { "data-label": "원문 값" }, valueBlock(it.values.original, "val-orig")),
@@ -314,11 +314,14 @@ function render(result, opts = {}) {
   box.scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
-async function loadExample(id, btn) {
+async function loadExample(id, btn, openKey) {
   document.querySelectorAll(".example-buttons button").forEach((b) => b.classList.toggle("active", b === btn));
   const r = await fetch(`/api/examples/${encodeURIComponent(id)}`);
   if (!r.ok) return;
   render(await r.json(), { saved: true });
+  // #L07/deadline 처럼 항목 키가 붙어 있으면 그 행의 근거를 펼쳐 보여 준다
+  const row = openKey && document.querySelector(`.item-row[data-key="${CSS.escape(openKey)}"]`);
+  if (row) { row.click(); row.scrollIntoView({ block: "center" }); }
 }
 
 async function refreshMeta() {
@@ -343,9 +346,9 @@ async function init() {
     wrap.append(b);
   }
   // 주소 끝에 #L07 처럼 예시 번호를 붙이면 그 예시를 바로 연다
-  const want = decodeURIComponent(location.hash.slice(1));
+  const [want, openKey] = decodeURIComponent(location.hash.slice(1)).split("/");
   const hit = ex.findIndex((e) => e.id === want);
-  if (hit >= 0) loadExample(ex[hit].id, wrap.children[hit]);
+  if (hit >= 0) loadExample(ex[hit].id, wrap.children[hit], openKey);
 
   document.querySelectorAll(".tab").forEach((t) => t.addEventListener("click", () => {
     document.querySelectorAll(".tab").forEach((x) => { x.classList.toggle("active", x === t); x.setAttribute("aria-selected", x === t); });
