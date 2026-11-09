@@ -1,6 +1,7 @@
 """웹 화면(FastAPI). 실행: .venv/bin/uvicorn web.app:app --port 8000
 
 - GET  /                 정적 화면(index.html)
+- GET  /evidence         근거 자료(표본·정답·캡처, eval/make_evidence.py로 만듦)
 - GET  /api/meta         모델 이름, 호출 제한
 - GET  /api/examples     저장 예시 목록
 - GET  /api/examples/ID  저장 예시 결과(API 호출 없음)
@@ -75,6 +76,11 @@ def _client_ip(request: Request) -> str:
 @app.get("/")
 def index():
     return FileResponse(HERE / "static/index.html")
+
+
+@app.get("/evidence")
+def evidence():
+    return FileResponse(HERE / "static/evidence.html")
 
 
 @app.get("/api/meta")

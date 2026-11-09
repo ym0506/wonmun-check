@@ -42,3 +42,13 @@ def test_ledger_write_failure_is_ignored(tmp_path):
     rec = llm.CallRecord.__new__(llm.CallRecord)
     rec.__dict__.update({"input_tokens": 1})
     llm._append_ledger(blocker / "sub" / "ledger.jsonl", rec)  # 부모가 파일이라 만들 수 없음 → 예외 없이 넘어감
+
+
+def test_evidence_page_matches_records():
+    import index
+
+    c = TestClient(index.app)
+    html = c.get("/evidence").text
+    assert html.count('class="diffrow"') == 7  # 11/4 원문과 다른 7건
+    assert "1109_kisti_portal.jpg" in html
+    assert c.get("/static/evidence/1109_kisti_portal.jpg").status_code == 200
