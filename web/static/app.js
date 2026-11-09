@@ -366,6 +366,14 @@ async function init() {
     document.getElementById("tab-live").classList.toggle("hidden", t.dataset.tab !== "live");
   }));
 
+  const sample = document.getElementById("fill-sample");
+  if (sample) sample.addEventListener("click", () => {
+    const f = document.getElementById("live-form");
+    f.elements.summary_url.value = sample.dataset.url;
+    f.elements.summary_text.value = "";
+    f.elements.summary_url.focus();
+  });
+
   document.getElementById("live-form").addEventListener("submit", async (e) => {
     e.preventDefault();
     const form = e.target;
