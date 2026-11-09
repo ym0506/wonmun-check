@@ -5,5 +5,8 @@
       "maxDuration": 60,
       "excludeFiles": "{.venv/**,data/**,eval/**,tests/**,docs/**,tools/**,**/__pycache__/**,.pytest_cache/**,.env*,.vercel/**,README.md,requirements-dev.txt,uv.lock,pyproject.toml,_uv/**}"
     }
-  }
+  },
+  "regions": [
+    "icn1"
+  ]
 }
