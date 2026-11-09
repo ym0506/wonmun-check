@@ -158,6 +158,9 @@ await click("#example-buttons button:nth-child(2)");
 await caption("쇼츠 공모전: 포털 마감 11.15, 밀양시 원문 마감 11.07");
 await sleep(5000);
 await click("#example-buttons button:nth-child(3)");
+await caption("대외활동: 위쪽 칸은 '대상 제한 없음'인데 같은 페이지 본문에는 오산시 거주자 등으로 적혀 있습니다");
+await sleep(6000);
+await click("#example-buttons button:nth-child(4)");
 await caption("청년정책: 요약만 보면 청년이 신청하는 사업 같지만, 원문의 신청 주체는 기업이고 마감은 오전 11시입니다");
 await sleep(6500);
 
@@ -186,7 +189,7 @@ await caption(`11월 ${new Date().getDate()}일 다시 확인: 같은 페이지�
 await sleep(7000);
 
 await go(`${BASE}/evidence`);
-await caption("근거 자료: 표본 23건과 원문 주소, 원문과 다른 7건의 값, 화면 캡처, 시험 15건의 칸별 결과");
+await caption("근거 자료: 표본과 원문 주소, 원문과 다른 7건의 값, 화면 캡처, 시험 15건과 추가 확인 20건의 칸별 결과");
 await sleep(3500);
 await scrollTo(1400);
 await sleep(3500);

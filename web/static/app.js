@@ -209,7 +209,12 @@ function heroCard(result) {
     card.append(el("div", { class: "hero-title", text: title }),
       el("div", { class: "hero-row" }, side("포털에 보이는 마감", top, "is-summary"), el("div", { class: "hero-arrow", text: "→" }), side(`${refLabel}의 마감`, ref, "is-original")));
   } else {
-    const val = (v) => (v && v.status === "found" ? v.value : "표시 없음");
+    // 자격처럼 글로 된 항목은 코드가 정리한 값보다 출처에 적힌 문장을 그대로 보여 준다
+    const val = (v) => {
+      if (!v || v.status !== "found") return "표시 없음";
+      const qs = (v.quotes || []).map((q) => q.text).filter(Boolean);
+      return qs.length ? qs.slice(0, 2).map((q) => `"${q}"`).join(" ") : v.value;
+    };
     card.append(el("div", { class: "hero-title", text: `${it.name}: 포털과 ${refLabel}이 다릅니다` }),
       el("div", { class: "hero-row" },
         el("div", { class: "hero-side is-summary" }, el("div", { class: "hero-label", text: "포털" }), el("div", { class: "hero-text", text: val(top) })),
