@@ -35,8 +35,8 @@ class Settings:
     # 원문이 이보다 길면 앞부분만 AI에 보내고 화면에 그 사실을 적는다.
     max_source_chars: int = field(default_factory=lambda: _int_env("WONMUN_MAX_SOURCE_CHARS", 60000))
     # 직접 확인 모드 호출 제한(배포 대비). 0이면 막는다.
-    daily_limit: int = field(default_factory=lambda: _int_env("WONMUN_DAILY_LIMIT", 30))
-    ip_daily_limit: int = field(default_factory=lambda: _int_env("WONMUN_IP_DAILY_LIMIT", 5))
+    daily_limit: int = field(default_factory=lambda: _int_env("WONMUN_DAILY_LIMIT", 60))
+    ip_daily_limit: int = field(default_factory=lambda: _int_env("WONMUN_IP_DAILY_LIMIT", 10))
     # API 호출 기록(토큰 수만, 키·본문 없음)
     # Vercel 함수는 /tmp만 쓸 수 있어 그곳에 둔다(인스턴스가 바뀌면 지워진다).
     ledger_path: Path = field(
