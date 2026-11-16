@@ -3,7 +3,7 @@
 - 질문: "요약과 원문의 다른 점을 찾아 근거 문장과 함께 알려 줘." (build_prompt 그대로)
 - 입력: 도구와 같은 출처 글(요약 위쪽 칸·붙여 넣은 요약, 요약 본문, 원문). 원문 없이 돌린 공고는 원문 없이.
 - 답 원본: data/runs/test/baseline_chat/<ID>.md (git 제외), 전화번호·전자우편을 가린 사본: eval/results_test/baseline_chat/
-- 판정: 에이전트가 답을 직접 읽고 eval/results_test/baseline_chat_reading.json에 근거 문장과 함께 적는다.
+- 판정: Claude가 답을 직접 읽고 eval/results_test/baseline_chat_reading.json에 근거 문장과 함께 적는다.
   이 스크립트는 인용 일치율(답 속 따옴표 문장이 출처에 글자 그대로 있는지)만 자동으로 센다.
 
 실행

@@ -5,7 +5,7 @@
   eval/results/baseline_chat/에 둔다.
 - 채점은 '사람이 읽듯' 규칙으로 한다: 답을 문단·목록 단위로 나누고, 그 덩어리 안에
   마감(또는 자격) 낱말 + 원문의 정답 값(날짜·시각·조건 낱말) + 차이를 말하는 낱말이 함께 있으면 찾은 것으로 센다.
-  규칙 파서는 거칠어서, 에이전트가 답을 직접 읽고 고친 값을 baseline_chat_reading.json에 따로 적는다.
+  규칙 파서는 거칠어서, Claude가 답을 직접 읽고 고친 값을 baseline_chat_reading.json에 따로 적는다.
 
 실행
   .venv/bin/python -m eval.baseline_chat --ask      # AI 호출(공고 수만큼)

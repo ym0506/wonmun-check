@@ -1,6 +1,6 @@
 """설정값. 모두 환경변수로 바꿀 수 있다.
 
-API 키는 코드나 저장소에 두지 않는다. 실행할 때 키 파일(기본 ~/.config/kic-hanbaguni/.env)의
+API 키는 코드나 저장소에 두지 않는다. 환경변수 ANTHROPIC_API_KEY나 키 파일(기본 ~/.config/anthropic/.env)의
 ANTHROPIC_API_KEY 한 줄만 읽고, 값은 어디에도 출력하지 않는다.
 """
 
@@ -29,7 +29,7 @@ class Settings:
     max_tokens: int = field(default_factory=lambda: _int_env("WONMUN_MAX_TOKENS", 16000))
     key_file: Path = field(
         default_factory=lambda: Path(
-            os.environ.get("WONMUN_KEY_FILE", str(Path.home() / ".config/kic-hanbaguni/.env"))
+            os.environ.get("WONMUN_KEY_FILE", str(Path.home() / ".config/anthropic/.env"))
         )
     )
     # 원문이 이보다 길면 앞부분만 AI에 보내고 화면에 그 사실을 적는다.

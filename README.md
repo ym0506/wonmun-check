@@ -1,7 +1,11 @@
 # 원문 확인 (PoC)
 
 공모전·청년정책 포털의 **공고 요약**이 주최 측 **원문**과 다른 곳을 7항목으로 찾아 주는 도구입니다.
-「엘리스 AI 챌린지 2026」 출품용 PoC입니다.
+「엘리스 AI 챌린지 2026」 출품용 PoC입니다. 데모: https://wonmun-check.vercel.app
+
+**시험 결과**(공고 15건, 마감과 자격 30칸 중 원문과 다른 16칸, 엔진 고정 후 1회, [eval/report_test.md](eval/report_test.md)):
+원문과 다른 칸 13/16을 찾았고 잘못 경고는 14칸 중 1칸이었습니다. AI가 낸 근거 인용 171개는 코드 검사 전에도 모두 원문과 글자 그대로 같았습니다.
+정답표는 도구 코드와 결과를 보지 않은 별도 AI 세션이 원문만 보고 1차로 적었고 사람이 전부 다시 확인하지는 않았습니다.
 
 - 7항목: 마감 일시, 참가 자격, 참가 형태·인원, 시상, 제출물·분량, 실격·감점, 생성형 AI·저작권
 - **AI는 찾기만 하고, 판정은 코드가 합니다.** AI(Claude Haiku 5.5)가 항목마다 근거 문장을 글자 그대로 복사해 오면,
@@ -11,12 +15,12 @@
 ## 준비
 
 ```bash
-cd ~/dev/wonmun-check
+git clone https://github.com/ym0506/wonmun-check && cd wonmun-check
 python3 -m venv .venv
 .venv/bin/pip install -r requirements-dev.txt
 ```
 
-AI 키는 저장소에 두지 않습니다. 실행할 때 `~/.config/kic-hanbaguni/.env`의 `ANTHROPIC_API_KEY=` 한 줄을 읽습니다.
+AI 키는 저장소에 두지 않습니다. 환경변수 `ANTHROPIC_API_KEY`나 키 파일(기본 `~/.config/anthropic/.env`)의 `ANTHROPIC_API_KEY=` 한 줄을 읽습니다.
 다른 파일을 쓰려면 `WONMUN_KEY_FILE=/경로/.env`를 지정하세요. 키가 없어도 예시 3건은 볼 수 있습니다.
 
 ## 웹 화면 실행
@@ -41,10 +45,10 @@ AI 키는 저장소에 두지 않습니다. 실행할 때 `~/.config/kic-hanbagu
 | `WONMUN_MODEL` | `claude-haiku-5-5` | AI 모델 |
 | `WONMUN_EFFORT` | `low` | AI effort(low·medium·high) |
 | `WONMUN_THINKING` | `adaptive` | `disabled`로 생각 끄기(effort high 이하만) |
-| `WONMUN_DAILY_LIMIT` | `30` | 직접 확인 하루 전체 횟수(0이면 막음) |
-| `WONMUN_IP_DAILY_LIMIT` | `5` | 접속 주소당 하루 횟수 |
+| `WONMUN_DAILY_LIMIT` | `60` | 직접 확인 하루 전체 횟수(0이면 막음) |
+| `WONMUN_IP_DAILY_LIMIT` | `10` | 접속 주소당 하루 횟수 |
 | `WONMUN_MAX_SOURCE_CHARS` | `60000` | 출처 하나에서 AI에 보내는 최대 글자 수(넘으면 화면에 적음) |
-| `WONMUN_KEY_FILE` | `~/.config/kic-hanbaguni/.env` | 키 파일 |
+| `WONMUN_KEY_FILE` | `~/.config/anthropic/.env` | 키 파일 |
 | `WONMUN_LEDGER` | `data/api_ledger.jsonl` | 호출 기록(토큰 수만) |
 
 temperature는 설정하지 않습니다. Claude Haiku 5.5와 SDK 2.4.0 기본 API 버전(2026-10-21)은 temperature를 받지 않습니다.
@@ -71,7 +75,7 @@ temperature는 설정하지 않습니다. Claude Haiku 5.5와 SDK 2.4.0 기본 A
 .venv/bin/python -m eval.make_examples --run r1c
 ```
 
-결과 정리: `eval/report_dev.md`. 개발용 표본이라 규칙을 맞춘 뒤의 숫자입니다. 기획안 숫자는 11/13 시험용 표본으로 다시 재야 합니다.
+결과 정리: 개발용 표본(규칙을 맞추는 데 쓴 11건) `eval/report_dev.md`, 시험용 표본(엔진 고정 후 15건) `eval/report_test.md`.
 
 ## 폴더
 
@@ -95,7 +99,7 @@ docs/study/        학습 노트
 ## 생성형 AI 활용 범위(대회 공개용)
 
 - 서비스 안: 7항목 근거 문장 찾기와 짧은 요약(화면에 'AI가 찾은 근거', 'AI 요약'으로 표시). 날짜·금액 읽기와 판정은 코드.
-- 개발 과정: 코드·시험·문서 초안 작성에 Claude(코딩 도우미)를 썼습니다. 기획안의 고지 문구는 사용자가 확정합니다.
+- 개발 과정: 코드·시험·문서 초안 작성에 Claude(코딩 도우미)를 썼습니다.
 
 ## 지키는 것
 

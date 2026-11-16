@@ -7,7 +7,7 @@
 - 정답 '같음'·'원문에 마감 없음'·'원문에 자격 없음'인데 빨강이면 잘못 경고.
 - '확인 필요'는 찾음도 잘못 경고도 아님(따로 셈). 원문 없이 돌린 공고의 '원문 미입력'도 따로 셈.
 - 확신도 '낮음'(T11 자격, T14 마감)을 뺀 숫자도 함께 낸다.
-- 비교군 ①은 baseline_chat_reading.json(에이전트가 답을 읽고 적은 주장)을 같은 규칙으로 센다.
+- 비교군 ①은 baseline_chat_reading.json(Claude가 답을 읽고 적은 주장)을 같은 규칙으로 센다.
 
 실행: .venv/bin/python -m eval.score_test --main t1 --repeat t1 t2 t3
 """
@@ -253,7 +253,7 @@ def main() -> None:
     out.append("## 항목별 (전부)")
     out += fmt_summary(f"도구 `{args.main}`", summarize(tool))
     if chat:
-        out += fmt_summary("비교군 ① 같은 모델 1회 질문(에이전트가 답을 읽고 셈)", summarize(chat))
+        out += fmt_summary("비교군 ① 같은 모델 1회 질문(Claude가 답을 읽고 셈)", summarize(chat))
     out += fmt_summary("비교군 ② 규칙만(마감만)", summarize(rx), regex=True)
     out += ["", "## 확신도 '낮음' 2칸(T11 자격, T14 마감) 뺀 숫자"]
     out += fmt_summary(f"도구 `{args.main}`", summarize(tool, exclude_low=True))
